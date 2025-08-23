@@ -1,12 +1,18 @@
 import React from 'react';
 import './Licenses.css';
 
+// Импорты изображений (чтобы работало при деплое)
+import lic1 from '/lic1.jpg';
+import lic2 from '/lic2.jpg';
+import lic3 from '/lic3.jpg';
+import lic4 from '/lic4.jpg';
+
 const Licenses = () => {
   const licenses = [
-    { id: 1, src: '/lic1.jpg', alt: 'Лицензия 1' },
-    { id: 2, src: '/lic2.jpg', alt: 'Лицензия 2' },
-    { id: 3, src: '/lic3.jpg', alt: 'Лицензия 3' },
-    { id: 4, src: '/lic4.jpg', alt: 'Лицензия 4' }
+    { id: 1, src: lic1, alt: 'Лицензия 1' },
+    { id: 2, src: lic2, alt: 'Лицензия 2' },
+    { id: 3, src: lic3, alt: 'Лицензия 3' },
+    { id: 4, src: lic4, alt: 'Лицензия 4' }
   ];
 
   return (

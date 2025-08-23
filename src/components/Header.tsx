@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-
+import logo from '/srtlogo.png';
+import int from '/internet.png';
 interface MenuItem {
   title: string;
   items?: Array<{ label: string; path: string }>;
@@ -50,7 +51,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar__left">
           <Link to="/">
-            <img src="/srtlogo.png" alt="Логотип компании" className="logo" />
+            <img src={logo} alt="Логотип компании" className="logo" />
           </Link>
 
           <div className="desktop-menu">
@@ -92,7 +93,7 @@ const Header = () => {
               onClick={() => setIsLanguageMenuOpen(!isLanguageMenuOpen)}
               aria-label="Выбор языка"
             >
-              <img src="/internet.png" alt="Иконка языка" className="language-icon" />
+              <img src={int} alt="Иконка языка" className="language-icon" />
             </button>
             {isLanguageMenuOpen && (
               <div className="language-menu">

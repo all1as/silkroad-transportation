@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './ContactButton.css';
+import tgIcon from '/tg.svg';
+import waIcon from '/wa.svg';
 
 type ContactButtonProps = {
   to?: string;
@@ -11,7 +13,7 @@ type ContactButtonProps = {
   size?: 'small' | 'medium' | 'large';
   showContactInfo?: boolean;
   showModal?: boolean;
-  fullWidth?: boolean; // Новый пропс
+  fullWidth?: boolean; 
 };
 
 const ContactButton = ({ 
@@ -23,7 +25,7 @@ const ContactButton = ({
   size = 'medium',
   showContactInfo = true,
   showModal = false,
-  fullWidth = false // По умолчанию не на всю ширину
+  fullWidth = false 
 }: ContactButtonProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const baseClasses = `contact-button ${variant} ${size} ${className} ${fullWidth ? 'full-width' : ''}`;
@@ -46,8 +48,8 @@ const ContactButton = ({
         <>
           <span className="button-text">Вы можете напрямую написать нам в Telegram или WhatsApp и получить быстрый ответ</span>
           <div className="contact-icons">
-            <img src="/tg.svg" alt="Telegram" className="contact-icon" />
-            <img src="/wa.svg" alt="WhatsApp" className="contact-icon" />
+            <img src={tgIcon} alt="Telegram" className="contact-icon" />
+            <img src={waIcon} alt="WhatsApp" className="contact-icon" />
           </div>
           <span className="phone-number">+998 98 128-56-67</span>
         </>

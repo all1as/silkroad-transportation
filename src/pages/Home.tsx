@@ -3,6 +3,17 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import ContactButton from '../components/ContactButton';
 
+import busIcon from '/bus.png';
+import microIcon from '/micro.png';
+import tgIcon from '/tg.svg';
+import waIcon from '/wa.svg';
+import onasImage from '/onas.jpg';
+import uslugiImage from '/uslugi.jpg';
+import visaLogo from '/visa.svg';
+import msLogo from '/ms.svg';
+import cashLogo from '/cash.svg';
+import uzbBackground from '/uzb.jpg';
+
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -85,14 +96,14 @@ const Home = () => {
       title: "Автобус",
       subtitle: "до 47 человек",
       path: "/buses",
-      icon: "/bus.png",
+      icon: busIcon,
       alt: "Иконка автобуса"
     },
     {
       title: "Микроавтобусы",
       subtitle: "до 19 человек",
       path: "/microbuses",
-      icon: "/micro.png",
+      icon: microIcon,
       alt: "Иконка микроавтобуса"
     }
   ];
@@ -212,15 +223,15 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <img src="/tg.svg" alt="Telegram" />
+                <img src={tgIcon} alt="Telegram" />
               </a>
               <a 
-                href="https://wa.me/your_whatsapp_number" 
+                href="https://wa.me/998981285667" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="social-link"
               >
-                <img src="/wa.svg" alt="WhatsApp" />
+                <img src={waIcon} alt="WhatsApp" />
               </a>
             </div>
           </div>
@@ -230,7 +241,7 @@ const Home = () => {
       <section className="about-section" ref={aboutSectionRef}>
         <div className="about-container">
           <div className={`about-image ${isAboutVisible ? 'visible' : ''}`}>
-            <img src="/onas.jpg" alt="Наш автопарк" />
+            <img src={onasImage} alt="Наш автопарк" />
           </div>
           <div className="about-content">
             <h2 className={`about-title ${isAboutVisible ? 'visible' : ''}`}>О нас</h2>
@@ -248,9 +259,9 @@ const Home = () => {
             </p>
             
             <div className={`brands-container ${isAboutVisible ? 'visible' : ''}`}>
-              <img src="/visa.svg" alt="Visa" className="brand-logo" />
-              <img src="/ms.svg" alt="Mastercard" className="brand-logo" />
-              <img src="/cash.svg" alt="Наличные" className="brand-logo" />
+              <img src={visaLogo} alt="Visa" className="brand-logo" />
+              <img src={msLogo} alt="Mastercard" className="brand-logo" />
+              <img src={cashLogo} alt="Наличные" className="brand-logo" />
             </div>
             
             <p className={`about-footer ${isAboutVisible ? 'visible' : ''}`}>
@@ -298,7 +309,7 @@ const Home = () => {
           </div>
           
           <div className={`services-image ${isServicesVisible ? 'visible' : ''}`}>
-            <img src="/uslugi.jpg" alt="Наши услуги" />
+            <img src={uslugiImage} alt="Наши услуги" />
           </div>
         </div>
       </section>

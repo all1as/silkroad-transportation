@@ -1,11 +1,13 @@
 import React from 'react';
 import './Contacts.css';
 
+import tgIcon from '/tg.svg';
+import waIcon from '/wa.svg';
+
 const Contacts = () => {
   return (
     <div className="contacts-page">
       <div className="contacts-container">
-        {/* Левая часть - Яндекс карта */}
         <div className="map-container">
           <iframe 
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A9cb5e63791e9c2aca460906baf0846d3ca71e4e161e36de07ca904f574715a51&amp;source=constructor" 
@@ -16,7 +18,6 @@ const Contacts = () => {
           ></iframe>
         </div>
 
-        {/* Правая часть - Контактная информация */}
         <div className="contact-info">
           <h1>Контакты</h1>
           
@@ -42,7 +43,7 @@ const Contacts = () => {
                   rel="noopener noreferrer"
                   className="social-link"
                 >
-                  <img src="/tg.svg" alt="Telegram" />
+                  <img src={tgIcon} alt="Telegram" />
                   <span>Telegram</span>
                 </a>
                 <a 
@@ -51,7 +52,7 @@ const Contacts = () => {
                   rel="noopener noreferrer"
                   className="social-link"
                 >
-                  <img src="/wa.svg" alt="WhatsApp" />
+                  <img src={waIcon} alt="WhatsApp" />
                   <span>WhatsApp</span>
                 </a>
               </div>

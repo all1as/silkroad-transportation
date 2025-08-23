@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import ContactButton from '../components/ContactButton';
 import './Buses.css';
+import busWopen from '/buswopen.jpg';
+import busSalon from '/bussalon.jpg';
 
 const Buses = () => {
   const [showImageModal, setShowImageModal] = useState(false);
-  const [currentImage, setCurrentImage] = useState('/buswopen.jpg');
+  const [currentImage, setCurrentImage] = useState(busWopen);
 
   const images = [
-    { src: '/buswopen.jpg', alt: 'Внешний вид автобуса', label: 'Внешний вид' },
-    { src: '/bussalon.jpg', alt: 'Салон автобуса', label: 'Салон' }
+    { src: busWopen, alt: 'Внешний вид автобуса', label: 'Внешний вид' },
+    { src: busSalon, alt: 'Салон автобуса', label: 'Салон' }
   ];
 
   const openImageModal = () => {
@@ -25,7 +27,6 @@ const Buses = () => {
 
   return (
     <div className="buses-page">
-      {/* Hero section with main image */}
       <section className="bus-hero">
         <div className="bus-hero-image" onClick={openImageModal}>
           <img src={currentImage} alt="Автобус SUNWIN" />
@@ -33,7 +34,6 @@ const Buses = () => {
         </div>
       </section>
 
-      {/* Image selection modal */}
       {showImageModal && (
         <div className="image-modal">
           <div className="modal-backdrop" onClick={closeImageModal}></div>
@@ -62,7 +62,6 @@ const Buses = () => {
         </div>
       )}
 
-      {/* Content section */}
       <section className="bus-content">
         <h1>Автобус SUNWIN (2017 г.в.) — комфорт и надёжность для вашей поездки</h1>
         

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import logo from '/srtlogo.png';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
-          <img src="/srtlogo.png" alt="Silk Road Transportation" className="footer-logo" />
+          <img src={logo} alt="Silk Road Transportation" className="footer-logo" />
           <p>Мы обеспечиваем комфортные и безопасные пассажирские перевозки по всему Узбекистану.</p>
           <div className="footer-social">
             <a href="https://t.me/AlekseySRTU" target="_blank" rel="noopener noreferrer">

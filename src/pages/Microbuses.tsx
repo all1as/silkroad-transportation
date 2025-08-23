@@ -3,6 +3,13 @@ import ContactButton from '../components/ContactButton';
 import './Microbuses.css';
 import { useScrollToAnchor } from '../hooks/useScrollToAnchor';
 
+// Импорты изображений (чтобы работало при деплое)
+import blackm from '/blackm.jpg';
+import blackmSalon from '/blackm-salon.jpg';
+import whitem from '/whitem.jpg';
+import blacknew from '/blacknew.jpg';
+import blacknewSalon from '/blacknewsalon.jpg';
+import graym from '/graym.jpg';
 
 const Microbuses = () => {
   useScrollToAnchor();
@@ -12,8 +19,8 @@ const Microbuses = () => {
       <section id="19-seater" className="vehicle-section dark-bg">
         <div className="vehicle-container">
           <div className="vehicle-image-container">
-            <img src="/blackm.jpg" alt="Микроавтобус Eurise" className="vehicle-main-image" />
-            <img src="/blackm-salon.jpg" alt="Салон Eurise" className="vehicle-secondary-image" />
+            <img src={blackm} alt="Микроавтобус Eurise" className="vehicle-main-image" />
+            <img src={blackmSalon} alt="Салон Eurise" className="vehicle-secondary-image" />
           </div>
           <div className="vehicle-description">
             <h2>Микроавтобус Eurise (2023 г.в.)</h2>
@@ -79,7 +86,7 @@ const Microbuses = () => {
             </div>
           </div>
           <div className="vehicle-image-container">
-            <img src="/whitem.jpg" alt="Микроавтобус TOYOTA Hiace" className="vehicle-main-image" />
+            <img src={whitem} alt="Микроавтобус TOYOTA Hiace" className="vehicle-main-image" />
           </div>
         </div>
       </section>
@@ -88,8 +95,8 @@ const Microbuses = () => {
       <section id="7-seater" className="vehicle-section dark-bg">
         <div className="vehicle-container">
           <div className="vehicle-image-container">
-            <img src="/blacknew.jpg" alt="Минивэн HYUNDAI H-1" className="vehicle-main-image" />
-            <img src="/blacknewsalon.jpg" alt="Салон HYUNDAI H-1" className="vehicle-secondary-image" />
+            <img src={blacknew} alt="Минивэн HYUNDAI H-1" className="vehicle-main-image" />
+            <img src={blacknewSalon} alt="Салон HYUNDAI H-1" className="vehicle-secondary-image" />
           </div>
           <div className="vehicle-description">
             <h2>Минивэн HYUNDAI H-1 (2023 г.в.)</h2>
@@ -158,7 +165,7 @@ const Microbuses = () => {
             </div>
           </div>
           <div className="vehicle-image-container">
-            <img src="/graym.jpg" alt="Минивэн GRAND Starex" className="vehicle-main-image" />
+            <img src={graym} alt="Минивэн GRAND Starex" className="vehicle-main-image" />
           </div>
         </div>
       </section>

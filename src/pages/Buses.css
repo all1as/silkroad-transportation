@@ -1,0 +1,216 @@
+.buses-page {
+  font-family: 'Ruda', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.bus-hero {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.bus-hero-image {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.bus-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.bus-hero-image:hover img {
+  transform: scale(1.02);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.bus-hero-image:hover .image-overlay {
+  opacity: 1;
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-container {
+  background-color: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  z-index: 3;
+  transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+  color: #327b89;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f5f5f5;
+  overflow-x: auto;
+}
+
+.image-thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.image-thumbnail img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.image-thumbnail.active img {
+  border-color: #327b89;
+}
+
+.image-thumbnail span {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.selected-image-container {
+  padding: 2rem;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-selected-image {
+  max-width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.bus-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+/* Стили для кнопок CTA */
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-button-wrapper {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-button.large {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.1rem;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.contact-button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-family: 'Ruda', sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.contact-button {
+  display: block;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .modal-container {
+    flex-direction: column;
+    height: 90vh;
+  }
+  
+  .image-gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .selected-image-container {
+    padding: 1rem;
+  }
+  
+  .main-selected-image {
+    max-height: 40vh;
+  }
+}

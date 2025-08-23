@@ -1,0 +1,19 @@
+button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  min-height: calc(100vh - 120px); /* Учитываем высоту header и footer */
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,220 @@
+.tours-page {
+  font-family: 'Ruda', sans-serif;
+  line-height: 1.6;
+}
+
+.tours-header {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #1b3644 0%, #327b89 100%);
+  color: white;
+}
+
+.tours-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.tours-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.tour-section {
+  padding: 3rem 2rem;
+}
+
+.dark-bg {
+  background-color: #1b3644;
+  color: white;
+}
+
+.light-bg {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.tour-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tour-header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.tour-header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  font-weight: 700;
+}
+
+.tour-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tour-duration {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #327b89;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.light-bg .tour-duration {
+  background: rgba(50, 123, 137, 0.1);
+}
+
+.tour-route {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.tour-program,
+.tour-included {
+  margin-bottom: 2.5rem;
+}
+
+.tour-program h3,
+.tour-included h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: inherit;
+  border-bottom: 2px solid #327b89;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.program-content {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #327b89;
+}
+
+.light-bg .program-content {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.program-paragraph {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.program-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.included-content {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #327b89;
+}
+
+.light-bg .included-content {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.included-item {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.included-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Адаптация для мобильных */
+@media (max-width: 768px) {
+  .tours-header {
+    padding: 2rem 1rem;
+  }
+  
+  .tours-header h1 {
+    font-size: 2rem;
+  }
+  
+  .tour-section {
+    padding: 2rem 1rem;
+  }
+  
+  .tour-header h2 {
+    font-size: 1.6rem;
+  }
+  
+  .tour-duration {
+    font-size: 1.1rem;
+  }
+  
+  .program-content,
+  .included-content {
+    padding: 1.5rem;
+  }
+  
+  .program-paragraph,
+  .included-item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tours-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .tour-header h2 {
+    font-size: 1.4rem;
+  }
+  
+  .tour-program h3,
+  .tour-included h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Добавьте в конец файла Tours.css */
+
+.tour-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(50, 123, 137, 0.3);
+}
+
+.light-bg .tour-cta {
+  border-top: 2px solid rgba(50, 123, 137, 0.2);
+}
+
+/* Стили для кнопки */
+.tour-cta .contact-button {
+  min-width: 250px;
+  font-size: 1.1rem;
+  padding: 1.2rem 2.5rem;
+}
+
+/* Адаптация для мобильных */
+@media (max-width: 768px) {
+  .tour-cta {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+  
+  .tour-cta .contact-button {
+    width: 100%;
+    min-width: unset;
+  }
+}

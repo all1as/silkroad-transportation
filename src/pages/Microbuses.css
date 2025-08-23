@@ -1,0 +1,132 @@
+.microbuses-page {
+  font-family: 'Ruda', sans-serif;
+  color: #333;
+}
+
+/* Общие стили для секций */
+.vehicle-section {
+  padding: 4rem 2rem;
+}
+
+.dark-bg {
+  background-color: #1b3644;
+  color: white;
+}
+
+.light-bg {
+  background-color: white;
+  color: #333;
+}
+
+/* Контейнер для контента */
+.vehicle-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.vehicle-container.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Стили для изображений */
+.vehicle-image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vehicle-main-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.vehicle-secondary-image {
+  width: 80%;
+  align-self: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Стили для описания */
+.vehicle-description {
+  flex: 1;
+}
+
+.vehicle-description h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: inherit;
+}
+
+.vehicle-description p {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Стили для списка характеристик */
+.vehicle-features {
+  margin-top: 2rem;
+}
+
+.vehicle-features h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: inherit;
+}
+
+.vehicle-features ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.8rem;
+}
+
+.vehicle-features li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.vehicle-features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #327b89;
+  font-size: 1.2rem;
+}
+
+/* Секция с кнопкой */
+.cta-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f8f8f8;
+}
+
+/* Адаптация для мобильных */
+@media (max-width: 768px) {
+  .vehicle-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .vehicle-container.reverse {
+    flex-direction: column;
+  }
+  
+  .vehicle-description h2 {
+    font-size: 1.8rem;
+  }
+  
+  .vehicle-features ul {
+    grid-template-columns: 1fr;
+  }
+  
+  .vehicle-secondary-image {
+    width: 100%;
+  }
+}

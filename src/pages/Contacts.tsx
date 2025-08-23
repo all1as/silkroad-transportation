@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contacts.css';
 
-import tgIcon from '/tg.svg';
-import waIcon from '/wa.svg';
+import tgIcon from '/tg.png';
+import waIcon from '/wa.png';
 
 const Contacts = () => {
   return (

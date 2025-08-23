@@ -5,8 +5,6 @@ import ContactButton from '../components/ContactButton';
 
 import busIcon from '/bus.png';
 import microIcon from '/micro.png';
-import tgIcon from '/tg.svg';
-import waIcon from '/wa.svg';
 import onasImage from '/onas.jpg';
 import uslugiImage from '/uslugi.jpg';
 import visaLogo from '/visa.svg';
@@ -15,27 +13,13 @@ import cashLogo from '/cash.svg';
 import uzbBackground from '/uzb.jpg';
 
 const Home = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isModalVisible, setIsModalVisible] = useState(false);
   const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
   
-  // Ref для секций и состояние видимости
   const aboutSectionRef = useRef<HTMLDivElement>(null);
   const servicesSectionRef = useRef<HTMLDivElement>(null);
   const [isAboutVisible, setIsAboutVisible] = useState(false);
   const [isServicesVisible, setIsServicesVisible] = useState(false);
 
-  const openModal = () => {
-    setIsModalOpen(true);
-    setTimeout(() => setIsModalVisible(true), 10);
-  };
-
-  const closeModal = () => {
-    setIsModalVisible(false);
-    setTimeout(() => setIsModalOpen(false), 300);
-  };
-
-  // Эффект для анимации карточек транспорта
   useEffect(() => {
     const handleScroll = () => {
       imageRefs.current.forEach((ref) => {
@@ -57,7 +41,6 @@ const Home = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Эффект для отслеживания видимости секций
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -201,42 +184,6 @@ const Home = () => {
           Узнать цену и записаться
         </ContactButton>
       </div>
-
-      {isModalOpen && (
-        <div className={`modal-overlay ${isModalVisible ? 'active' : ''}`} onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button 
-              className="close-button" 
-              onClick={closeModal}
-              aria-label="Закрыть"
-            >
-              &times;
-            </button>
-            <h3 className="modal-header">Связь с нами</h3>
-            <p className="modal-text">
-              Вы можете напрямую написать нам в Telegram или WhatsApp и получить быстрый ответ.
-            </p>
-            <div className="social-links">
-              <a 
-                href="https://t.me/AlekseySRTU" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="social-link"
-              >
-                <img src={tgIcon} alt="Telegram" />
-              </a>
-              <a 
-                href="https://wa.me/998981285667" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="social-link"
-              >
-                <img src={waIcon} alt="WhatsApp" />
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
 
       <section className="about-section" ref={aboutSectionRef}>
         <div className="about-container">

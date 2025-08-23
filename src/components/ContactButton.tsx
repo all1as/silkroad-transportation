@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './ContactButton.css';
+import tg from '/tg.png';
+import wa from '/wa.png';
 
 type ContactButtonProps = {
   to?: string;
@@ -46,8 +48,8 @@ const ContactButton = ({
         <>
           <span className="button-text">Вы можете напрямую написать нам в Telegram или WhatsApp и получить быстрый ответ</span>
           <div className="contact-icons">
-            <img src="/tg.svg" alt="Telegram" className="contact-icon" />
-            <img src="/wa.svg" alt="WhatsApp" className="contact-icon" />
+            <img src={tg} alt="Telegram" className="contact-icon" />
+            <img src={wa} alt="WhatsApp" className="contact-icon" />
           </div>
           <span className="phone-number">+998 98 128-56-67</span>
         </>
@@ -87,10 +89,10 @@ const ContactButton = ({
             </p>
             <div className="contact-icons-modal">
               <a href="https://t.me/AlekseySRTU" target="_blank" rel="noopener noreferrer">
-                <img src="/tg.svg" alt="Telegram" className="contact-icon modal-icon" />
+                <img src={tg} alt="Telegram" className="contact-icon modal-icon" />
               </a>
               <a href="https://wa.me/998981285667" target="_blank" rel="noopener noreferrer">
-                <img src="/wa.svg" alt="WhatsApp" className="contact-icon modal-icon" />
+                <img src={wa} alt="WhatsApp" className="contact-icon modal-icon" />
               </a>
             </div>
             <a href="tel:+998981285667" className="contact-modal-phone">

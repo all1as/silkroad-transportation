@@ -696,23 +696,9 @@
   }
 }
 
-/* Добавьте в конец вашего CSS файла */
-
-/* Отключение анимаций для мобильных устройств */
-@media (max-width: 768px) {
-  /* Отключаем анимацию баннера */
-  .hero-banner {
-    animation: none;
-  }
-  
-  /* Отключаем анимацию карточек транспорта */
-  .transport-card__image {
-    transform: translateX(0) !important;
-    opacity: 1 !important;
-    transition: none !important;
-  }
-  
-  /* Отключаем анимацию секции "О нас" */
+/* === Отключаем анимации на мобильных и принудительно показываем контент === */
+@media (max-width: 768px), (prefers-reduced-motion: reduce) {
+  /* О нас */
   .about-image,
   .about-title,
   .about-text,
@@ -722,19 +708,14 @@
     transform: none !important;
     transition: none !important;
   }
-  
-  /* Отключаем задержки для последовательного появления */
-  .about-title,
-  .about-text:nth-of-type(1),
-  .about-text:nth-of-type(2),
-  .about-text:nth-of-type(3),
-  .about-text:nth-of-type(4),
-  .brands-container,
-  .about-footer {
-    transition-delay: 0s !important;
+
+  .about-image img {
+    /* чтобы не было смещения картинок */
+    margin-top: 0 !important;
+    max-height: none !important;
   }
-  
-  /* Отключаем анимацию секции "Наши услуги" */
+
+  /* Наши услуги */
   .services-title,
   .services-text,
   .services-list,
@@ -744,45 +725,19 @@
     transform: none !important;
     transition: none !important;
   }
-  
-  /* Отключаем задержки для услуг */
-  .services-title,
-  .services-text:nth-of-type(1),
-  .services-text:nth-of-type(2),
-  .services-text:nth-of-type(3),
-  .services-list,
-  .services-button {
-    transition-delay: 0s !important;
-  }
-  
-  /* Убираем трансформации при наведении на мобильных */
-  .transport-card:hover {
-    transform: none;
-  }
-  
-  .info-block:hover {
-    transform: none;
-  }
-  
-  .transport-card:hover .transport-card__image img {
-    transform: none;
-  }
-}
 
-/* Дополнительно: улучшаем отображение для очень маленьких экранов */
-@media (max-width: 480px) {
-  .about-image img {
-    margin-top: 50px !important;
+  /* Карточки транспорта (если хотите убрать анимацию и там) */
+  .transport-card__image {
+    transform: none !important;
+    opacity: 1 !important;
+    transition: none !important;
   }
-  
-  .transport-card__content {
-    flex-direction: column;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  .transport-card__text {
-    padding-right: 0;
-    margin-bottom: 1rem;
+
+  /* Модальные / прочие элементы — убираем анимации перемещения при появлении */
+  .modal-content,
+  .modal-overlay {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
   }
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&family=Rubik:ital,wght@0,300;1,300&display=swap');
 
+
 @keyframes zoomIn {
   from {
     transform: scale(1);
@@ -692,5 +693,96 @@
   .services-content p,
   .services-list li {
     font-size: 1rem;
+  }
+}
+
+/* Добавьте в конец вашего CSS файла */
+
+/* Отключение анимаций для мобильных устройств */
+@media (max-width: 768px) {
+  /* Отключаем анимацию баннера */
+  .hero-banner {
+    animation: none;
+  }
+  
+  /* Отключаем анимацию карточек транспорта */
+  .transport-card__image {
+    transform: translateX(0) !important;
+    opacity: 1 !important;
+    transition: none !important;
+  }
+  
+  /* Отключаем анимацию секции "О нас" */
+  .about-image,
+  .about-title,
+  .about-text,
+  .brands-container,
+  .about-footer {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  /* Отключаем задержки для последовательного появления */
+  .about-title,
+  .about-text:nth-of-type(1),
+  .about-text:nth-of-type(2),
+  .about-text:nth-of-type(3),
+  .about-text:nth-of-type(4),
+  .brands-container,
+  .about-footer {
+    transition-delay: 0s !important;
+  }
+  
+  /* Отключаем анимацию секции "Наши услуги" */
+  .services-title,
+  .services-text,
+  .services-list,
+  .services-button,
+  .services-image {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  /* Отключаем задержки для услуг */
+  .services-title,
+  .services-text:nth-of-type(1),
+  .services-text:nth-of-type(2),
+  .services-text:nth-of-type(3),
+  .services-list,
+  .services-button {
+    transition-delay: 0s !important;
+  }
+  
+  /* Убираем трансформации при наведении на мобильных */
+  .transport-card:hover {
+    transform: none;
+  }
+  
+  .info-block:hover {
+    transform: none;
+  }
+  
+  .transport-card:hover .transport-card__image img {
+    transform: none;
+  }
+}
+
+/* Дополнительно: улучшаем отображение для очень маленьких экранов */
+@media (max-width: 480px) {
+  .about-image img {
+    margin-top: 50px !important;
+  }
+  
+  .transport-card__content {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .transport-card__text {
+    padding-right: 0;
+    margin-bottom: 1rem;
   }
 }

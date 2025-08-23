@@ -14,6 +14,6 @@ button:hover {
 }
 
 main {
-  min-height: calc(100vh - 120px); /* Учитываем высоту header и footer */
+  min-height: calc(100vh - 120px); 
   padding-bottom: 2rem;
 }

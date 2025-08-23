@@ -138,7 +138,6 @@
   margin-bottom: 0;
 }
 
-/* Адаптация для мобильных */
 @media (max-width: 768px) {
   .tours-header {
     padding: 2rem 1rem;
@@ -186,7 +185,6 @@
   }
 }
 
-/* Добавьте в конец файла Tours.css */
 
 .tour-cta {
   text-align: center;
@@ -199,14 +197,12 @@
   border-top: 2px solid rgba(50, 123, 137, 0.2);
 }
 
-/* Стили для кнопки */
 .tour-cta .contact-button {
   min-width: 250px;
   font-size: 1.1rem;
   padding: 1.2rem 2.5rem;
 }
 
-/* Адаптация для мобильных */
 @media (max-width: 768px) {
   .tour-cta {
     margin-top: 2rem;

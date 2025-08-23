@@ -3,7 +3,6 @@ import ContactButton from '../components/ContactButton';
 import './Microbuses.css';
 import { useScrollToAnchor } from '../hooks/useScrollToAnchor';
 
-// Импорты изображений (чтобы работало при деплое)
 import blackm from '/blackm.jpg';
 import blackmSalon from '/blackm-salon.jpg';
 import whitem from '/whitem.jpg';
@@ -15,7 +14,6 @@ const Microbuses = () => {
   useScrollToAnchor();
   return (
     <div className="microbuses-page">
-      {/* Первый блок - черный микроавтобус */}
       <section id="19-seater" className="vehicle-section dark-bg">
         <div className="vehicle-container">
           <div className="vehicle-image-container">
@@ -55,7 +53,6 @@ const Microbuses = () => {
         </div>
       </section>
 
-      {/* Второй блок - белый микроавтобус */}
       <section id="13-seater" className="vehicle-section light-bg">
         <div className="vehicle-container reverse">
           <div className="vehicle-description">
@@ -91,7 +88,6 @@ const Microbuses = () => {
         </div>
       </section>
 
-      {/* Третий блок - серый микроавтобус */}
       <section id="7-seater" className="vehicle-section dark-bg">
         <div className="vehicle-container">
           <div className="vehicle-image-container">
@@ -131,7 +127,6 @@ const Microbuses = () => {
         </div>
       </section>
 
-      {/* Четвертый блок - белый минивэн */}
       <section className="vehicle-section light-bg">
         <div className="vehicle-container reverse">
           <div className="vehicle-description">
@@ -170,7 +165,6 @@ const Microbuses = () => {
         </div>
       </section>
 
-      {/* Кнопки CTA */}
       <div className="cta-section">
         <ContactButton showModal size="large">
           Забронировать микроавтобус

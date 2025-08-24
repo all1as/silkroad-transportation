@@ -92,49 +92,53 @@ const Buses = () => {
         <div className="pricing-section">
           <h2>Стоимость аренды</h2>
           
-          <div className="compact-pricing">
-            <div className="pricing-card">
-              <h3>🏔️ Горные маршруты</h3>
-              <div className="price-item">
-                <span>1 день горы</span>
-                <span className="price">250$</span>
-              </div>
-              <div className="price-item">
-                <span>2 дня горы</span>
-                <span className="price">400$</span>
-              </div>
+          <div className="pricing-table">
+            <h3>Маршруты (междугороднее и городское обслуживание)</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Маршрут</th>
+                    <th>1 день межгород</th>
+                    <th>1 день город</th>
+                    <th>Трансфер аэропорт</th>
+                    <th>1 час (мин. 3 часа)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Автобус SUNWIN</td>
+                    <td>250$</td>
+                    <td>170$</td>
+                    <td>60$</td>
+                    <td>30$</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div className="pricing-card">
-              <h3>🏛️ Самарканд</h3>
-              <div className="price-item">
-                <span>1 день Самарканд</span>
-                <span className="price">700$</span>
-              </div>
-              <div className="price-item">
-                <span>2 дня Самарканд</span>
-                <span className="price">750$</span>
-              </div>
-            </div>
-
-            <div className="pricing-card">
-              <h3>🚌 Стандартные маршруты</h3>
-              <div className="price-item">
-                <span>1 день междугородний</span>
-                <span className="price">250$</span>
-              </div>
-              <div className="price-item">
-                <span>1 день городской</span>
-                <span className="price">170$</span>
-              </div>
-              <div className="price-item">
-                <span>Трансфер аэропорт</span>
-                <span className="price">60$</span>
-              </div>
-              <div className="price-item">
-                <span>1 час (мин. 3 часа)</span>
-                <span className="price">30$</span>
-              </div>
+            <h3>Туристические маршруты</h3>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Маршрут</th>
+                    <th>1 день горы</th>
+                    <th>2 дня горы</th>
+                    <th>1 день Самарканд</th>
+                    <th>2 дня Самарканд</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Автобус SUNWIN</td>
+                    <td>250$</td>
+                    <td>400$</td>
+                    <td>700$</td>
+                    <td>750$</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
 

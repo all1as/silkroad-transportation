@@ -1,6 +1,7 @@
 .microbuses-page {
   font-family: 'Ruda', sans-serif;
   color: #333;
+  overflow-x: hidden; /* Добавлено для предотвращения выхода текста за пределы */
 }
 
 .vehicle-section {
@@ -126,6 +127,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  overflow-x: auto; /* Добавлено для прокрутки таблиц */
 }
 
 .pricing-table table {
@@ -134,6 +136,7 @@
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 6px;
   overflow: hidden;
+  min-width: 500px; /* Минимальная ширина для таблиц */
 }
 
 .light-bg .pricing-table table {
@@ -145,7 +148,7 @@
   padding: 0.8rem;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #333; /* Добавляем темный цвет текста */
+  color: #333;
 }
 
 .pricing-table th {
@@ -158,21 +161,10 @@
 .pricing-table td {
   background-color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
-  color: #333; /* Явно задаем темный цвет текста */
 }
 
 .light-bg .pricing-table td {
   background-color: rgba(255, 255, 255, 0.95);
-  color: #333; /* Явно задаем темный цвет текста для светлого фона */
-}
-
-/* Для темных секций убедимся, что текст виден */
-.dark-bg .pricing-table td {
-  color: #333; /* Темный текст на светлом фоне таблицы */
-}
-
-.dark-bg .pricing-table th {
-  color: white; /* Белый текст в заголовках */
 }
 
 /* Стили для блока с примечаниями */
@@ -227,48 +219,12 @@
   font-weight: bold;
 }
 
-/* Адаптивность для таблиц */
+/* Адаптивность */
 @media (max-width: 768px) {
-  .table-container {
-    overflow-x: auto;
-  }
-  
-  .pricing-table table {
-    min-width: 500px;
-    font-size: 0.9rem;
-  }
-  
-  .pricing-table th,
-  .pricing-table td {
-    padding: 0.6rem;
-  }
-  
-  .notes-section {
+  .vehicle-section {
     padding: 2rem 1rem;
   }
   
-  .additional-notes {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .pricing-table {
-    padding: 1rem;
-  }
-  
-  .pricing-table table {
-    min-width: 400px;
-    font-size: 0.8rem;
-  }
-  
-  .pricing-table th,
-  .pricing-table td {
-    padding: 0.5rem;
-  }
-}
-
-@media (max-width: 768px) {
   .vehicle-container {
     flex-direction: column;
     gap: 2rem;
@@ -288,5 +244,34 @@
   
   .vehicle-secondary-image {
     width: 100%;
+  }
+  
+  .pricing-table {
+    padding: 1rem;
+  }
+  
+  .pricing-table table {
+    min-width: 400px;
+    font-size: 0.9rem;
+  }
+  
+  .notes-section {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-table table {
+    min-width: 350px;
+    font-size: 0.8rem;
+  }
+  
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.6rem;
+  }
+  
+  .vehicle-description p {
+    font-size: 0.95rem;
   }
 }

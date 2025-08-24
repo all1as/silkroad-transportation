@@ -10,11 +10,17 @@
   }
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .home-page {
   display: flex;
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden; /* Добавляем это */
 }
 
 .hero-banner {
@@ -428,7 +434,6 @@
   margin-top: 2rem;
 }
 
-/* Блок "Наши услуги" */
 .services-section {
   background-color: white;
   padding: 6rem 2rem;
@@ -567,7 +572,77 @@
   transform: translateY(-2px);
 }
 
-/* Адаптация для мобильных */
+/* Стили для адаптивной кнопки */
+.contact-button-container {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding: 0 1rem; /* Добавляем отступы по бокам */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button-container .contact-button {
+  width: auto;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Адаптивные стили для кнопки */
+@media (max-width: 768px) {
+  .contact-button-container .contact-button {
+    max-width: 95%;
+    padding: 1rem 1.5rem;
+  }
+  
+  .contact-button-container .contact-button .button-content-wrapper {
+    gap: 0.6rem;
+  }
+  
+  .contact-button-container .contact-button .button-text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .contact-button-container .contact-button .contact-icons {
+    gap: 0.8rem;
+  }
+  
+  .contact-button-container .contact-button .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-button-container .contact-button .phone-number {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-button-container {
+    padding: 0 0.5rem;
+  }
+  
+  .contact-button-container .contact-button {
+    max-width: 100%;
+    padding: 0.8rem 1rem;
+  }
+  
+  .contact-button-container .contact-button .button-text {
+    font-size: 0.8rem;
+  }
+  
+  .contact-button-container .contact-button .contact-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .contact-button-container .contact-button .phone-number {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 768px) {
   .about-image img {
     max-height: 350px;
@@ -696,9 +771,7 @@
   }
 }
 
-/* === Отключаем анимации на мобильных и принудительно показываем контент === */
 @media (max-width: 768px), (prefers-reduced-motion: reduce) {
-  /* О нас */
   .about-image,
   .about-title,
   .about-text,
@@ -710,12 +783,10 @@
   }
 
   .about-image img {
-    /* чтобы не было смещения картинок */
     margin-top: 0 !important;
     max-height: none !important;
   }
 
-  /* Наши услуги */
   .services-title,
   .services-text,
   .services-list,
@@ -726,14 +797,14 @@
     transition: none !important;
   }
 
-  /* Карточки транспорта (если хотите убрать анимацию и там) */
+  
   .transport-card__image {
     transform: none !important;
     opacity: 1 !important;
     transition: none !important;
   }
 
-  /* Модальные / прочие элементы — убираем анимации перемещения при появлении */
+
   .modal-content,
   .modal-overlay {
     transition: none !important;

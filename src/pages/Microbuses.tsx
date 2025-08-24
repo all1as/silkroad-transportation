@@ -49,6 +49,50 @@ const Microbuses = () => {
                 <li>Микрофон для гида: ✔️</li>
               </ul>
             </div>
+
+            {/* Таблица цен для Eurise */}
+            <div className="pricing-table">
+              <h3>Стоимость аренды</h3>
+              <div className="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день межгород</th>
+                      <th>1 день</th>
+                      <th>Трансфер аэропорт</th>
+                      <th>1 час (мин. 3 часа)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>170$</td>
+                      <td>120$</td>
+                      <td>45$</td>
+                      <td>20$</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день горы</th>
+                      <th>2 дня горы</th>
+                      <th>1 день Самарканд</th>
+                      <th>2 дня Самарканд</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>150$</td>
+                      <td>250$</td>
+                      <td>400$</td>
+                      <td>450$</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -80,6 +124,49 @@ const Microbuses = () => {
                 <li>Отопление: ✔️</li>
                 <li>USB и Bluetooth: ✔️</li>
               </ul>
+            </div>
+
+            <div className="pricing-table">
+              <h3>Стоимость аренды</h3>
+              <div className="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день межгород</th>
+                      <th>1 день</th>
+                      <th>Трансфер аэропорт</th>
+                      <th>1 час (мин. 3 часа)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>150$</td>
+                      <td>80$</td>
+                      <td>35$</td>
+                      <td>15$</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день горы</th>
+                      <th>2 дня горы</th>
+                      <th>1 день Самарканд</th>
+                      <th>2 дня Самарканд</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>120$</td>
+                      <td>200$</td>
+                      <td>350$</td>
+                      <td>400$</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
           <div className="vehicle-image-container">
@@ -123,6 +210,49 @@ const Microbuses = () => {
                 <li>Подушки безопасности: ✔</li>
               </ul>
             </div>
+
+            <div className="pricing-table">
+              <h3>Стоимость аренды</h3>
+              <div className="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день межгород</th>
+                      <th>1 день</th>
+                      <th>Трансфер аэропорт</th>
+                      <th>1 час (мин. 3 часа)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>130$</td>
+                      <td>70$</td>
+                      <td>25$</td>
+                      <td>10$</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день горы*</th>
+                      <th>2 дня горы**</th>
+                      <th>1 день Самарканд***</th>
+                      <th>2 дня Самарканд</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>100$</td>
+                      <td>180$</td>
+                      <td>250$</td>
+                      <td>300$</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -158,9 +288,79 @@ const Microbuses = () => {
                 <li>Подушки безопасности: ✔</li>
               </ul>
             </div>
+
+            <div className="pricing-table">
+              <h3>Стоимость аренды</h3>
+              <div className="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день межгород</th>
+                      <th>1 день</th>
+                      <th>Трансфер аэропорт</th>
+                      <th>1 час (мин. 3 часа)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>130$</td>
+                      <td>70$</td>
+                      <td>25$</td>
+                      <td>10$</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>1 день горы*</th>
+                      <th>2 дня горы**</th>
+                      <th>1 день Самарканд***</th>
+                      <th>2 дня Самарканд</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>100$</td>
+                      <td>180$</td>
+                      <td>250$</td>
+                      <td>300$</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
           <div className="vehicle-image-container">
             <img src={graym} alt="Минивэн GRAND Starex" className="vehicle-main-image" />
+          </div>
+        </div>
+      </section>
+
+      {/* Блок с примечаниями */}
+      <section className="notes-section dark-bg">
+        <div className="notes-container">
+          <h3>Примечания к тарифам:</h3>
+          <div className="notes-content">
+            <p><strong>1 день горы</strong> - однодневная поездка г.Ташкент – Чимган, Чарвак, Бельдерсай, Чаткал – г.Ташкент</p>
+            <p><strong>2 дня горы</strong> - отвоз/привоз г.Ташкент – Чимган, Чарвак, Бельдерсай, Чаткал – г.Ташкент</p>
+            <p><strong>1 день в г.Самарканд</strong> - однодневная поездка г.Ташкент – г.Самарканд – г.Ташкент</p>
+            
+            <div className="additional-notes">
+              <h4>Дополнительные условия:</h4>
+              <ul>
+                <li>Оплата порожнего перегона для маршрутов которые начинаются или заканчиваются с:</li>
+                <li>г.Бухара или г.Фергана + 0,5 маш/дня</li>
+                <li>г.Ургенч или г.Термез + 1 маш/день</li>
+                <li>Минимальное тарифицирование на короткие туры (не стандартные):</li>
+                <li>г.Ургенч - 7 маш/день</li>
+                <li>г.Термез - 6 маш/день</li>
+                <li>г.Бухара - 5 маш/день</li>
+                <li>г.Фергана - 4 маш/день</li>
+              </ul>
+              <p>Топливо, питание и проживание водителя включены в стоимость.</p>
+            </div>
           </div>
         </div>
       </section>

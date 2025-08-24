@@ -193,6 +193,400 @@ a.contact-button {
   text-align: center;
 }
 
+/* Стили для секции с ценами */
+.pricing-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #327b89;
+}
+
+.pricing-section h2 {
+  color: #1b3644;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.pricing-table {
+  margin: 2rem 0;
+}
+
+.pricing-table h3 {
+  color: #327b89;
+  margin: 1.5rem 0 1rem 0;
+  font-size: 1.3rem;
+}
+
+.pricing-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  color: #333;
+}
+
+.pricing-table th {
+  background-color: #327b89;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.pricing-table td {
+  background-color: #f8f9fa;
+  font-weight: 500;
+}
+
+.pricing-table td:first-child {
+  text-align: left;
+  font-weight: 600;
+  background-color: #e8f4f8;
+}
+
+/* Стили для примечаний */
+.pricing-notes {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+
+.pricing-notes h4 {
+  color: #327b89;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.pricing-notes h4:first-child {
+  margin-top: 0;
+}
+
+.pricing-notes ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.pricing-notes li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.pricing-notes li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #327b89;
+  font-weight: bold;
+}
+
+.pricing-notes p {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  font-weight: 500;
+  color: #1b3644;
+}
+
+/* Адаптивность для таблиц */
+@media (max-width: 768px) {
+  .pricing-section {
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .pricing-table {
+    overflow-x: auto;
+  }
+  
+  .pricing-table table {
+    min-width: 600px;
+    font-size: 0.9rem;
+  }
+  
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.8rem;
+  }
+  
+  .pricing-notes {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-section {
+    padding: 1rem;
+  }
+  
+  .pricing-table table {
+    min-width: 500px;
+    font-size: 0.8rem;
+  }
+  
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.6rem;
+  }
+  
+  .pricing-notes li {
+    font-size: 0.9rem;
+  }
+}
+
+.cta-buttons-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-button-wrapper {
+  flex: 1;
+  min-width: 250px;
+}
+
+.feature {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #327b89;
+}
+
+.feature h3 {
+  color: #327b89;
+  margin-bottom: 0.5rem;
+}
+
+.conclusion {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #e8f4f8;
+  border-radius: 6px;
+  border-left: 4px solid #1b3644;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Стили для текста характеристик */
+.specs-text {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  line-height: 1.8;
+}
+
+.specs-text p {
+  margin: 0.8rem 0;
+  color: #333;
+}
+
+.specs-text strong {
+  color: #1b3644;
+  font-weight: 600;
+}
+
+/* Компактные карточки цен */
+.compact-pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.pricing-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.pricing-card h3 {
+  color: #327b89;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid #e8f4f8;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.price-item:last-child {
+  border-bottom: none;
+}
+
+.price-item span:first-child {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.price {
+  color: #327b89;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background-color: #e8f4f8;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Стили для примечаний */
+.pricing-notes {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+
+.pricing-notes h4 {
+  color: #327b89;
+  margin: 1.5rem 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+.pricing-notes h4:first-child {
+  margin-top: 0;
+}
+
+.pricing-notes ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.pricing-notes li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.pricing-notes li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #327b89;
+  font-weight: bold;
+}
+
+.pricing-notes p {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  font-weight: 500;
+  color: #1b3644;
+  font-size: 0.95rem;
+}
+
+/* Кнопки в один ряд */
+.cta-buttons-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.cta-buttons-row .contact-button {
+  min-width: 250px;
+  flex: 1;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .compact-pricing {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .pricing-card {
+    padding: 1.2rem;
+  }
+  
+  .price-item {
+    padding: 0.6rem 0;
+  }
+  
+  .cta-buttons-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-buttons-row .contact-button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .pricing-notes {
+    padding: 1rem;
+  }
+  
+  .pricing-notes li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .specs-text {
+    padding: 1rem;
+  }
+  
+  .specs-text p {
+    font-size: 0.95rem;
+  }
+  
+  .price-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+  
+  .price {
+    align-self: flex-end;
+  }
+  
+  .cta-buttons-row .contact-button {
+    min-width: unset;
+  }
+}
+
+/* Стили для остального контента */
+.conclusion {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #e8f4f8;
+  border-radius: 6px;
+  border-left: 4px solid #1b3644;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1rem;
+}
 
 @media (max-width: 768px) {
   .modal-container {

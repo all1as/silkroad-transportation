@@ -57,6 +57,7 @@ const Footer = () => {
           <Link to="/buses" className="footer-link">Автобусы</Link>
           <Link to="/microbuses" className="footer-link">Микроавтобусы</Link>
           <Link to="/tours" className="footer-link">Туры</Link>
+          <Link to="/licenses" className="footer-link">Лицензии</Link>
           <Link to="/contacts" className="footer-link">Контакты</Link>
         </div>
 

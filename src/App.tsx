@@ -7,9 +7,12 @@ import Licenses from './pages/Licenses';
 import Contacts from './pages/Contacts';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { useScrollToTop } from './hooks/useScrollToTop'; // Импортируем новый хук
 import './App.css';
 
 function App() {
+  useScrollToTop(); // Скролл вверх при смене страницы
+
   return (
     <>
       <Header />

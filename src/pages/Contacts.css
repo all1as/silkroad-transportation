@@ -118,7 +118,6 @@
   font-size: 1.1rem;
 }
 
-/* Адаптация для мобильных */
 @media (max-width: 968px) {
   .contacts-container {
     grid-template-columns: 1fr;

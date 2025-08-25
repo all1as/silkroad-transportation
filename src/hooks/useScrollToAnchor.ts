@@ -13,7 +13,7 @@ export const useScrollToAnchor = () => {
             behavior: 'smooth',
             block: 'start'
           });
-        }, 100); // Небольшая задержка для гарантии загрузки страницы
+        }, 100); 
       }
     }
   }, [location]);

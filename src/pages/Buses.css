@@ -1,4 +1,3 @@
-/* Стили для текста характеристик */
 .specs-text {
   background-color: #f8f9fa;
   padding: 1.5rem;
@@ -17,7 +16,6 @@
   font-weight: 600;
 }
 
-/* Стили для таблиц цен (одинаковые с микроавтобусами) */
 .pricing-section {
   margin: 3rem 0;
   padding: 2rem;
@@ -130,7 +128,6 @@
   color: #1b3644;
 }
 
-/* Кнопки в один ряд */
 .cta-buttons-row {
   display: flex;
   gap: 1rem;
@@ -144,7 +141,54 @@
   flex: 1;
 }
 
-/* Адаптивность */
+/* Стили для кнопок ContactButton */
+.cta-buttons-row .contact-button {
+  min-width: 250px;
+  flex: 1;
+  background-color: #327b89 !important; /* Принудительно задаем цвет фона */
+  color: white !important; /* Принудительно задаем цвет текста */
+  border: 2px solid #327b89 !important;
+  padding: 1rem 2rem !important;
+  font-family: 'Ruda', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+}
+
+.cta-buttons-row .contact-button:hover {
+  background-color: #286671 !important;
+  border-color: #286671 !important;
+  transform: translateY(-2px) !important;
+}
+
+.cta-buttons-row .contact-button.variant-secondary {
+  background-color: transparent !important;
+  color: #327b89 !important;
+  border: 2px solid #327b89 !important;
+}
+
+.cta-buttons-row .contact-button.variant-secondary:hover {
+  background-color: #327b89 !important;
+  color: white !important;
+}
+
+.cta-buttons-row button {
+  background: #327b89 !important;
+  border: 2px solid #327b89 !important;
+  padding: 1rem 2rem !important;
+  cursor: pointer !important;
+}
+
+.cta-buttons-row button:hover {
+  background: #286671 !important;
+  border-color: #286671 !important;
+}
+
 @media (max-width: 768px) {
   .bus-content {
     padding: 0 1rem;
@@ -213,7 +257,6 @@
   }
 }
 
-/* Стили для остального контента */
 .conclusion {
   margin: 2rem 0;
   padding: 1.5rem;
@@ -225,7 +268,6 @@
   font-size: 1.1rem;
 }
 
-/* Остальные стили остаются без изменений */
 .buses-page {
   font-family: 'Ruda', sans-serif;
   color: #333;

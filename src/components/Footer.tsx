@@ -52,20 +52,20 @@ const Footer = () => {
         </div>
 
         <div className="footer-column">
-          <h3>Меню</h3>
-          <Link to="/" className="footer-link">Главная</Link>
-          <Link to="/buses" className="footer-link">Автобусы</Link>
-          <Link to="/microbuses" className="footer-link">Микроавтобусы</Link>
-          <Link to="/tours" className="footer-link">Туры</Link>
-          <Link to="/licenses" className="footer-link">Лицензии</Link>
-          <Link to="/contacts" className="footer-link">Контакты</Link>
-        </div>
+  <h3>Меню</h3>
+  <Link to="/" className="footer-link menu-link">Главная</Link>
+  <Link to="/buses" className="footer-link menu-link">Автобусы</Link>
+  <Link to="/microbuses" className="footer-link menu-link">Микроавтобусы</Link>
+  <Link to="/tours" className="footer-link menu-link">Туры</Link>
+  <Link to="/licenses" className="footer-link menu-link">Лицензии</Link>
+  <Link to="/contacts" className="footer-link menu-link">Контакты</Link>
+</div>
 
-        <div className="footer-column">
-          <h3>Часы работы</h3>
-          <p className="footer-link">Пн-Пт: 8:00 - 20:00</p>
-          <p className="footer-link">Круглосуточная поддержка</p>
-        </div>
+<div className="footer-column">
+  <h3>Часы работы</h3>
+  <p className="footer-text">Пн-Пт: 8:00 - 20:00</p>
+  <p className="footer-text">Круглосуточная поддержка</p>
+</div>
       </div>
 
     </footer>

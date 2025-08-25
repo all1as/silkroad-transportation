@@ -1,11 +1,12 @@
 .microbuses-page {
   font-family: 'Ruda', sans-serif;
   color: #333;
-  overflow-x: hidden; /* Добавлено для предотвращения выхода текста за пределы */
+  overflow-x: hidden; 
+  padding: 0;
 }
 
 .vehicle-section {
-  padding: 4rem 2rem;
+  padding: 3rem 1rem;
 }
 
 .dark-bg {
@@ -102,7 +103,6 @@
   background-color: #f8f8f8;
 }
 
-/* Стили для таблиц цен */
 .pricing-table {
   margin-top: 2.5rem;
   padding: 1.5rem;
@@ -127,7 +127,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  overflow-x: auto; /* Добавлено для прокрутки таблиц */
+  overflow-x: auto;
 }
 
 .pricing-table table {
@@ -136,7 +136,7 @@
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 6px;
   overflow: hidden;
-  min-width: 500px; /* Минимальная ширина для таблиц */
+  min-width: 500px;
 }
 
 .light-bg .pricing-table table {
@@ -167,7 +167,6 @@
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-/* Стили для блока с примечаниями */
 .notes-section {
   padding: 3rem 2rem;
 }
@@ -219,7 +218,7 @@
   font-weight: bold;
 }
 
-/* Адаптивность */
+
 @media (max-width: 768px) {
   .vehicle-section {
     padding: 2rem 1rem;
@@ -260,18 +259,174 @@
   }
 }
 
+@media (max-width: 360px) {
+  .vehicle-section {
+    padding: 2rem 0.8rem; 
+  }
+  
+  .vehicle-description h2 {
+    font-size: 1.5rem !important; 
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+  
+  .vehicle-description p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    hyphens: auto; 
+  }
+  
+  .vehicle-features h3 {
+    font-size: 1.3rem !important;
+  }
+  
+  .vehicle-features li {
+    font-size: 0.9rem;
+    padding-left: 1.2rem;
+  }
+}
+
 @media (max-width: 480px) {
+  .microbuses-page {
+    padding: 0 0.5rem;
+  }
+  
+  .vehicle-section {
+    padding: 2.5rem 0.8rem;
+  }
+  
+  .vehicle-container {
+    gap: 1.5rem;
+  }
+  
+  .vehicle-description h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .vehicle-description p {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    text-align: justify; 
+    hyphens: auto;
+  }
+  
+  .vehicle-features ul {
+    grid-template-columns: 1fr !important; 
+    gap: 0.6rem;
+  }
+  
+  .vehicle-features li {
+    font-size: 0.9rem;
+  }
+  
+  .table-container {
+    margin: 0 -0.5rem;
+  }
+  
   .pricing-table table {
-    min-width: 350px;
+    min-width: 320px;
     font-size: 0.8rem;
   }
   
   .pricing-table th,
   .pricing-table td {
-    padding: 0.6rem;
+    padding: 0.5rem 0.3rem;
+    word-break: break-word; 
+  }
+  
+  .notes-content p {
+    font-size: 0.9rem;
+    text-align: justify;
+    hyphens: auto;
+  }
+  
+  .additional-notes {
+    padding: 1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .additional-notes li {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .vehicle-section {
+    padding: 3rem 1rem;
+  }
+  
+  .vehicle-description {
+    width: 100%;
   }
   
   .vehicle-description p {
     font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .vehicle-description h2,
+  .vehicle-description h3,
+  .vehicle-description p,
+  .vehicle-features li {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  
+  .pricing-table {
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .pricing-table table {
+    min-width: 380px;
   }
 }
+
+.vehicle-description p {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vehicle-description {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+  .vehicle-features ul {
+    padding-left: 0.5rem;
+  }
+  
+  .vehicle-features li::before {
+    left: 0.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-section {
+    padding: 2rem 0.8rem;
+  }
+  
+  .cta-section .contact-button {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.vehicle-container,
+.vehicle-description,
+.pricing-table,
+.notes-container {
+  max-width: 100%;
+}
+

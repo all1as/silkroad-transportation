@@ -50,7 +50,6 @@ const Microbuses = () => {
               </ul>
             </div>
 
-            {/* Таблица цен для Eurise */}
             <div className="pricing-table">
               <h3>Стоимость аренды</h3>
               <div className="table-container">
@@ -99,8 +98,12 @@ const Microbuses = () => {
 
       <section id="13-seater" className="vehicle-section light-bg">
         <div className="vehicle-container reverse">
+          <div className="vehicle-image-container">
+            <img src={whitem} alt="Микроавтобус TOYOTA Hiace" className="vehicle-main-image" />
+          </div>
           <div className="vehicle-description">
-            <h2>Микроавтобус TOYOTA Hiace (2019 г.в.)</h2>
+            
+          <h2>Микроавтобус TOYOTA Hiace (2019 г.в.)</h2>
             <p>
               Дизайн и технические характеристики микроавтобуса TOYOTA Hiace (2019 г. в.) отражают легендарное качество и 
               надёжность японского автопроизводителя. Эта модель идеально подходит для небольших туристических групп, 
@@ -169,9 +172,7 @@ const Microbuses = () => {
               </div>
             </div>
           </div>
-          <div className="vehicle-image-container">
-            <img src={whitem} alt="Микроавтобус TOYOTA Hiace" className="vehicle-main-image" />
-          </div>
+          
         </div>
       </section>
 
@@ -259,6 +260,9 @@ const Microbuses = () => {
 
       <section className="vehicle-section light-bg">
         <div className="vehicle-container reverse">
+          <div className="vehicle-image-container">
+            <img src={graym} alt="Минивэн GRAND Starex" className="vehicle-main-image" />
+          </div>
           <div className="vehicle-description">
             <h2>Минивэн GRAND Starex (2018 г.в.)</h2>
             <p>
@@ -332,13 +336,10 @@ const Microbuses = () => {
               </div>
             </div>
           </div>
-          <div className="vehicle-image-container">
-            <img src={graym} alt="Минивэн GRAND Starex" className="vehicle-main-image" />
-          </div>
+          
         </div>
       </section>
 
-      {/* Блок с примечаниями */}
       <section className="notes-section dark-bg">
         <div className="notes-container">
           <h3>Примечания к тарифам:</h3>

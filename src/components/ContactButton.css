@@ -1,62 +1,65 @@
+/* ContactButton.css */
 .contact-button {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  border-radius: 8px; 
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-family: 'Ruda', sans-serif;
-  text-align: center;
-  box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
+  display: inline-flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  font-family: 'Ruda', sans-serif !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  overflow: hidden !important;
+  background-color: #327b89 !important; /* Добавляем явный цвет фона */
 }
 
 .contact-button.primary {
-  background-color: #327b89;
-  color: white;
+  background-color: #327b89 !important;
+  color: white !important;
 }
 
 .contact-button.primary:hover {
-  background-color: #286671;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(50, 123, 137, 0.3);
+  background-color: #286671 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(50, 123, 137, 0.3) !important;
 }
 
 .contact-button.secondary {
-  background-color: white;
-  color: #327b89;
-  border: 2px solid #327b89;
+  background-color: white !important;
+  color: #327b89 !important;
+  border: 2px solid #327b89 !important;
 }
 
 .contact-button.secondary:hover {
-  background-color: #f0f8ff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(50, 123, 137, 0.2);
+  background-color: #f0f8ff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(50, 123, 137, 0.2) !important;
 }
 
+/* Остальные стили остаются без изменений */
 .contact-button.small {
-  padding: 0.8rem 1.5rem;
-  font-size: 0.95rem;
+  padding: 0.8rem 1.5rem !important;
+  font-size: 0.95rem !important;
 }
 
 .contact-button.medium {
-  padding: 1.2rem 2.2rem;
-  font-size: 1.15rem;
+  padding: 1.2rem 2.2rem !important;
+  font-size: 1.15rem !important;
 }
 
 .contact-button.large {
-  padding: 1.5rem 3rem;
-  font-size: 1.3rem;
+  padding: 1.5rem 3rem !important;
+  font-size: 1.3rem !important;
 }
 
 .contact-button.full-width {
-  display: flex;
-  width: 100%;
+  display: flex !important;
+  width: 100% !important;
 }
 
 .button-content-wrapper {
@@ -68,6 +71,7 @@
 
 .button-text {
   line-height: 1.4;
+  color: inherit !important; /* Наследуем цвет от родителя */
 }
 
 .contact-icons {
@@ -89,8 +93,10 @@
 .phone-number {
   font-weight: 700;
   font-size: 1.2em; 
+  color: inherit !important; /* Наследуем цвет от родителя */
 }
 
+/* Модальные стили остаются без изменений */
 .contact-modal-overlay {
   position: fixed;
   top: 0;

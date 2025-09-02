@@ -96,7 +96,7 @@ const Home = () => {
       <section className="hero-banner">
         <div className="hero-banner__overlay" />
         <div className="hero-banner__content">
-          <h1>ПАССАЖИРСКИЕ ГРУППОВЫЕ ПЕРЕВОЗКИ</h1>
+          <h1>ПАССАЖИРСКИЕ ИНДИВИДУАЛЬНЫЕ И ГРУППОВЫЕ ПЕРЕВОЗКИ</h1>
           <p>по Узбекистану</p>
         </div>
       </section>

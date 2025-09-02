@@ -31,7 +31,7 @@ const Contacts = () => {
 
             <div className="contact-item">
               <h3>Адрес</h3>
-              <p>Ташкент, ул. Чимкент, 17</p>
+              <p>Ташкент, ул. Чимкентская, 17</p>
             </div>
 
             <div className="contact-item">

@@ -33,7 +33,7 @@ const Footer = () => {
               <circle cx="12" cy="10" r="3"/>
             </svg>
             <a href="https://yandex.uz/maps/-/CHdLB6p4" target="_blank" rel="noopener noreferrer" className="footer-link">
-              Ташкент, ул. Чимкент, 17
+              Ташкент, ул. Чимкентская, 17
             </a>
           </div>
           <div className="footer-contact">
@@ -63,7 +63,7 @@ const Footer = () => {
 
 <div className="footer-column">
   <h3>Часы работы</h3>
-  <p className="footer-text">Пн-Пт: 8:00 - 20:00</p>
+  <p className="footer-text">Пн-Сб: 8:00 - 20:00</p>
   <p className="footer-text">Круглосуточная поддержка</p>
 </div>
       </div>

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&family=Rubik:ital,wght@0,300;1,300&display=swap');
 
-
 @keyframes zoomIn {
   from {
     transform: scale(1);
@@ -71,6 +70,7 @@ html, body {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
 
+/* Стили для транспортных кнопок */
 .transport-section {
   position: relative;
   width: 100%;
@@ -79,18 +79,35 @@ html, body {
   z-index: 3;
 }
 
+.transport-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.transport-row:last-child {
+  margin-bottom: 0;
+}
+
 .transport-container {
   max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   gap: 2rem;
   justify-content: center;
+  width: 100%;
+}
+
+.transport-container-single {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center; /* Изменено с flex-end на center */
+  width: 100%;
+  padding-right: 0; /* Убрано padding-right */
 }
 
 .transport-card {
   display: block;
-  width: 45%;
-  min-width: 400px;
+  width: 500px;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
@@ -98,11 +115,15 @@ html, body {
   color: #333;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
+  border: 2px solid #e2e2e2;
+  position: relative;
 }
 
-.transport-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+/* Убираем специальные стили для car-card */
+.transport-card.car-card {
+  width: 500px; /* Делаем такую же ширину как у других */
+  background-color: white; /* Убираем серый фон */
+  border: 2px solid #e2e2e2; /* Делаем такую же рамку */
 }
 
 .transport-card__content {
@@ -117,7 +138,8 @@ html, body {
 .transport-card__text {
   flex: 1;
   padding-right: 2rem;
-  z-index: 2;
+  z-index: 3; /* Увеличиваем z-index чтобы текст был поверх изображения */
+  min-width: 200px; /* Добавляем минимальную ширину для текста */
 }
 
 .transport-card h3 {
@@ -140,8 +162,8 @@ html, body {
   align-items: center;
   justify-content: flex-end;
   position: relative;
-  z-index: 1;
-  transform: translateX(100px);
+  z-index: 2;
+  transform: translateX(120px);
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.8s ease;
 }
@@ -150,7 +172,13 @@ html, body {
   height: 140px;
   width: auto;
   object-fit: contain;
+  max-width: 180px;
   transition: transform 0.3s ease;
+}
+
+.transport-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
 .transport-card:hover .transport-card__image img {
@@ -158,12 +186,12 @@ html, body {
 }
 
 .blue-background {
-  background-color: #f8f8f8;
+  background-color: #f0f0f0; 
   height: 50px;
 }
 
 .info-section {
-  background-color: #f8f8f8;
+  background-color: #f0f0f0; 
   padding: 4rem 1.5rem;
   font-family: 'Ruda', sans-serif;
 }
@@ -587,109 +615,64 @@ html, body {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  .contact-button-container .contact-button {
-    max-width: 95%;
-    padding: 1rem 1.5rem;
-  }
-  
-  .contact-button-container .contact-button .button-content-wrapper {
-    gap: 0.6rem;
-  }
-  
-  .contact-button-container .contact-button .button-text {
-    font-size: 0.9rem;
-    text-align: center;
-  }
-  
-  .contact-button-container .contact-button .contact-icons {
-    gap: 0.8rem;
-  }
-  
-  .contact-button-container .contact-button .contact-icon {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .contact-button-container .contact-button .phone-number {
-    font-size: 1rem;
+@media (max-width: 1200px) {
+  .transport-card {
+    width: 450px;
   }
 }
 
-@media (max-width: 480px) {
-  .contact-button-container {
-    padding: 0 0.5rem;
-  }
-  
-  .contact-button-container .contact-button {
-    max-width: 100%;
-    padding: 0.8rem 1rem;
-  }
-  
-  .contact-button-container .contact-button .button-text {
-    font-size: 0.8rem;
-  }
-  
-  .contact-button-container .contact-button .contact-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .contact-button-container .contact-button .phone-number {
-    font-size: 0.9rem;
+@media (max-width: 1024px) {
+  .transport-card {
+    width: 400px;
   }
 }
 
-@media (max-width: 768px) {
-  .about-image img {
-    max-height: 350px;
-  }
-  
-  .brand-logo {
-    width: 50px;
-    height: 30px;
-  }
-  
-  .about-container {
-    flex-direction: column;
-  }
-  
-  .about-image {
-    width: 100%;
-    min-width: unset;
-  }
-  
-  .about-title {
-    font-size: 2rem;
-  }
-  
-  .brands-container {
-    flex-wrap: wrap;
-  }
-  
+@media (max-width: 900px) {
   .transport-container {
     flex-direction: column;
     align-items: center;
+    gap: 1.5rem;
   }
   
   .transport-card {
     width: 90%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .transport-section {
+    margin-top: -80px;
+    padding: 0 1rem;
+  }
+  
+  .transport-row {
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  
+  .transport-container,
+  .transport-container-single {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .transport-card {
+    width: 100%;
     min-width: unset;
-    margin: 0 1rem;
+    max-width: 100%;
   }
   
   .transport-card__content {
     height: auto;
     padding: 1.5rem;
-    position: relative;
-    overflow: hidden;
   }
   
   .transport-card__image {
-    width: 120px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
     position: absolute;
-    right: -30px;
+    right: 0.8rem;
     transform: translateX(0);
     opacity: 1;
   }
@@ -698,11 +681,20 @@ html, body {
     height: 100%;
     width: auto;
     object-fit: contain;
+    max-height: 70px;
   }
   
   .transport-card__text {
-    padding-right: 100px;
-    z-index: 2;
+    padding-right: 90px;
+    min-width: unset;
+  }
+  
+  .transport-card h3 {
+    font-size: 1.6rem;
+  }
+  
+  .transport-card__subtitle {
+    font-size: 1rem;
   }
   
   .hero-banner__content h1 {
@@ -711,11 +703,6 @@ html, body {
   
   .hero-banner__content p {
     font-size: 1.3rem;
-  }
-  
-  .transport-section {
-    margin-top: -80px;
-    padding: 0 1rem;
   }
   
   .services-container {
@@ -776,6 +763,33 @@ html, body {
     width: 20px;
     height: 20px;
   }
+  
+  .contact-button-container .contact-button {
+    max-width: 95%;
+    padding: 1rem 1.5rem;
+  }
+  
+  .contact-button-container .contact-button .button-content-wrapper {
+    gap: 0.6rem;
+  }
+  
+  .contact-button-container .contact-button .button-text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .contact-button-container .contact-button .contact-icons {
+    gap: 0.8rem;
+  }
+  
+  .contact-button-container .contact-button .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-button-container .contact-button .phone-number {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -789,8 +803,8 @@ html, body {
   }
   
   .transport-card {
-    width: 95%;
-    margin: 0 0.5rem;
+    width: 100%;
+    margin: 0;
   }
   
   .transport-card h3 {
@@ -802,12 +816,16 @@ html, body {
   }
   
   .transport-card__image {
-    right: -25px;
-    width: 100px;
+    right: 0.5rem;
+    width: 90px;
+  }
+  
+  .transport-card__image img {
+    max-height: 65px;
   }
   
   .transport-card__text {
-    padding-right: 80px;
+    padding-right: 85px;
   }
   
   .services-section {
@@ -829,7 +847,7 @@ html, body {
   
   .info-block {
     padding: 1.2rem;
-    margin: 0 0.3rem;
+    margin: 0;
   }
   
   .info-block h3 {
@@ -839,16 +857,38 @@ html, body {
   .info-block p {
     font-size: 0.95rem;
   }
+  
+  .contact-button-container {
+    padding: 0 0.5rem;
+  }
+  
+  .contact-button-container .contact-button {
+    max-width: 100%;
+    padding: 0.8rem 1rem;
+  }
+  
+  .contact-button-container .contact-button .button-text {
+    font-size: 0.8rem;
+  }
+  
+  .contact-button-container .contact-button .contact-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .contact-button-container .contact-button .phone-number {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 375px) {
   .transport-card__image {
-    right: -20px;
+    right: 0.5rem;
     width: 90px;
   }
   
   .transport-card__text {
-    padding-right: 70px;
+    padding-right: 90px;
   }
   
   .transport-card h3 {

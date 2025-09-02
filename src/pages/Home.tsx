@@ -5,14 +5,14 @@ import ContactButton from '../components/ContactButton';
 
 import busIcon from '/bus.png';
 import microIcon from '/micro.png';
+import carIcon from '/cb.png';
 import onasImage from '/onas.jpg';
 import uslugiImage from '/uslugi.jpg';
 import visaLogo from '/visa.svg';
 import msLogo from '/ms.svg';
 import cashLogo from '/cash.svg';
-import uzbBackground from '/uzb.jpg';
 
-const Home = () => {
+const Home: React.FC = () => {
   const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
   
   const aboutSectionRef = useRef<HTMLDivElement>(null);
@@ -74,7 +74,7 @@ const Home = () => {
     };
   }, []);
 
-  const transportOptions = [
+  const firstRowOptions = [
     {
       title: "Автобус",
       subtitle: "до 47 человек",
@@ -91,6 +91,14 @@ const Home = () => {
     }
   ];
 
+  const secondRowOption = {
+    title: "Легковые",
+    subtitle: "до 4 человек",
+    path: "/cars",
+    icon: carIcon,
+    alt: "Иконка легкового автомобиля"
+  };
+
   return (
     <div className="home-page">
       <section className="hero-banner">
@@ -102,32 +110,59 @@ const Home = () => {
       </section>
 
       <section className="transport-section">
-        <div className="transport-container">
-          {transportOptions.map((option, index) => (
+        {/* Первый ряд - две кнопки */}
+        <div className="transport-row">
+          <div className="transport-container">
+            {firstRowOptions.map((option, index) => (
+              <Link
+                key={option.title}
+                to={option.path}
+                className="transport-card"
+              >
+                <div className="transport-card__content">
+                  <div className="transport-card__text">
+                    <h3>{option.title}</h3>
+                    <p className="transport-card__subtitle">{option.subtitle}</p>
+                  </div>
+                  <div
+                    className="transport-card__image"
+                    ref={(el) => { imageRefs.current[index] = el; }}
+                  >
+                    <img src={option.icon} alt={option.alt} />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Второй ряд - одна кнопка по центру */}
+        <div className="transport-row">
+          <div className="transport-container-single">
             <Link
-              key={option.title}
-              to={option.path}
-              className="transport-card"
+              to={secondRowOption.path}
+              className="transport-card car-card"
             >
               <div className="transport-card__content">
                 <div className="transport-card__text">
-                  <h3>{option.title}</h3>
-                  <p className="transport-card__subtitle">{option.subtitle}</p>
+                  <h3>{secondRowOption.title}</h3>
+                  <p className="transport-card__subtitle">{secondRowOption.subtitle}</p>
                 </div>
                 <div
                   className="transport-card__image"
-                  ref={(el) => { imageRefs.current[index] = el; }}
+                  ref={(el) => { imageRefs.current[2] = el; }}
                 >
-                  <img src={option.icon} alt={option.alt} />
+                  <img src={secondRowOption.icon} alt={secondRowOption.alt} />
                 </div>
               </div>
             </Link>
-          ))}
+          </div>
         </div>
       </section>
 
       <div className="blue-background"></div>
 
+      {/* Остальной код остается без изменений */}
       <section className="info-section">
         <div className="info-blocks-container">
           <div className="info-block">
@@ -166,7 +201,7 @@ const Home = () => {
               <div className="info-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M2 21a8 8 0 0 1 10.821-7.487"/>
-                  <path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/>
+                  <path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5 5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/>
                   <circle cx="10" cy="8" r="5"/>
                 </svg>
               </div>
@@ -199,7 +234,7 @@ const Home = () => {
               Все наши транспортные средства лицензированы, проходят регулярное техническое обслуживание и оснащены системами GPS/GLONASS для отслеживания маршрута в реальном времени. Пассажиры и транспорт застрахованы, а парк регулярно обновляется в соответствии с современными стандартами качества и безопасности.
             </p>
             <p className={`about-text ${isAboutVisible ? 'visible' : ''}`}>
-              Мы принимаем любые формы оплаты, включая пластиковые карты.
+              Мы принимаем любые формы оплата, включая пластиковые карты.
             </p>
             
             <div className={`brands-container ${isAboutVisible ? 'visible' : ''}`}>
@@ -247,7 +282,7 @@ const Home = () => {
 
             <div className={`services-button ${isServicesVisible ? 'visible' : ''}`}>
               <Link to="/tours" className="tours-promo-button">
-                Ознакомиться с турами
+                Ознакомиться с турам
               </Link>
             </div>
           </div>

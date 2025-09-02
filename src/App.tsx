@@ -7,11 +7,12 @@ import Licenses from './pages/Licenses';
 import Contacts from './pages/Contacts';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { useScrollToTop } from './hooks/useScrollToTop'; // Импортируем новый хук
+import Cars from './pages/Cars';
+import { useScrollToTop } from './hooks/useScrollToTop'; 
 import './App.css';
 
 function App() {
-  useScrollToTop(); // Скролл вверх при смене страницы
+  useScrollToTop(); 
 
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/microbuses" element={<Microbuses />} />
           <Route path="/licenses" element={<Licenses />} /> 
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/cars" element={<Cars />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

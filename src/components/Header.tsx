@@ -15,9 +15,14 @@ const Header: React.FC = () => {
   const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
+  const [expandedMobileMenu, setExpandedMobileMenu] = useState<string | null>(null); // ПЕРЕМЕЩЕНО ВНУТРЬ КОМПОНЕНТА
 
   const headerRef = useRef<HTMLElement | null>(null);
   const languageRef = useRef<HTMLDivElement | null>(null);
+
+  const toggleMobileSubmenu = (menuTitle: string) => { // ПЕРЕМЕЩЕНО ВНУТРЬ КОМПОНЕНТА
+    setExpandedMobileMenu(prev => prev === menuTitle ? null : menuTitle);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -25,6 +30,7 @@ const Header: React.FC = () => {
       setIsMobile(mobile);
       if (!mobile) {
         setIsMobileMenuOpen(false);
+        setExpandedMobileMenu(null); // ДОБАВЛЕНО СБРОС ПОДМЕНЮ
       }
     };
 
@@ -39,6 +45,7 @@ const Header: React.FC = () => {
       if (target && !headerRef.current.contains(target)) {
         setIsLanguageMenuOpen(false);
         setIsMobileMenuOpen(false);
+        setExpandedMobileMenu(null); // ДОБАВЛЕНО СБРОС ПОДМЕНЮ
       }
     };
 
@@ -46,6 +53,7 @@ const Header: React.FC = () => {
       if (e.key === 'Escape') {
         setIsLanguageMenuOpen(false);
         setIsMobileMenuOpen(false);
+        setExpandedMobileMenu(null); // ДОБАВЛЕНО СБРОС ПОДМЕНЮ
       }
     };
 
@@ -92,10 +100,12 @@ const Header: React.FC = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(prev => !prev);
     setIsLanguageMenuOpen(false);
+    setExpandedMobileMenu(null); // ДОБАВЛЕНО СБРОС ПОДМЕНЮ
   };
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
+    setExpandedMobileMenu(null); // ДОБАВЛЕНО СБРОС ПОДМЕНЮ
   };
 
   return (
@@ -218,16 +228,48 @@ const Header: React.FC = () => {
               <Link to="/contacts" onClick={closeMobileMenu}>Контакты</Link>
             </div>
 
+            {/* Меню "Транспорт" с подменю */}
             <div className="mobile-menu__item">
-              <Link to="/tours" onClick={closeMobileMenu}>Туры</Link>
+              <div 
+                className="mobile-menu__header"
+                onClick={() => toggleMobileSubmenu('Транспорт')}
+              >
+                <span>Транспорт</span>
+                <span className="mobile-menu__arrow">
+                  {expandedMobileMenu === 'Транспорт' ? '▲' : '▼'}
+                </span>
+              </div>
+              {expandedMobileMenu === 'Транспорт' && (
+                <div className="mobile-submenu">
+                  <Link to="/microbuses#7-seater" onClick={closeMobileMenu}>7-местные</Link>
+                  <Link to="/microbuses#13-seater" onClick={closeMobileMenu}>13-местный</Link>
+                  <Link to="/microbuses#19-seater" onClick={closeMobileMenu}>19-местный</Link>
+                  <Link to="/buses" onClick={closeMobileMenu}>47-местный</Link>
+                </div>
+              )}
             </div>
 
+            {/* Меню "Туры" с подменю */}
             <div className="mobile-menu__item">
-              <Link to="/microbuses" onClick={closeMobileMenu}>Микроавтобусы</Link>
-            </div>
-
-            <div className="mobile-menu__item">
-              <Link to="/buses" onClick={closeMobileMenu}>Автобус</Link>
+              <div 
+                className="mobile-menu__header"
+                onClick={() => toggleMobileSubmenu('Туры')}
+              >
+                <span>Туры</span>
+                <span className="mobile-menu__arrow">
+                  {expandedMobileMenu === 'Туры' ? '▲' : '▼'}
+                </span>
+              </div>
+              {expandedMobileMenu === 'Туры' && (
+                <div className="mobile-submenu">
+                  <Link to="/tours#11-day" onClick={closeMobileMenu}>11-дневный</Link>
+                  <Link to="/tours#7-day" onClick={closeMobileMenu}>7-дневный</Link>
+                  <Link to="/tours#6-day" onClick={closeMobileMenu}>6-дневный</Link>
+                  <Link to="/tours#5-day" onClick={closeMobileMenu}>5-дневный</Link>
+                  <Link to="/tours#4-day" onClick={closeMobileMenu}>4-дневный</Link>
+                  <Link to="/tours#3-day" onClick={closeMobileMenu}>3-дневный</Link>
+                </div>
+              )}
             </div>
 
             <div className="mobile-menu__item">

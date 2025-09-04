@@ -8,6 +8,7 @@ import Contacts from './pages/Contacts';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Cars from './pages/Cars';
+import DynamicMetaTags from './components/DynamicMetaTags';
 import { useScrollToTop } from './hooks/useScrollToTop'; 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+      <DynamicMetaTags />
       <Header />
       <main>
         <Routes>

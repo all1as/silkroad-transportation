@@ -103,11 +103,11 @@ const Header: React.FC = () => {
   ];
 
   const languages = [
-    { code: 'ru', name: t('header.languages.russian') },
-    { code: 'uz', name: t('header.languages.uzbek') },
-    { code: 'en', name: t('header.languages.english') },
-    { code: 'de', name: t('header.languages.german') }
-  ];
+  { code: 'ru', name: 'Русский' },
+  { code: 'uz', name: 'Oʻzbekcha' },
+  { code: 'en', name: 'English' },
+  { code: 'de', name: 'Deutsch' } 
+];
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(prev => !prev);

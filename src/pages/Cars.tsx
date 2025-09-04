@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ContactButton from '../components/ContactButton';
 import './Cars.css';
 import { useScrollToAnchor } from '../hooks/useScrollToAnchor';
@@ -7,6 +8,7 @@ import cobalt from '/cobalt.jpg';
 import merc from '/merc.jpg';
 
 const Cars = () => {
+  const { t } = useTranslation();
   useScrollToAnchor();
   
   return (
@@ -18,58 +20,51 @@ const Cars = () => {
             <img src={cobalt} alt="Chevrolet Cobalt" className="vehicle-main-image" />
           </div>
           <div className="vehicle-description">
-            <h2>Chevrolet Cobalt </h2>
+            <h2>Chevrolet Cobalt</h2>
             <p>
-              Дизайн и технические характеристики седана Chevrolet Cobalt сочетают надёжность, практичность и комфорт. 
-              Этот автомобиль идеально подходит для городских поездок, деловых трансферов и междугородних маршрутов.
+              {t('carsPage.cobalt.description1')}
             </p>
             <p>
-              Салон рассчитан на 4 пассажирских места, отличается просторной компоновкой и удобными креслами с подголовниками 
-              и ремнями безопасности. Для максимального комфорта предусмотрена система кондиционирования, отопление и мультимедийные 
-              функции с USB и Bluetooth. Качественная шумоизоляция обеспечивает тишину в салоне, а мягкая подвеска — плавность хода 
-              даже на неровных дорогах.
+              {t('carsPage.cobalt.description2')}
             </p>
             <p>
-              Багажное отделение объёмом 0,56 м³ позволяет разместить чемоданы и дорожные сумки, а в салоне предусмотрены дополнительные 
-              ниши для мелких вещей. Панорамные окна обеспечивают хороший обзор и создают светлую атмосферу внутри.
+              {t('carsPage.cobalt.description3')}
             </p>
             <p>
-              Безопасность пассажиров обеспечивается современными системами: ABS, подушками безопасности, креплениями Isofix для детских 
-              кресел и устойчивой тормозной системой. Двигатель отвечает экологическим стандартам и отличается низким расходом топлива, 
-              что делает поездки не только комфортными, но и экономичными.
+              {t('carsPage.cobalt.description4')}
             </p>
             
             <div className="vehicle-features">
-              <h3>Технические данные:</h3>
+              <h3>{t('carsPage.featuresTitle')}</h3>
               <ul>
-                <li>Год выпуска: 2023</li>
-                <li>Тип кузова: седан</li>
-                <li>Пассажирских мест: 4</li>
-                <li>Объём багажного отделения: 0,56 м³</li>
-                <li>Кондиционер: ✔️</li>
-                <li>Отопление: ✔️</li>
-                <li>USB и Bluetooth: ✔️</li>
-                <li>Подушки безопасности: ✔️</li>
-                <li>ABS: ✔️</li>
+                <li>{t('carsPage.cobalt.features.year')}</li>
+                <li>{t('carsPage.cobalt.features.bodyType')}</li>
+                <li>{t('carsPage.cobalt.features.seats')}</li>
+                <li>{t('carsPage.cobalt.features.trunkVolume')}</li>
+                <li>{t('carsPage.cobalt.features.ac')}</li>
+                <li>{t('carsPage.cobalt.features.heating')}</li>
+                <li>{t('carsPage.cobalt.features.usbBluetooth')}</li>
+                <li>{t('carsPage.cobalt.features.airbags')}</li>
+                <li>{t('carsPage.cobalt.features.abs')}</li>
               </ul>
             </div>
 
             <div className="pricing-table">
-              <h3>Стоимость аренды</h3>
+              <h3>{t('carsPage.pricingTitle')}</h3>
               <div className="table-container">
                 <table>
                   <thead>
                     <tr>
-                      <th>Модель</th>
-                      <th>1 день межгород</th>
-                      <th>1 день город</th>
-                      <th>Трансфер аэропорт</th>
-                      <th>1 час (мин. 3 часа)</th>
+                      <th>{t('carsPage.pricing.table.model')}</th>
+                      <th>{t('carsPage.pricing.table.1dayIntercity')}</th>
+                      <th>{t('carsPage.pricing.table.1dayCity')}</th>
+                      <th>{t('carsPage.pricing.table.airportTransfer')}</th>
+                      <th>{t('carsPage.pricing.table.1hourMin3')}</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Chevrolet Cobalt (3 места с багажом)</td>
+                      <td>{t('carsPage.cobalt.modelWithLuggage')}</td>
                       <td>120$</td>
                       <td>60$</td>
                       <td>20$</td>
@@ -81,16 +76,16 @@ const Cars = () => {
                 <table>
                   <thead>
                     <tr>
-                      <th>Модель</th>
-                      <th>1 день горы</th>
-                      <th>2 дня горы</th>
-                      <th>1 день Самарканд</th>
-                      <th>2 дня Самарканд</th>
+                      <th>{t('carsPage.pricing.table.model')}</th>
+                      <th>{t('carsPage.pricing.table.1dayMountains')}</th>
+                      <th>{t('carsPage.pricing.table.2daysMountains')}</th>
+                      <th>{t('carsPage.pricing.table.1daySamarkand')}</th>
+                      <th>{t('carsPage.pricing.table.2daysSamarkand')}</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Chevrolet Cobalt (3 места с багажом)</td>
+                      <td>{t('carsPage.cobalt.modelWithLuggage')}</td>
                       <td>90$</td>
                       <td>150$</td>
                       <td>180$</td>
@@ -111,44 +106,35 @@ const Cars = () => {
             <img src={merc} alt="Mercedes-Benz S-Class" className="vehicle-main-image" />
           </div>
           <div className="vehicle-description">
-            <h2>Mercedes-Benz S-Class W222 </h2>
+            <h2>Mercedes-Benz S-Class W222</h2>
             <p>
-              Mercedes-Benz S-Class W222  — это воплощение элегантности, комфорта и инновационных технологий. 
-              Автомобиль бизнес-класса идеально подойдёт для VIP-трансферов, деловых поездок, встреч в аэропорту и особых мероприятий.
+              {t('carsPage.mercedes.description1')}
             </p>
             <p>
-              Салон рассчитан на 4 пассажирских места и выполнен в отделке премиальными материалами: мягкая кожа, натуральное дерево 
-              и алюминий. Эргономичные кресла оснащены регулировками в нескольких направлениях, функцией подогрева и вентиляции, 
-              а также персональными подлокотниками. Увеличенное расстояние между рядами обеспечивает простор для ног и удобство 
-              даже при длительных поездках.
+              {t('carsPage.mercedes.description2')}
             </p>
             <p>
-              Для максимального уюта предусмотрена многоуровневая климатическая система, а встроенная мультимедиа с LCD-экранами, 
-              USB и Bluetooth позволяет наслаждаться поездкой. Дополнительное LED-освещение салона создаёт атмосферу приватности 
-              и расслабления.
+              {t('carsPage.mercedes.description3')}
             </p>
             <p>
-              Багажное отделение объёмом 0,53 м³ рассчитано на несколько чемоданов среднего размера, что делает автомобиль удобным 
-              для трансферов в аэропорт и междугородних маршрутов.
+              {t('carsPage.mercedes.description4')}
             </p>
             <p>
-              Безопасность соответствует самым высоким стандартам: ABS, ESP, подушки безопасности, адаптивный круиз-контроль, 
-              система удержания полосы движения и датчики мёртвых зон. Подвеска AirMATIC обеспечивает плавный ход и тишину в салоне 
-              независимо от качества дороги.
+              {t('carsPage.mercedes.description5')}
             </p>
             
             <div className="vehicle-features">
-              <h3>Технические данные:</h3>
+              <h3>{t('carsPage.featuresTitle')}</h3>
               <ul>
-                <li>Год выпуска: 2019</li>
-                <li>Тип кузова: седан (премиум-класс)</li>
-                <li>Пассажирских мест: 4</li>
-                <li>Объём багажного отделения: 0,53 м³</li>
-                <li>Кондиционер и климат-контроль: ✔️</li>
-                <li>Подогрев и вентиляция сидений: ✔️</li>
-                <li>Мультимедийная система, USB, Bluetooth: ✔️</li>
-                <li>ABS, ESP, подушки безопасности: ✔️</li>
-                <li>Адаптивный круиз-контроль и ассистенты водителя: ✔️</li>
+                <li>{t('carsPage.mercedes.features.year')}</li>
+                <li>{t('carsPage.mercedes.features.bodyType')}</li>
+                <li>{t('carsPage.mercedes.features.seats')}</li>
+                <li>{t('carsPage.mercedes.features.trunkVolume')}</li>
+                <li>{t('carsPage.mercedes.features.climateControl')}</li>
+                <li>{t('carsPage.mercedes.features.seatFeatures')}</li>
+                <li>{t('carsPage.mercedes.features.multimedia')}</li>
+                <li>{t('carsPage.mercedes.features.safetySystems')}</li>
+                <li>{t('carsPage.mercedes.features.driverAssist')}</li>
               </ul>
             </div>
           </div>
@@ -157,7 +143,7 @@ const Cars = () => {
 
       <div className="cta-section">
         <ContactButton showModal size="large">
-          Забронировать легковой автомобиль
+          {t('carsPage.bookCar')}
         </ContactButton>
       </div>
     </div>

@@ -1,0 +1,412 @@
+{
+  "common": {
+    "companyName": "Silk Road Transportation",
+    "logoAlt": "Firmenlogo",
+    "languageIconAlt": "Sprachsymbol",
+    "close": "Schließen",
+    "viewOptions": "Klicken, um Optionen anzuzeigen",
+    "selectedImage": "Ausgewähltes Bild",
+    "bookNow": "Jetzt buchen",
+    "viewDetails": "Details anzeigen",
+    "contactUs": "Kontaktieren Sie uns",
+    "learnMore": "Mehr erfahren",
+    "readMore": "Weiterlesen",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "quickResponse": "Sie können uns direkt über Telegram oder WhatsApp schreiben und eine schnelle Antwort erhalten",
+    "phoneNumber": "+998 98 128-56-67"
+  },
+  
+  "header": {
+    "menu": {
+      "transport": "Transport",
+      "tours": "Touren",
+      "licenses": "Lizenzen",
+      "contacts": "Kontakte"
+    },
+    "transportSubmenu": {
+      "7Seater": "7-Sitzer",
+      "13Seater": "13-Sitzer", 
+      "19Seater": "19-Sitzer",
+      "47Seater": "47-Sitzer"
+    },
+    "toursSubmenu": {
+      "11Day": "11-Tage",
+      "7Day": "7-Tage", 
+      "6Day": "6-Tage",
+      "5Day": "5-Tage",
+      "4Day": "4-Tage",
+      "3Day": "3-Tage"
+    },
+    "languageSelector": "Sprachauswahl",
+    "openMenu": "Menü öffnen",
+    "languages": {
+      "russian": "Russisch",
+      "uzbek": "Usbekisch", 
+      "english": "Englisch",
+      "german": "Deutsch"
+    }
+  },
+  
+  "footer": {
+    "description": "Wir bieten komfortable und sichere Personenbeförderung in ganz Usbekistan.",
+    "contacts": "Kontakte",
+    "address": "Taschkent, Chimkentskaya Str., 17",
+    "menu": "Menü",
+    "workingHours": "Öffnungszeiten",
+    "weekdays": "Mo-Sa: 8:00 - 20:00",
+    "support": "Rund-um-die-Uhr Unterstützung",
+    "socialMedia": "Soziale Netzwerke",
+    "home": "Startseite",
+    "buses": "Busse",
+    "microbuses": "Minibusse",
+    "cars": "PKW",
+    "tours": "Touren"
+  },
+  
+  "contactButton": {
+    "modalTitle": "Kontaktieren Sie uns",
+    "modalDescription": "Sie können uns direkt über Telegram oder WhatsApp schreiben und eine schnelle Antwort erhalten."
+  },
+  
+  "busesPage": {
+    "title": "Bus SUNWIN (Baujahr 2017) — Komfort und Zuverlässigkeit für Ihre Reise",
+    "description1": "Design und technische Merkmale des Reisebusses SUNWIN (Baujahr 2017) verbinden Komfort, Kapazität und Zuverlässigkeit, die für Fernreisen und Ausflüge erforderlich sind. Dieser Bus ist ideal sowohl für Überlandrouten als auch für Stadtreisen.",
+    "description2": "Der einstöckige, zweitägige Bus SUNWIN ist für bis zu 47 Passagiere ausgelegt. Im unteren Bereich befinden sich geräumige Gepäckfächer für Koffer und sperriges Gepäck. Darüber befindet sich der Fahrgastraum mit weichen Stoffsitzen, hohen Rückenlehnen und ergonomischem Design. Die Sitzanordnung bietet ausreichend Beinfreiheit, und individuelle Neigungsversteller ermöglichen die optimale Position für Erholung während der Fahrt.",
+    "specsTitle": "Technische Daten:",
+    "specs": {
+      "capacity": "Kapazität: 47 Passagiersitze, Gepäckraumvolumen: ca. 9–10 m³",
+      "comfort": "Komfort: Weiche Stoffsitze mit verstellbaren Rückenlehnen, individuelle Klimaanlagen- und Beleuchtungssysteme",
+      "equipment": "Ausstattung: Kühlschrank, CD/DVD-Player, Radio, LCD-Bildschirme, Toilette",
+      "safety": "Sicherheit: ESP-, ABS-, EBS-Systeme, Nebelscheinwerfer, elektrisch beheizbare Spiegel",
+      "performance": "Fahreigenschaften: Luftfederung, Euro-IV-Motor, Geschwindigkeitsbegrenzung bis 100 km/h"
+    },
+    "images": {
+      "exterior": "Außenansicht des Busses",
+      "interior": "Innenraum des Busses"
+    },
+    "pricingTitle": "Mietpreise",
+    "pricing": {
+      "routesTitle": "Routen (Überland- und Stadtbetrieb)",
+      "tourRoutesTitle": "Touristische Routen",
+      "busModel": "Bus SUNWIN",
+      "notesTitle": "Hinweise zu Tarifen:",
+      "mountains1Day": "1 Tag Berge - Tagesausflug Taschkent – Chimgan, Charvak, Beldersay, Chatkal – Taschkent",
+      "mountains2Days": "2 Tage Berge - Hin-/Rückfahrt Taschkent – Chimgan, Charvak, Beldersay, Chatkal – Taschkent",
+      "samarkand1Day": "1 Tag Samarkand - Tagesausflug Taschkent – Samarkand – Taschkent",
+      "additionalTitle": "Zusätzliche Bedingungen:",
+      "emptyRun": "Bezahlung für Leerfahrt auf Routen, die beginnen oder enden mit:",
+      "bukharaFergana": "Buchara oder Ferghana + 0,5 Bus/Tag",
+      "urgenchTermez": "Urgench oder Termez + 1 Bus/Tag",
+      "minTariff": "Mindesttarif für kurze Touren:",
+      "urgenchDays": "Urgench - 7 Bus/Tag, Termez - 6 Bus/Tag",
+      "bukharaDays": "Buchara - 5 Bus/Tag, Ferghana - 4 Bus/Tag",
+      "included": "Kraftstoff, Verpflegung und Unterkunft des Fahrers sind im Preis enthalten.",
+      "table": {
+        "route": "Route",
+        "1dayIntercity": "1 Tag Überland",
+        "1dayCity": "1 Tag Stadt",
+        "airportTransfer": "Flughafentransfer",
+        "1hourMin3": "1 Stunde (min. 3 Stunden)",
+        "1dayMountains": "1 Tag Berge",
+        "2daysMountains": "2 Tage Berge", 
+        "1daySamarkand": "1 Tag Samarkand",
+        "2daysSamarkand": "2 Tage Samarkand"
+      }
+    },
+    "conclusion": "SUNWIN ist die Wahl für diejenigen, die Komfort, Zuverlässigkeit und Bequemlichkeit auf Reisen in Usbekistan schätzen. Buchen Sie im Voraus und reisen Sie sicher.",
+    "bookBus": "Bus buchen",
+    "viewMicrobuses": "Minibusse ansehen"
+  },
+  
+  "contactsPage": {
+    "title": "Kontakte",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "onlineChannels": "Online-Kanäle",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "support24": "Rund-um-die-Uhr-Support",
+    "mapTitle": "Yandex Karte - Firmenstandort"
+  },
+  
+  "homePage": {
+    "heroTitle": "INDIVIDUELLE UND GRUPPEN-PASSAGIERTRANSPORTE",
+    "heroSubtitle": "in Usbekistan",
+    "busCard": {
+      "title": "Bus",
+      "subtitle": "bis zu 47 Personen",
+      "alt": "Bus-Symbol"
+    },
+    "microbusCard": {
+      "title": "Minibusse",
+      "subtitle": "bis zu 19 Personen",
+      "alt": "Minibus-Symbol"
+    },
+    "carCard": {
+      "title": "PKW",
+      "subtitle": "bis zu 4 Personen",
+      "alt": "PKW-Symbol"
+    },
+    "features": {
+      "fast": {
+        "title": "Schnell",
+        "description": "Wir schätzen Ihre Zeit. Silk Road Transportation garantiert eine schnelle Organisation von Reisen in ganz Usbekistan – von der Buchung bis zur Ankunft am Zielort. Mit uns verlieren Sie keine Minute."
+      },
+      "comfortable": {
+        "title": "Komfortabel",
+        "description": "Ihre Reise durch Usbekistan beginnt mit Komfort. Unsere modernen Minibusse und Busse sind mit allem ausgestattet, was für eine angenehme Fahrt erforderlich ist. Silk Road Transportation – wenn jeder Kilometer Freude macht."
+      },
+      "professional": {
+        "title": "Professionell",
+        "description": "Unser Team besteht aus erfahrenen Fahrern und Fachleuten, die Usbekistan wie ihre Westentasche kennen. Bei Silk Road Transportation vertrauen Sie Ihre Reise denen an, die Fahrten wirklich sicher und gut organisiert gestalten können."
+      }
+    },
+    "checkPrice": "Preis erfahren und buchen",
+    "about": {
+      "title": "Über uns",
+      "text1": "Wir sind Silk Road Transportation, ein zuverlässiger Transportanbieter mit über 20 Jahren Erfahrung im Personenverkehr in ganz Usbekistan. Unsere Kunden sind Delegationen, Geschäftsleute, Touristen und alle, die Komfort, Sicherheit und Pünktlichkeit schätzen.",
+      "text2": "Alle unsere Fahrzeuge sind lizenziert, werden regelmäßig gewartet und mit GPS/GLONASS-Systemen zur Echtzeit-Überwachung ausgestattet. Passagiere und Fahrzeuge sind versichert, und unser Fuhrpark wird regelmäßig nach modernen Qualitäts- und Sicherheitsstandards aktualisiert.",
+      "text3": "Wir akzeptieren alle Zahlungsformen, einschließlich Kreditkarten.",
+      "footer": "Silk Road Transportation – Ihre Sicherheit bei jeder Reise durch Usbekistan.",
+      "imageAlt": "Unser Fuhrpark",
+      "cash": "Barzahlung"
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "text1": "Bei Silk Road Transportation bieten wir professionelle Transportdienste in ganz Usbekistan an. Wir organisieren Passagiertransporte für Touristen, Delegationen, Geschäftsleute, Transfers in Taschkent, Bergtouren sowie Serviceleistungen für Veranstaltungen, Geschäftsmeetings, Exkursionen und mehr.",
+      "text2": "Fahrzeuge werden nicht ohne Fahrer vermietet. Bei Fahrten von Kindern außerhalb Taschkents wird gesetzlich vorgeschriebene Begleitung durch die Polizei organisiert.",
+      "listTitle": "Unsere Dienstleistungen umfassen:",
+      "listItems": [
+        "Individuelle und Gruppen-Transfers",
+        "Touren durch Usbekistan von 11 bis 3 Tagen",
+        "Service für Veranstaltungen und Konferenzen",
+        "Transport von Delegationen und offiziellen Treffen",
+        "Ausflüge ins Umland, in Berge und Kurorte",
+        "Und vieles mehr"
+      ],
+      "text3": "Um Details zu erfahren und die Reise abzustimmen – kontaktieren Sie uns.",
+      "viewTours": "Touren ansehen",
+      "imageAlt": "Unsere Dienstleistungen"
+    }
+  },
+  
+  "licensesPage": {
+    "title": "Lizenzen und Zertifikate",
+    "description": "Alle Lizenzen und Zertifikate bestätigen unser Recht, Personenbeförderung in Usbekistan durchzuführen. Wir arbeiten streng gesetzeskonform und verfügen über alle erforderlichen Genehmigungen.",
+    "license1Alt": "Lizenz 1",
+    "license2Alt": "Lizenz 2", 
+    "license3Alt": "Lizenz 3",
+    "license4Alt": "Lizenz 4"
+  },
+  
+  "microbusesPage": {
+    "featuresTitle": "Technische Daten:",
+    "pricingTitle": "Mietpreise",
+    "notesTitle": "Hinweise zu Tarifen:",
+    "mountains1Day": "1 Tag Berge - Tagesausflug Taschkent – Chimgan, Charvak, Beldersay, Chatkal – Taschkent",
+    "mountains2Days": "2 Tage Berge - Hin-/Rückfahrt Taschkent – Chimgan, Charvak, Beldersay, Chatkal – Taschkent",
+    "samarkand1Day": "1 Tag Samarkand - Tagesausflug Taschkent – Samarkand – Taschkent",
+    "additionalTitle": "Zusätzliche Bedingungen:",
+    "emptyRun": "Bezahlung für Leerfahrt auf Routen, die beginnen oder enden mit:",
+    "bukharaFergana": "Buchara oder Ferghana + 0,5 Bus/Tag",
+    "urgenchTermez": "Urgench oder Termez + 1 Bus/Tag",
+    "minTariff": "Mindesttarif für kurze Touren (nicht standardmäßig):",
+    "urgenchDays": "Urgench - 7 Bus/Tag",
+    "termexDays": "Termez - 6 Bus/Tag",
+    "bukharaDays": "Buchara - 5 Bus/Tag",
+    "ferganaDays": "Ferghana - 4 Bus/Tag",
+    "included": "Kraftstoff, Verpflegung und Unterkunft des Fahrers sind im Preis enthalten.",
+    "pricing": {
+      "table": {
+        "1dayIntercity": "1 Tag Überland",
+        "1dayCity": "1 Tag",
+        "airportTransfer": "Flughafentransfer",
+        "1hourMin3": "1 Stunde (min. 3 Stunden)",
+        "1dayMountains": "1 Tag Berge",
+        "2daysMountains": "2 Tage Berge",
+        "1daySamarkand": "1 Tag Samarkand",
+        "2daysSamarkand": "2 Tage Samarkand"
+      }
+    },
+    
+  "bookMicrobus": "Minibus buchen",
+  "19Seater": {
+    "title": "Minibus Eurise (Baujahr 2023)",
+    "description1": "Design und technische Eigenschaften des touristischen Minibusses Eurise (Baujahr 2023) vereinen modernen Stil, Wendigkeit und hohen Komfort. Dieses Modell eignet sich hervorragend für kleine Reisegruppen, Firmen-Transfers und VIP-Fahrten, sowohl auf intercity-Strecken als auch in der Stadt.",
+    "description2": "Der einstöckige Minibus bietet Platz für 19 Passagiere. Der Innenraum ist mit weichen ergonomischen Sitzen mit verstellbarer Rückenlehne und ausreichendem Abstand zwischen den Reihen für komfortables Sitzen ausgestattet. Die Polsterung besteht aus strapazierfähigem Kunstleder, das leicht zu reinigen und langlebig ist.",
+    "imageAlt": "Minibus Eurise",
+    "interiorAlt": "Innenraum Eurise",
+    "features": [
+      "Baujahr: 2023",
+      "Farbe: schwarz",
+      "Sitzplätze: 19",
+      "Kofferraumvolumen: ca. 2–3 m³",
+      "LCD-Bildschirm: ✔️",
+      "Multimediasystem: ✔️",
+      "Klimaanlage: ✔️",
+      "Heizung: ✔️",
+      "USB-Ladegeräte: ✔️",
+      "Mikrofon für Reiseleiter: ✔️"
+    ]
+  },
+  "13Seater": {
+    "title": "Minibus TOYOTA Hiace (Baujahr 2019)",
+    "description1": "Design und technische Eigenschaften des Minibusses TOYOTA Hiace (Baujahr 2019) spiegeln die legendäre Qualität und Zuverlässigkeit des japanischen Herstellers wider. Dieses Modell eignet sich ideal für kleine Reisegruppen, Firmen-Transfers, Flughafen-Meetings und VIP-Fahrten und bietet hohen Komfort auf allen Strecken.",
+    "description2": "Der kompakte und wendige TOYOTA Hiace bietet Platz für 13 Passagiere. Der Innenraum ist mit bequemen anatomisch geformten Sitzen mit verstellbaren Rückenlehnen und Kopfstützen ausgestattet. Die Polsterung besteht aus robusten, angenehm zu berührenden Materialien, die leicht zu reinigen und verschleißfest sind.",
+    "imageAlt": "Minibus TOYOTA Hiace",
+    "features": [
+      "Baujahr: 2019",
+      "Farbe: weiß",
+      "Sitzplätze: 13",
+      "Kofferraumvolumen: ca. 1,5–2 m³",
+      "Multimediasystem: ✔️",
+      "Klimaanlage: ✔️",
+      "Heizung: ✔️",
+      "USB und Bluetooth: ✔️"
+    ]
+  },
+  "7Seater": {
+    "title": "Minivan HYUNDAI H-1 (Baujahr 2023)",
+    "description1": "Design und technische Eigenschaften des Minivans HYUNDAI H-1 (Baujahr 2023) vereinen modernes Aussehen, Wendigkeit und hohen Komfort, was ihn zu einer ausgezeichneten Wahl für VIP-Transfers, Geschäftsreisen und individuelle Touren macht. Das Fahrzeug eignet sich gleichermaßen für Stadt- und Überlandfahrten.",
+    "description2": "Der 7-sitzige Minivan HYUNDAI H-1 (einschließlich Fahrer) verfügt über einen modernen Innenraum mit hochwertigen Materialien. Geräumige Sitze mit weicher Polsterung, verstellbaren Rückenlehnen, Kopfstützen und Sicherheitsgurten sorgen für maximalen Komfort.",
+    "imageAlt": "Minivan HYUNDAI H-1",
+    "interiorAlt": "Innenraum HYUNDAI H-1",
+    "features": [
+      "Baujahr: 2023",
+      "Farbe: schwarz",
+      "Sitzplätze: 7",
+      "Kofferraumvolumen: ca. 1 m³",
+      "Multimediasystem: ✔",
+      "Klimaanlage: ✔",
+      "Heizung: ✔",
+      "USB und Bluetooth: ✔",
+      "Airbags: ✔"
+    ]
+  },
+  "grandStarex": {
+    "title": "Minivan GRAND Starex (Baujahr 2018)",
+    "description1": "Design und technische Eigenschaften des Minivans GRAND Starex (Baujahr 2018) kombinieren Kompaktheit, Wendigkeit und hohen Komfort, was ihn ideal für VIP-Transfers, Geschäftsreisen und individuelle Touren macht. Das Fahrzeug eignet sich sowohl für Stadtfahrten als auch für Überlandreisen.",
+    "description2": "Der 7-sitzige Minivan GRAND Starex (einschließlich Fahrer) verfügt über einen modernen ergonomischen Innenraum mit hochwertigen Materialien. Geräumige Sitze mit weicher Polsterung sind mit verstellbaren Rückenlehnen, Kopfstützen und Sicherheitsgurten ausgestattet.",
+    "imageAlt": "Minivan GRAND Starex",
+    "features": [
+      "Baujahr: 2018",
+      "Farbe: silber",
+      "Sitzplätze: 7",
+      "Kofferraumvolumen: ca. 1 m³",
+      "Multimediasystem: ✔",
+      "Klimaanlage: ✔",
+      "Heizung: ✔",
+      "USB und Bluetooth: ✔",
+      "Airbags: ✔"
+    ]
+  }
+},
+"carsPage": {
+    "cobalt": {
+      "description1": "Das Design und die technischen Eigenschaften der Limousine Chevrolet Cobalt verbinden Zuverlässigkeit, Praktikabilität und Komfort. Dieses Auto eignet sich perfekt für Stadtfahrten, Geschäfts-Transfers und Überlandstrecken.",
+      "description2": "Der Innenraum bietet Platz für 4 Passagiere, mit großzügigem Layout und bequemen Sitzen mit Kopfstützen und Sicherheitsgurten. Für maximalen Komfort gibt es Klimaanlage, Heizung sowie Multimediafunktionen mit USB und Bluetooth. Eine hochwertige Geräuschdämmung sorgt für Ruhe im Innenraum, während die weiche Federung für sanftes Fahren auch auf unebenen Straßen sorgt.",
+      "description3": "Das Kofferraumvolumen von 0,56 m³ ermöglicht die Unterbringung von Koffern und Reisetaschen, im Innenraum gibt es zusätzliche Fächer für kleine Gegenstände. Panoramafenster bieten gute Sicht und schaffen eine helle Atmosphäre im Wagen.",
+      "description4": "Die Sicherheit der Passagiere wird durch moderne Systeme gewährleistet: ABS, Airbags, Isofix-Befestigungen für Kindersitze und ein stabiles Bremssystem. Der Motor erfüllt Umweltstandards und zeichnet sich durch niedrigen Kraftstoffverbrauch aus, was die Fahrt nicht nur komfortabel, sondern auch wirtschaftlich macht.",
+      "modelWithLuggage": "Chevrolet Cobalt (3 Sitze mit Gepäck)",
+      "features": {
+        "year": "Baujahr: 2023",
+        "bodyType": "Karosserietyp: Limousine",
+        "seats": "Passagiersitze: 4",
+        "trunkVolume": "Kofferraumvolumen: 0,56 m³",
+        "ac": "Klimaanlage: ✔️",
+        "heating": "Heizung: ✔️",
+        "usbBluetooth": "USB und Bluetooth: ✔️",
+        "airbags": "Airbags: ✔️",
+        "abs": "ABS: ✔️"
+      }
+    },
+    "mercedes": {
+      "description1": "Mercedes-Benz S-Klasse W222 ist die Verkörperung von Eleganz, Komfort und innovativer Technologie. Das Business-Auto eignet sich perfekt für VIP-Transfers, Geschäftsreisen, Flughafen-Meetings und besondere Anlässe.",
+      "description2": "Der Innenraum bietet Platz für 4 Passagiere und ist mit Premium-Materialien ausgestattet: weiches Leder, echtes Holz und Aluminium. Ergonomische Sitze sind in mehreren Richtungen verstellbar, verfügen über Heiz- und Belüftungsfunktionen sowie persönliche Armlehnen. Der vergrößerte Abstand zwischen den Sitzreihen sorgt für Beinfreiheit und Komfort auch bei langen Fahrten.",
+      "description3": "Für maximalen Komfort gibt es ein mehrstufiges Klimasystem, während das integrierte Multimedia-System mit LCD-Bildschirmen, USB und Bluetooth die Fahrt angenehm gestaltet. Zusätzliches LED-Innenlicht schafft eine private und entspannende Atmosphäre.",
+      "description4": "Das Kofferraumvolumen von 0,53 m³ bietet Platz für mehrere mittelgroße Koffer, ideal für Flughafen-Transfers und Überlandstrecken.",
+      "description5": "Die Sicherheit entspricht den höchsten Standards: ABS, ESP, Airbags, adaptiver Tempomat, Spurhalteassistent und Totwinkel-Sensoren. Die AirMATIC-Federung sorgt für sanftes Fahren und Ruhe im Innenraum unabhängig von der Straßenqualität.",
+      "features": {
+        "year": "Baujahr: 2019",
+        "bodyType": "Karosserietyp: Limousine (Premium-Klasse)",
+        "seats": "Passagiersitze: 4",
+        "trunkVolume": "Kofferraumvolumen: 0,53 m³",
+        "climateControl": "Klimaanlage und Klimakontrolle: ✔️",
+        "seatFeatures": "Heizung und Belüftung der Sitze: ✔️",
+        "multimedia": "Multimedia-System, USB, Bluetooth: ✔️",
+        "safetySystems": "ABS, ESP, Airbags: ✔️",
+        "driverAssist": "Adaptiver Tempomat und Fahrerassistenzsysteme: ✔️"
+      }
+    },
+    "featuresTitle": "Technische Daten:",
+    "pricingTitle": "Mietpreise",
+    "pricing": {
+      "table": {
+        "model": "Modell",
+        "1dayIntercity": "1 Tag Überland",
+        "1dayCity": "1 Tag Stadt",
+        "airportTransfer": "Flughafentransfer",
+        "1hourMin3": "1 Stunde (min. 3 Stunden)",
+        "1dayMountains": "1 Tag Berge",
+        "2daysMountains": "2 Tage Berge",
+        "1daySamarkand": "1 Tag Samarkand",
+        "2daysSamarkand": "2 Tage Samarkand"
+      }
+    },
+    "bookCar": "Limousine buchen"
+  },
+   "toursPage": {
+    "title": "Exkursionstouren durch Usbekistan",
+    "subtitle": "Entdecken Sie alte Städte und die reiche Kultur Usbekistans",
+    "programTitle": "Tourprogramm",
+    "includedTitle": "Im Tourpreis enthalten:",
+    "currentPrice": "Aktuellen Preis erfahren",
+    "tours": {
+      "11Day": {
+        "title": "Die große Usbekistan-Reise",
+        "duration": "11 Tage / 10 Nächte",
+        "route": "TASCHKENT – CHIWA – BUCHARA – SAMARKAND – TASCHKENT – FERGANA-TAL – TASCHKENT – CHIMGAN – CHARVAK – TASCHKENT",
+        "program": "Tag 1. Taschkent\n\nEmpfang am Flughafen Taschkent, Transfer und Check-in im Hotel. Besichtigung: Kukeldasch-Madrasa, Mausoleum Kaffal Shashi, Barak-Khan-Madrasa, Hast Imam-Moschee. Mittagessen. Fortsetzung der Stadtrundfahrt: Geschichtsmuseum, Museum für Angewandte Kunst. Abendessen.\n\nTag 2. Taschkent – Urgentsch – Chiwa\n\nFrühstück, Transfer zum Flughafen. Flug Taschkent – Urgentsch. Empfang der Gruppe am Flughafen Urgentsch, Transfer nach Chiwa. Check-in im Hotel. Mittagessen. Besichtigung in Chiwa: Muhammad-Amin-Khan-Madrasa, Islam-Khodja-Minarett, Palvan-Kari-Komplex, Avd al-Bobo-Komplex, Rafaneka-Madrasa, Muhammad-Rakim-Khan-Madrasa, Amir-Tur-Madrasa. Abendessen.\n\nTag 3. Chiwa – Buchara\n\nFrühstück. Fahrt nach Buchara, Mittagessen unterwegs. Bei Ankunft Check-in im Hotel. Abendessen.\n\nTag 4. Buchara\n\nFrühstück. Besichtigung: Mausoleum von Ismail Samani, Mausoleum Chashma-Ayub, Poi-Kalyan-Ensemble mit gleichnamigem Minarett, Mir-i-Arab-Madrasa, Amir-Alim-Khan-Madrasa, Kukeldasch-Madrasa, Lyabi-Hauz-Ensemble, Nadir-Divan-Begi-Madrasa, Abdul-Aziz-Madrasa. Mittagessen. Fortsetzung: Registan-Platz, Ark-Festung, Bolo-Hauz-Komplex. Check-in im Hotel. Abendessen.\n\nTag 5. Buchara\n\nFrühstück. Fortsetzung der Besichtigung: Chor-Minor, Chashma-Ayub, Nekropole Chor-Bakr. Mittagessen. Am Abend Abendessen und Folklore-Show in der Nadir-Divan-Begi-Madrasa.\n\nTag 6. Buchara – Shakhrisabz – Samarkand\n\nFrühstück. Transfer nach Shakhrisabz. Besichtigung: Kok-Gumbaz-Moschee, Ak-Sarai-Palast, Jahangir-Mausoleum, Timur-Grabstätte. Mittagessen. Weiterfahrt nach Samarkand. Check-in im Hotel.\n\nTag 7. Samarkand\n\nFrühstück. Besichtigung: Gur-Emir-Mausoleum, Registan-Ensemble, orientalischer Basar. Mittagessen. Besichtigung: Ulugh-Beg-Observatorium, archäologische Ausgrabungen von Afrosiab, Shah-i-Zinda-Nekropole. Check-in im Hotel. Abendessen in einem nationalen Haus.\n\nTag 8. Samarkand – Taschkent\n\nFrühstück. Transfer nach Taschkent. Mittagessen unterwegs. Bei Ankunft Check-in im Hotel, Freizeit. Abendessen. Besuch des Opern- und Balletttheaters Alisher Navoi.\n\nTag 9. Taschkent – Kokand – Fergana\n\nFrühstück. Transfer nach Kokand. Besichtigung: Mausoleum Dahma-i-Shahon, Palast von Khudoyar-Khan, Jami-Moschee. Mittagessen. Weiterfahrt nach Fergana. Check-in im Hotel. Abendessen.\n\nTag 10. Fergana – Margilan – Taschkent\n\nFrühstück. Transfer nach Margilan. Besichtigung: Atlas-Seidenfabrik. Transfer nach Taschkent. Mittagessen unterwegs. Bei Ankunft Check-in im Hotel. Abendessen.\n\nTag 11. Taschkent – Chimgan – Charvak – Taschkent\n\nFrühstück. Ausflug nach Chimgan. Fahrt mit der Seilbahn. Weiterfahrt zum Charvak-Stausee mit Fotostopps. Mittagessen bei Bochkah. Rückkehr nach Taschkent. Freizeit. Abschiedsabendessen in einem Privathaus mit nationaler Folklore-Show. Transfer zum Flughafen. Abflug.",
+        "included": "Unterkunft\n• Taschkent – Dedeman\n• Chiwa – Asia Khiva\n• Buchara – Asia Bukhara\n• Samarkand – Malika\n• Fergana – Asia Fergana\n\nIm Tourpreis enthalten:\n• Unterkunft in Hotels (Doppelzimmer Standard)\n• Verpflegung (Frühstück oder Vollpension – nach Wahl)\n• 1 Flasche Mineralwasser pro Person/Tag\n• Flug Taschkent – Urgentsch (Economy Class)\n• Transport entlang der Route (Minibus/Bus „Istana“), Umstieg auf PKW bei der Überquerung des Kamchik-Passes\n• Alle Ausflüge laut Programm mit englischsprachigem Reiseführer\n• Eintrittsgelder entlang der Route"
+      },
+      "7Day": {
+        "title": "Usbekistan-Klassiker",
+        "duration": "7 Tage / 6 Nächte",
+        "route": "TASCHKENT – SAMARKAND – SHAKHRISABZ – BUCHARA – TASCHKENT (CHIMGAN, CHARVAK)",
+        "program": "Tag 1. Taschkent\n\nEmpfang am Flughafen. Transfer und Check-in im Hotel. Vormittagsbesichtigung: Kukeldasch-Madrasa, Mausoleum Kaffal Shashi, Barak-Khan-Madrasa, Hast Imam-Moschee. Mittagessen. Fortsetzung der Stadtrundfahrt. Rückkehr und Check-in im Hotel.\n\nTag 2. Taschkent – Samarkand\n\nFrüher Transfer nach Samarkand. Bei Ankunft Check-in im Hotel. Besichtigung: Gur-Emir-Mausoleum, Registan-Ensemble, orientalischer Basar. Mittagessen. Besichtigung: Ulugh-Beg-Observatorium, archäologische Ausgrabungen von Afrosiab, Shah-i-Zinda-Nekropole. Check-in im Hotel.\n\nTag 3. Samarkand – Shakhrisabz – Samarkand\n\nTransfer nach Shakhrisabz. Besichtigung: Kok-Gumbaz-Moschee, Ak-Sarai-Palast, Jahangir-Mausoleum, Timur-Grabstätte. Mittagessen. Rückkehr nach Samarkand, Check-in im Hotel.\n\nTag 4. Samarkand – Buchara\n\nFrühstück. Fahrt nach Buchara. Bei Ankunft Check-in im Hotel.\n\nTag 5. Buchara\n\nFrühstück. Besichtigung: Mausoleum von Ismail Samani, Mausoleum Chashma-Ayub, Poi-Kalyan-Ensemble mit Minarett, Mir-i-Arab-Madrasa, Amir-Alim-Khan-Madrasa, Kukeldasch-Madrasa, Lyabi-Hauz-Ensemble, Nadir-Divan-Begi-Madrasa, Abdul-Aziz-Madrasa. Mittagessen. Fortsetzung: Ark-Festung, Registan-Platz, Bolo-Hauz-Komplex. Check-in im Hotel.\n\nTag 6. Buchara – Taschkent\n\nFrühstück. Transfer nach Taschkent. Bei Ankunft Check-in im Hotel.\n\nTag 7. Taschkent – Chimgan – Charvak – Taschkent\n\nFrühstück. Ausflug in die Berge Chimgan und Beldersay. Besuch des Charvak-Stausees. Mittagessen. Rückkehr nach Taschkent. Transfer zum Flughafen.",
+        "included": "Enthalten:\n• Unterkunft in Hotels (Einzel-/Doppelzimmer Standard)\n• Frühstück in den Hotels\n• Transport entlang der gesamten Route per Bus\n• Ausflüge mit Reiseleiter laut Programm, Eintrittsgelder\n\nNicht enthalten:\n• Nutzung von Foto- und Videokameras\n• Mittag- und Abendessen (Vollpension)"
+      },
+      "6Day": {
+  "title": "Die alten Städte der Seidenstraße",
+  "duration": "6 Tage / 5 Nächte",
+  "route": "TASCHKENT – BUCHARA – CHIWA – SAMARKAND – TASCHKENT",
+  "program": "Tag 1. Taschkent – Buchara\n\n08:00 – Abfahrt nach Buchara. Bei Ankunft – Check-in im Hotel. Freizeit.\n\nTag 2. Buchara\n\nFrühstück. Stadtrundfahrt durch Buchara: Mausoleum von Ismail Samani (9.–10. Jh.), Mausoleum Chashma-Ayub (14. Jh.), Ensemble Poi-Kalyan (12. Jh.), Medrese Miri-Arab (16. Jh.), Medrese Amir-Alim-Chan (14. Jh.), Medrese Kukeldasch (16. Jh.), Lyabi-Hauz (17. Jh.), Medrese Nadir Divan-Begi (17. Jh.), Medrese Abdulaziz (17. Jh.). Mittagessen. Fortsetzung der Stadtrundfahrt: Registan-Platz, Ark-Festung (16. Jh.), Bolo-Hauz-Komplex (18. Jh.). Rückkehr zum Hotel.\n\nTag 3. Buchara – Chiwa\n\nFrühstück. Transfer nach Chiwa. Bei Ankunft – Check-in im Hotel.\n\nTag 4. Chiwa\n\nFrühstück. Stadtrundfahrt: Medrese Muhammad-Amin-Khan (19. Jh.), Minarett Islam-Khodja, Komplexe Palvan-Kari und Avd-Al-Bobo (18. Jh.), Medrese Rafanek, Medrese Muhammad-Rakhim-Khan (19. Jh.), Medrese Amir Timur. Nach dem Mittagessen: Mausoleum von Pahlawan Mahmud, Medrese Mazari Sharif, Altstadt Kunja-Ark mit Kurinish-Khan-Palast (17. Jh.). Rückkehr zum Hotel.\n\nTag 5. Chiwa – Samarkand\n\nFrühstück. Fahrt nach Samarkand. Bei Ankunft – Check-in im Hotel.\n\nTag 6. Samarkand – Taschkent\n\nFrühstück. Stadtrundfahrt durch Samarkand: Mausoleum Gur-Emir (15.–18. Jh.), Registan-Komplex (15.–17. Jh.), Orientalischer Basar. Nach dem Mittagessen: Ulugbek-Observatorium (15. Jh.), archäologische Ausgrabungen der antiken Stadt Afrosiab (6.–13. Jh.), Nekropole Shahi-Zinda (14.–15. Jh.). Transfer nach Taschkent. Bei Ankunft – Ende des Programms.",
+  "included": "Im Preis der Tour enthalten:\n• Unterkunft: Doppel- / Dreibettzimmer in Standardzimmern\n• Buchara – Hotel «Komil»\n• Chiwa – Hotel «Orient Star»\n• Samarkand – Hotel «Malika Prime»\n• Verpflegung: Frühstück in den Hotels\n• Transport: Minibus «Istana» (8 Plätze + Gepäck, Klimaanlage) für die gesamte Route\n• Ausflüge: Führungen, Eintrittsgelder gemäß Programm\n\nNicht im Preis enthalten:\n• Nutzung von Foto- und Videokameras an den Sehenswürdigkeiten\n• Mittag- und Abendessen"
+},
+"5Day": {
+  "title": "Oasen und Perlen des Ostens",
+  "duration": "5 Tage / 4 Nächte",
+  "route": "TASCHKENT – SAMARKAND – SHAHRISABZ – BUCHARA – NURATA – TASCHKENT",
+  "program": "Tag 1. Taschkent – Samarkand\n\n07:00 – Transfer nach Samarkand. Bei Ankunft – Check-in im Hotel. Stadtrundfahrt: Mausoleum Gur-Emir (15.–18. Jh.), Registan-Ensemble (15.–17. Jh.), Orientalischer Basar. Nach dem Mittagessen: Ulugbek-Observatorium (15. Jh.), archäologischer Komplex Afrosiab (6.–13. Jh.), Nekropole Shahi-Zinda (14.–15. Jh.). Rückkehr zum Hotel.\n\nTag 2. Samarkand – Shahrisabz – Buchara\n\nFrühstück. Transfer nach Shahrisabz. Stadtrundfahrt: Kok-Gumbaz-Moschee (15. Jh.), Ak-Saray-Palast (14.–15. Jh.), Dorus-Siadat-Komplex (14. Jh.), Mausoleum von Jahangir, Timur-Grabstätte (15. Jh.). Mittagessen. Weiterfahrt nach Buchara. Bei Ankunft – Check-in im Hotel.\n\nTag 3. Buchara\n\nFrühstück. Stadtrundfahrt: Mausoleum von Ismail Samani (9.–10. Jh.), Mausoleum Chashma-Ayub (14. Jh.), Ensemble Poi-Kalyan (12. Jh.), Medrese Miri-Arab (16. Jh.), Medrese Amir-Alim-Chan (14. Jh.), Medrese Kukeldasch (16. Jh.), Lyabi-Hauz (17. Jh.), Medrese Nadir Divan-Begi (17. Jh.), Medrese Abdulaziz (17. Jh.). Mittagessen. Fortsetzung der Stadtrundfahrt: Registan-Platz, Ark-Festung (16. Jh.), Bolo-Hauz-Komplex (18. Jh.). Rückkehr zum Hotel.\n\nTag 4. Buchara – Nurata\n\nFrühstück. Transfer nach Nurata. Stadtrundfahrt. Mittagessen. Weiterfahrt ins Jurtenlager. Unterkunft in Jurten. Abendessen mit traditionellem kasachischem Folkloreprogramm (Akin) am Lagerfeuer.\n\nTag 5. Nurata – Taschkent\n\nFrühstück. Kamelreiten, Picknick am Aydarkul-See. Transfer nach Taschkent.",
+  "included": "Im Preis der Tour enthalten:\n• Unterkunft: Einzel- / Doppelzimmer in Standardzimmern und Jurten\n• Verpflegung: Frühstück in Hotels, Verpflegung im Jurtenlager laut Programm\n• Transport: Minibus «Istana» oder «Grand Starex», PKW «Nexia GLE» für die gesamte Route\n• Ausflüge: Führungen bei allen Sehenswürdigkeiten\n• Eintrittsgelder: gemäß Programm\n• Zugtickets: Buchara – Taschkent (erste Klasse)\n\nNicht im Preis enthalten:\n• Nutzung von Foto- und Videokameras an den Sehenswürdigkeiten\n• Mittag- und Abendessen, außer wie im Programm angegeben"
+},
+  "4Day": {
+    "title": "Samarkand und Bukhara in 4 Tagen",
+    "duration": "4 Tage / 3 Nächte",
+    "route": "TASCHKENT – SAMARKAND – SHAKHRISABZ – BUKHARA – TASCHKENT",
+    "program": "Tag 1. Taschkent – Samarkand\n\n07:00 – Transfer nach Samarkand. Ankunft, Check-in im Hotel. Besichtigung: Gur-Emir-Mausoleum (15.–18. Jh.), Registan-Platz (15.–17. Jh.), orientalischer Basar. Nach dem Mittagessen: Ulugh-Beg-Observatorium (15. Jh.), archäologische Ausgrabungen von Afrosiyab (6.–13. Jh.), Nekropole Shahi-Zinda (14.–15. Jh.). Rückkehr zum Hotel.\n\nTag 2. Samarkand – Shakhrisabz – Bukhara\n\nMorgens – Abfahrt nach Shakhrisabz. Bei Ankunft Besichtigung: Kok-Gumbaz-Moschee (15. Jh.), Ak-Saray-Palast (14.–15. Jh.), Dorus-Siadat und Mausoleum von Jahangir (14. Jh.), Timur-Mausoleum (15. Jh.). Nach dem Mittagessen – Weiterfahrt nach Bukhara. Check-in im Hotel.\n\nTag 3. Bukhara\n\nFrühstück. Besichtigung: Mausoleum von Ismail Samani (9.–10. Jh.), Chashma-Ayub-Mausoleum (14. Jh.), Poi-Kalyan-Komplex mit Minarett (12. Jh.), Mir-i-Arab-Medrese (16. Jh.), Amir-Alim-Khan-Medrese (14. Jh.), Kukeldash-Medrese (16. Jh.), Lyabi-Hauz und Nodir-Divan-Begi-Medrese (17. Jh.), Abdul-Aziz-Khan-Medrese (17. Jh.). Nach dem Mittagessen – Fortsetzung der Besichtigung: Ark-Festung (16. Jh.), Registan-Platz, Bolo-Hauz-Komplex (18. Jh.). Rückkehr zum Hotel.\n\nTag 4. Bukhara – Taschkent\n\nFrühstück. Transfer nach Taschkent.",
+    "included": "Inbegriffen:\n• Unterkunft in Hotels\n• Transportservice\n• Führungen mit Guide\n• Eintrittsgelder"
+  },
+  "3Day": {
+    "title": "Express-Tour: Samarkand und Bukhara",
+    "duration": "3 Tage / 2 Nächte",
+    "route": "TASCHKENT – SAMARKAND – BUKHARA – TASCHKENT",
+    "program": "Tag 1. Taschkent – Samarkand\n\n07:00 – Transfer nach Samarkand. Ankunft, Check-in im Hotel. Besichtigung von Samarkand: Gur-Emir-Mausoleum (15.–18. Jh.), Registan-Komplex (15.–17. Jh.), orientalischer Basar. Nach dem Mittagessen: Ulugh-Beg-Observatorium (15. Jh.), archäologische Ausgrabungen von Afrosiyab (6.–13. Jh.), Nekropole Shahi-Zinda (14.–15. Jh.). Rückkehr zum Hotel.\n\nTag 2. Samarkand – Bukhara\n\nFrühstück. Fahrt nach Bukhara. Ankunft und Check-in im Hotel. Besichtigung von Bukhara: Mausoleum von Ismail Samani (9.–10. Jh.) – Begräbnisstätte der Herrscher von Bukhara, Chor Minor (19. Jh.), Chashma-Ayub-Mausoleum (14. Jh.), Sommerresidenz des Emirs Sitorai Mokhi-Khosa. Check-in im Hotel.\n\nTag 3. Bukhara – Taschkent\n\nFrühstück. Fortsetzung der Besichtigung von Bukhara: Poi-Kalyan-Komplex inklusive Minarett (12. Jh.) und Moschee (15. Jh.), Mir-i-Arab-Medrese (16. Jh.), Amir-Alim-Khan-Medrese (14. Jh.), Taqi-Kuppeln, Kukeldash-Medrese (16. Jh.), Lyabi-Hauz (17. Jh.). Nach dem Mittagessen: Nodir-Divan-Begi-Medrese (17. Jh.), Magoki Attori (16. Jh.), Ulugh-Beg-Medrese (15. Jh.), Abdul-Aziz-Medrese (17. Jh.), Chor-Minor-Mausoleum (19. Jh.). Transfer zum Bahnhof Bukhara. Abfahrt mit dem Schnellzug nach Taschkent.",
+    "included": "Inbegriffen:\n• Unterkunft in Hotels\n• Transportservice\n• Führungen mit Guide\n• Eintrittsgelder"
+  }
+}
+}
+}
+
+
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ContactButton from '../components/ContactButton';
 import './Microbuses.css';
 import { useScrollToAnchor } from '../hooks/useScrollToAnchor';
@@ -11,55 +12,46 @@ import blacknewSalon from '/blacknewsalon.jpg';
 import graym from '/graym.jpg';
 
 const Microbuses = () => {
+  const { t } = useTranslation();
   useScrollToAnchor();
+  
+  const features19Seater = t('microbusesPage.19Seater.features', { returnObjects: true }) as string[];
+  const features13Seater = t('microbusesPage.13Seater.features', { returnObjects: true }) as string[];
+  const features7Seater = t('microbusesPage.7Seater.features', { returnObjects: true }) as string[];
+  const featuresGrandStarex = t('microbusesPage.grandStarex.features', { returnObjects: true }) as string[];
+
   return (
     <div className="microbuses-page">
       <section id="19-seater" className="vehicle-section dark-bg">
         <div className="vehicle-container">
           <div className="vehicle-image-container">
-            <img src={blackm} alt="Микроавтобус Eurise" className="vehicle-main-image" />
-            <img src={blackmSalon} alt="Салон Eurise" className="vehicle-secondary-image" />
+            <img src={blackm} alt={t('microbusesPage.19Seater.imageAlt')} className="vehicle-main-image" />
+            <img src={blackmSalon} alt={t('microbusesPage.19Seater.interiorAlt')} className="vehicle-secondary-image" />
           </div>
           <div className="vehicle-description">
-            <h2>Микроавтобус Eurise (2023 г.в.)</h2>
-            <p>
-              Дизайн и технические характеристики туристического микроавтобуса Eurise (2023 г. в.) сочетают современный стиль, 
-              манёвренность и высокий уровень комфорта. Эта модель отлично подходит для небольших туристических групп, 
-              корпоративных трансферов и VIP-поездок, обеспечивая комфортное передвижение как на междугородних маршрутах, 
-              так и в черте города.
-            </p>
-            <p>
-              Одноэтажный микроавтобус рассчитан на 19 пассажиров. Салон оснащён мягкими эргономичными креслами с регулируемым 
-              наклоном спинки и достаточным расстоянием между рядами для комфортного расположения ног. Обивка выполнена из 
-              износостойкой экокожи, легко очищающейся и долговечной.
-            </p>
+            <h2>{t('microbusesPage.19Seater.title')}</h2>
+            <p>{t('microbusesPage.19Seater.description1')}</p>
+            <p>{t('microbusesPage.19Seater.description2')}</p>
             
             <div className="vehicle-features">
-              <h3>Технические данные:</h3>
+              <h3>{t('microbusesPage.featuresTitle')}</h3>
               <ul>
-                <li>Год выпуска: 2023</li>
-                <li>Цвет: чёрный</li>
-                <li>Пассажирских мест: 19</li>
-                <li>Объём багажного отделения: около 2–3 м³</li>
-                <li>LCD-экран: ✔️</li>
-                <li>Мультимедийная система: ✔️</li>
-                <li>Кондиционер: ✔️</li>
-                <li>Отопление: ✔️</li>
-                <li>USB-зарядки: ✔️</li>
-                <li>Микрофон для гида: ✔️</li>
+                {features19Seater.map((feature: string, index: number) => (
+                  <li key={index}>{feature}</li>
+                ))}
               </ul>
             </div>
 
             <div className="pricing-table">
-              <h3>Стоимость аренды</h3>
+              <h3>{t('microbusesPage.pricingTitle')}</h3>
               <div className="table-container">
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день межгород</th>
-                      <th>1 день</th>
-                      <th>Трансфер аэропорт</th>
-                      <th>1 час (мин. 3 часа)</th>
+                      <th>{t('microbusesPage.pricing.table.1dayIntercity')}</th>
+                      <th>{t('microbusesPage.pricing.table.1dayCity')}</th>
+                      <th>{t('microbusesPage.pricing.table.airportTransfer')}</th>
+                      <th>{t('microbusesPage.pricing.table.1hourMin3')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -75,10 +67,10 @@ const Microbuses = () => {
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день горы</th>
-                      <th>2 дня горы</th>
-                      <th>1 день Самарканд</th>
-                      <th>2 дня Самарканд</th>
+                      <th>{t('microbusesPage.pricing.table.1dayMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.1daySamarkand')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysSamarkand')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -99,46 +91,32 @@ const Microbuses = () => {
       <section id="13-seater" className="vehicle-section light-bg">
         <div className="vehicle-container reverse">
           <div className="vehicle-image-container">
-            <img src={whitem} alt="Микроавтобус TOYOTA Hiace" className="vehicle-main-image" />
+            <img src={whitem} alt={t('microbusesPage.13Seater.imageAlt')} className="vehicle-main-image" />
           </div>
           <div className="vehicle-description">
-            
-          <h2>Микроавтобус TOYOTA Hiace (2019 г.в.)</h2>
-            <p>
-              Дизайн и технические характеристики микроавтобуса TOYOTA Hiace (2019 г. в.) отражают легендарное качество и 
-              надёжность японского автопроизводителя. Эта модель идеально подходит для небольших туристических групп, 
-              корпоративных трансферов, аэропортных встреч и VIP-поездок, обеспечивая высокий уровень комфорта на любых маршрутах.
-            </p>
-            <p>
-              Компактный и манёвренный TOYOTA Hiace рассчитан на 13 пассажиров. Салон оснащён удобными креслами с анатомической 
-              формой, регулируемыми спинками и подголовниками. Обивка выполнена из прочных и приятных на ощупь материалов, 
-              легко очищающихся и устойчивых к износу.
-            </p>
+            <h2>{t('microbusesPage.13Seater.title')}</h2>
+            <p>{t('microbusesPage.13Seater.description1')}</p>
+            <p>{t('microbusesPage.13Seater.description2')}</p>
             
             <div className="vehicle-features">
-              <h3>Технические данные:</h3>
+              <h3>{t('microbusesPage.featuresTitle')}</h3>
               <ul>
-                <li>Год выпуска: 2019</li>
-                <li>Цвет: белый</li>
-                <li>Пассажирских мест: 13</li>
-                <li>Объём багажного отделения: около 1,5–2 м³</li>
-                <li>Мультимедийная система: ✔️</li>
-                <li>Кондиционер: ✔️</li>
-                <li>Отопление: ✔️</li>
-                <li>USB и Bluetooth: ✔️</li>
+                {features13Seater.map((feature: string, index: number) => (
+                  <li key={index}>{feature}</li>
+                ))}
               </ul>
             </div>
 
             <div className="pricing-table">
-              <h3>Стоимость аренды</h3>
+              <h3>{t('microbusesPage.pricingTitle')}</h3>
               <div className="table-container">
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день межгород</th>
-                      <th>1 день</th>
-                      <th>Трансфер аэропорт</th>
-                      <th>1 час (мин. 3 часа)</th>
+                      <th>{t('microbusesPage.pricing.table.1dayIntercity')}</th>
+                      <th>{t('microbusesPage.pricing.table.1dayCity')}</th>
+                      <th>{t('microbusesPage.pricing.table.airportTransfer')}</th>
+                      <th>{t('microbusesPage.pricing.table.1hourMin3')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -154,10 +132,10 @@ const Microbuses = () => {
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день горы</th>
-                      <th>2 дня горы</th>
-                      <th>1 день Самарканд</th>
-                      <th>2 дня Самарканд</th>
+                      <th>{t('microbusesPage.pricing.table.1dayMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.1daySamarkand')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysSamarkand')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -172,55 +150,39 @@ const Microbuses = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </section>
 
       <section id="7-seater" className="vehicle-section dark-bg">
         <div className="vehicle-container">
           <div className="vehicle-image-container">
-            <img src={blacknew} alt="Минивэн HYUNDAI H-1" className="vehicle-main-image" />
-            <img src={blacknewSalon} alt="Салон HYUNDAI H-1" className="vehicle-secondary-image" />
+            <img src={blacknew} alt={t('microbusesPage.7Seater.imageAlt')} className="vehicle-main-image" />
+            <img src={blacknewSalon} alt={t('microbusesPage.7Seater.interiorAlt')} className="vehicle-secondary-image" />
           </div>
           <div className="vehicle-description">
-            <h2>Минивэн HYUNDAI H-1 (2023 г.в.)</h2>
-            <p>
-              Дизайн и технические характеристики минивэна HYUNDAI H-1 (2023 г.в.) сочетают современный внешний вид, 
-              манёвренность и высокий уровень комфорта, что делает его отличным выбором для VIP-трансферов, деловых 
-              поездок и индивидуальных туристических маршрутов. Автомобиль одинаково хорошо подходит для перемещений 
-              по городу и междугородних поездок.
-            </p>
-            <p>
-              Пассажирский минивэн HYUNDAI H-1 рассчитан на 7 мест, включая водителя. Салон оформлен в 
-              современном стиле с применением премиальных материалов отделки. Просторные кресла с мягкой обивкой, 
-              регулируемыми спинками, подголовниками и ремнями безопасности обеспечивают максимальный комфорт.
-            </p>
+            <h2>{t('microbusesPage.7Seater.title')}</h2>
+            <p>{t('microbusesPage.7Seater.description1')}</p>
+            <p>{t('microbusesPage.7Seater.description2')}</p>
             
             <div className="vehicle-features">
-              <h3>Технические данные:</h3>
+              <h3>{t('microbusesPage.featuresTitle')}</h3>
               <ul>
-                <li>Год выпуска: 2023</li>
-                <li>Цвет: чёрный</li>
-                <li>Пассажирских мест: 7</li>
-                <li>Объём багажного отделения: около 1 м³</li>
-                <li>Мультимедийная система: ✔</li>
-                <li>Кондиционер: ✔</li>
-                <li>Отопление: ✔</li>
-                <li>USB и Bluetooth: ✔</li>
-                <li>Подушки безопасности: ✔</li>
+                {features7Seater.map((feature: string, index: number) => (
+                  <li key={index}>{feature}</li>
+                ))}
               </ul>
             </div>
 
             <div className="pricing-table">
-              <h3>Стоимость аренды</h3>
+              <h3>{t('microbusesPage.pricingTitle')}</h3>
               <div className="table-container">
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день межгород</th>
-                      <th>1 день</th>
-                      <th>Трансфер аэропорт</th>
-                      <th>1 час (мин. 3 часа)</th>
+                      <th>{t('microbusesPage.pricing.table.1dayIntercity')}</th>
+                      <th>{t('microbusesPage.pricing.table.1dayCity')}</th>
+                      <th>{t('microbusesPage.pricing.table.airportTransfer')}</th>
+                      <th>{t('microbusesPage.pricing.table.1hourMin3')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -236,10 +198,10 @@ const Microbuses = () => {
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день горы*</th>
-                      <th>2 дня горы**</th>
-                      <th>1 день Самарканд***</th>
-                      <th>2 дня Самарканд</th>
+                      <th>{t('microbusesPage.pricing.table.1dayMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.1daySamarkand')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysSamarkand')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -260,47 +222,32 @@ const Microbuses = () => {
       <section className="vehicle-section light-bg">
         <div className="vehicle-container reverse">
           <div className="vehicle-image-container">
-            <img src={graym} alt="Минивэн GRAND Starex" className="vehicle-main-image" />
+            <img src={graym} alt={t('microbusesPage.grandStarex.imageAlt')} className="vehicle-main-image" />
           </div>
           <div className="vehicle-description">
-            <h2>Минивэн GRAND Starex (2018 г.в.)</h2>
-            <p>
-              Дизайн и технические характеристики минивэна GRAND Starex (2018 г.в.) объединяют компактность, 
-              манёвренность и высокий уровень комфорта, что делает его идеальным выбором для VIP-трансферов, 
-              деловых поездок и индивидуальных туристических маршрутов. Автомобиль прекрасно подходит как для 
-              городских поездок, так и для междугородних путешествий.
-            </p>
-            <p>
-              Пассажирский минивэн GRAND Starex рассчитан на 7 мест, включая водителя. Салон выполнен 
-              в современном эргономичном стиле с применением высококачественных материалов отделки. Просторные 
-              кресла с мягкой обивкой оснащены регулируемыми спинками, подголовниками и ремнями безопасности.
-            </p>
+            <h2>{t('microbusesPage.grandStarex.title')}</h2>
+            <p>{t('microbusesPage.grandStarex.description1')}</p>
+            <p>{t('microbusesPage.grandStarex.description2')}</p>
             
             <div className="vehicle-features">
-              <h3>Технические данные:</h3>
+              <h3>{t('microbusesPage.featuresTitle')}</h3>
               <ul>
-                <li>Год выпуска: 2018</li>
-                <li>Цвет: серебряный</li>
-                <li>Пассажирских мест: 7</li>
-                <li>Объём багажного отделения: около 1 м³</li>
-                <li>Мультимедийная система: ✔</li>
-                <li>Кондиционер: ✔</li>
-                <li>Отопление: ✔</li>
-                <li>USB и Bluetooth: ✔</li>
-                <li>Подушки безопасности: ✔</li>
+                {featuresGrandStarex.map((feature: string, index: number) => (
+                  <li key={index}>{feature}</li>
+                ))}
               </ul>
             </div>
 
             <div className="pricing-table">
-              <h3>Стоимость аренды</h3>
+              <h3>{t('microbusesPage.pricingTitle')}</h3>
               <div className="table-container">
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день межгород</th>
-                      <th>1 день</th>
-                      <th>Трансфер аэропорт</th>
-                      <th>1 час (мин. 3 часа)</th>
+                      <th>{t('microbusesPage.pricing.table.1dayIntercity')}</th>
+                      <th>{t('microbusesPage.pricing.table.1dayCity')}</th>
+                      <th>{t('microbusesPage.pricing.table.airportTransfer')}</th>
+                      <th>{t('microbusesPage.pricing.table.1hourMin3')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -316,10 +263,10 @@ const Microbuses = () => {
                 <table>
                   <thead>
                     <tr>
-                      <th>1 день горы*</th>
-                      <th>2 дня горы**</th>
-                      <th>1 день Самарканд***</th>
-                      <th>2 дня Самарканд</th>
+                      <th>{t('microbusesPage.pricing.table.1dayMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysMountains')}</th>
+                      <th>{t('microbusesPage.pricing.table.1daySamarkand')}</th>
+                      <th>{t('microbusesPage.pricing.table.2daysSamarkand')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -334,31 +281,30 @@ const Microbuses = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </section>
 
       <section className="notes-section dark-bg">
         <div className="notes-container">
-          <h3>Примечания к тарифам:</h3>
+          <h3>{t('microbusesPage.notesTitle')}</h3>
           <div className="notes-content">
-            <p><strong>1 день горы</strong> - однодневная поездка г.Ташкент – Чимган, Чарвак, Бельдерсай, Чаткал – г.Ташкент</p>
-            <p><strong>2 дня горы</strong> - отвоз/привоз г.Ташкент – Чимган, Чарвак, Бельдерсай, Чаткал – г.Ташкент</p>
-            <p><strong>1 день в г.Самарканд</strong> - однодневная поездка г.Ташкент – г.Самарканд – г.Ташкент</p>
+            <p><strong>{t('microbusesPage.mountains1Day')}</strong></p>
+            <p><strong>{t('microbusesPage.mountains2Days')}</strong></p>
+            <p><strong>{t('microbusesPage.samarkand1Day')}</strong></p>
             
             <div className="additional-notes">
-              <h4>Дополнительные условия:</h4>
+              <h4>{t('microbusesPage.additionalTitle')}</h4>
               <ul>
-                <li>Оплата порожнего перегона для маршрутов которые начинаются или заканчиваются с:</li>
-                <li>г.Бухара или г.Фергана + 0,5 маш/дня</li>
-                <li>г.Ургенч или г.Термез + 1 маш/день</li>
-                <li>Минимальное тарифицирование на короткие туры (не стандартные):</li>
-                <li>г.Ургенч - 7 маш/день</li>
-                <li>г.Термез - 6 маш/день</li>
-                <li>г.Бухара - 5 маш/день</li>
-                <li>г.Фергана - 4 маш/день</li>
+                <li>{t('microbusesPage.emptyRun')}</li>
+                <li>{t('microbusesPage.bukharaFergana')}</li>
+                <li>{t('microbusesPage.urgenchTermez')}</li>
+                <li>{t('microbusesPage.minTariff')}</li>
+                <li>{t('microbusesPage.urgenchDays')}</li>
+                <li>{t('microbusesPage.termexDays')}</li>
+                <li>{t('microbusesPage.bukharaDays')}</li>
+                <li>{t('microbusesPage.ferganaDays')}</li>
               </ul>
-              <p>Топливо, питание и проживание водителя включены в стоимость.</p>
+              <p>{t('microbusesPage.included')}</p>
             </div>
           </div>
         </div>
@@ -366,7 +312,7 @@ const Microbuses = () => {
 
       <div className="cta-section">
         <ContactButton showModal size="large">
-          Забронировать микроавтобус
+          {t('microbusesPage.bookMicrobus')}
         </ContactButton>
       </div>
     </div>

@@ -54,7 +54,10 @@ button {
   height: 50px;
   width: auto;
 }
-
+.language-menu button.active {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
 .burger-menu {
   display: flex;
   flex-direction: column;

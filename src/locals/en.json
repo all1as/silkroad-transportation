@@ -1,0 +1,414 @@
+{
+  "common": {
+    "companyName": "Silk Road Transportation",
+    "logoAlt": "Company Logo",
+    "languageIconAlt": "Language Icon",
+    "close": "Close",
+    "viewOptions": "Click to view options",
+    "selectedImage": "Selected Image",
+    "bookNow": "Book Now",
+    "viewDetails": "View Details",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "allRightsReserved": "All Rights Reserved",
+    "quickResponse": "You can message us directly on Telegram or WhatsApp for a quick response",
+    "phoneNumber": "+998 98 128-56-67"
+  },
+  
+  "header": {
+    "menu": {
+      "transport": "Transport",
+      "tours": "Tours",
+      "licenses": "Licenses",
+      "contacts": "Contacts"
+    },
+    "transportSubmenu": {
+      "7Seater": "7-seater",
+      "13Seater": "13-seater", 
+      "19Seater": "19-seater",
+      "47Seater": "47-seater"
+    },
+    "toursSubmenu": {
+      "11Day": "11-day",
+      "7Day": "7-day", 
+      "6Day": "6-day",
+      "5Day": "5-day",
+      "4Day": "4-day",
+      "3Day": "3-day"
+    },
+    "languageSelector": "Select Language",
+    "openMenu": "Open Menu",
+    "languages": {
+      "russian": "Russian",
+      "uzbek": "Uzbek", 
+      "english": "English",
+      "german": "German"
+    }
+  },
+  
+  "footer": {
+    "description": "We provide comfortable and safe passenger transportation throughout Uzbekistan.",
+    "contacts": "Contacts",
+    "address": "Tashkent, Chimganskaya St., 17",
+    "menu": "Menu",
+    "workingHours": "Working Hours",
+    "weekdays": "Mon-Sat: 8:00 - 20:00",
+    "support": "24/7 Support",
+    "socialMedia": "Social Media",
+    "home": "Home",
+    "buses": "Buses",
+    "microbuses": "Microbuses",
+    "cars": "Cars",
+    "tours": "Tours"
+  },
+  
+  "contactButton": {
+    "modalTitle": "Contact Us",
+    "modalDescription": "You can message us directly on Telegram or WhatsApp for a quick response."
+  },
+  
+  "busesPage": {
+    "title": "SUNWIN Bus (2017) — Comfort and Reliability for Your Trip",
+    "description1": "The design and technical specifications of the SUNWIN (2017) tour bus perfectly combine comfort, capacity, and reliability, ideal for long trips and sightseeing tours. This bus is suitable for both intercity routes and city travel.",
+    "description2": "The single-deck, two-door SUNWIN bus can carry up to 47 passengers. Spacious luggage compartments are located below, allowing storage of suitcases and large baggage. Above them is the cabin with soft fabric seats featuring high backs and ergonomic design. The seating configuration provides ample legroom, and individual reclining controls allow passengers to find the optimal position for relaxation during the trip.",
+    "specsTitle": "Technical Specifications:",
+    "specs": {
+      "capacity": "Capacity: 47 passenger seats, luggage compartment volume: approximately 9–10 m³",
+      "comfort": "Comfort: Soft fabric seats with adjustable backs, individual air conditioning and lighting system",
+      "equipment": "Equipment: Refrigerator, CD/DVD player, radio, LCD screens, toilet",
+      "safety": "Safety: ESP, ABS, EBS systems, fog lights, electrically heated mirrors",
+      "performance": "Performance: Pneumatic suspension, Euro IV engine, speed limit up to 100 km/h"
+    },
+    "images": {
+      "exterior": "Bus Exterior",
+      "interior": "Bus Interior"
+    },
+    "pricingTitle": "Rental Pricing",
+    "pricing": {
+      "routesTitle": "Routes (Intercity and City Service)",
+      "tourRoutesTitle": "Tourist Routes",
+      "busModel": "SUNWIN Bus",
+      "notesTitle": "Notes on Rates:",
+      "mountains1Day": "1-day Mountains – round trip Tashkent – Chimgan, Charvak, Beldersay, Chatkal – Tashkent",
+      "mountains2Days": "2-day Mountains – round trip Tashkent – Chimgan, Charvak, Beldersay, Chatkal – Tashkent",
+      "samarkand1Day": "1-day Samarkand – round trip Tashkent – Samarkand – Tashkent",
+      "additionalTitle": "Additional Conditions:",
+      "emptyRun": "Payment for empty run for routes starting or ending at:",
+      "bukharaFergana": "Bukhara or Fergana + 0.5 bus/day",
+      "urgenchTermez": "Urgench or Termez + 1 bus/day",
+      "minTariff": "Minimum tariff for short tours:",
+      "urgenchDays": "Urgench – 7 bus/day, Termez – 6 bus/day",
+      "bukharaDays": "Bukhara – 5 bus/day, Fergana – 4 bus/day",
+      "included": "Fuel, meals, and driver accommodation are included in the price.",
+      "table": {
+        "route": "Route",
+        "1dayIntercity": "1 day intercity",
+        "1dayCity": "1 day city",
+        "airportTransfer": "Airport Transfer",
+        "1hourMin3": "1 hour (min. 3 hours)",
+        "1dayMountains": "1 day Mountains",
+        "2daysMountains": "2 days Mountains", 
+        "1daySamarkand": "1 day Samarkand",
+        "2daysSamarkand": "2 days Samarkand"
+      }
+    },
+    "conclusion": "SUNWIN is the choice for those who value comfort, reliability, and convenience when traveling across Uzbekistan. Book in advance and travel with confidence.",
+    "bookBus": "Book Bus",
+    "viewMicrobuses": "View Microbuses"
+  },
+  "contactsPage": {
+    "title": "Contacts",
+    "phone": "Phone",
+    "address": "Address",
+    "onlineChannels": "Online Channels",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "support24": "24/7 Support",
+    "mapTitle": "Yandex Map - Company Location"
+  },
+  
+  "homePage": {
+    "heroTitle": "INDIVIDUAL AND GROUP PASSENGER TRANSPORTATION",
+    "heroSubtitle": "across Uzbekistan",
+    "busCard": {
+      "title": "Bus",
+      "subtitle": "up to 47 people",
+      "alt": "Bus Icon"
+    },
+    "microbusCard": {
+      "title": "Microbuses",
+      "subtitle": "up to 19 people",
+      "alt": "Microbus Icon"
+    },
+    "carCard": {
+      "title": "Cars",
+      "subtitle": "up to 4 people",
+      "alt": "Car Icon"
+    },
+    "features": {
+      "fast": {
+        "title": "Fast",
+        "description": "We value your time. Silk Road Transportation ensures prompt organization of trips across Uzbekistan — from booking to arrival at your destination. With us, you won’t lose a single minute."
+      },
+      "comfortable": {
+        "title": "Comfortable",
+        "description": "Your journey across Uzbekistan begins with comfort. Our modern microbuses and buses are equipped with everything needed for a comfortable trip. Silk Road Transportation makes every kilometer enjoyable."
+      },
+      "professional": {
+        "title": "Professional",
+        "description": "Our team consists of experienced drivers and specialists who know Uzbekistan like the back of their hand. With Silk Road Transportation, you entrust your journey to those who truly make trips safe and well-organized."
+      }
+    },
+    "checkPrice": "Check Price and Book",
+    "about": {
+      "title": "About Us",
+      "text1": "We are Silk Road Transportation, a reliable carrier with over 20 years of experience in passenger transportation across Uzbekistan. Our clients include delegations, businesspeople, tourists, and anyone who values comfort, safety, and punctuality.",
+      "text2": "All our vehicles are licensed, undergo regular maintenance, and are equipped with GPS/GLONASS systems for real-time route tracking. Passengers and vehicles are insured, and our fleet is regularly updated to meet modern quality and safety standards.",
+      "text3": "We accept all forms of payment, including credit cards.",
+      "footer": "Silk Road Transportation — your assurance on every trip across Uzbekistan.",
+      "imageAlt": "Our Fleet",
+      "cash": "Cash"
+    },
+    "services": {
+      "title": "Our Services",
+      "text1": "At Silk Road Transportation, we provide professional transport services across Uzbekistan. We organize passenger transportation for tourists, delegations, businesspeople, city transfers in Tashkent, trips to the mountains, as well as service for events, business meetings, offsite programs, etc.",
+      "text2": "Vehicles are not rented without a driver. When children travel outside Tashkent, police escort is arranged in accordance with the law.",
+      "listTitle": "Our services include:",
+      "listItems": [
+        "Individual and group transfers",
+        "Tours across Uzbekistan from 11 to 3 days",
+        "Event and conference support",
+        "Delegation and official meeting transportation",
+        "Trips outside the city, to mountain and resort areas",
+        "And much more"
+      ],
+      "text3": "To learn more and coordinate trip details, contact us.",
+      "viewTours": "View Tours",
+      "imageAlt": "Our Services"
+    }
+  },
+  
+  "licensesPage": {
+    "title": "Licenses and Certificates",
+    "description": "All licenses and certificates confirm our right to provide passenger transportation throughout Uzbekistan. We operate in strict accordance with the law and hold all required permits.",
+    "license1Alt": "License 1",
+    "license2Alt": "License 2",
+    "license3Alt": "License 3",
+    "license4Alt": "License 4"
+  },
+  
+  "microbusesPage": {
+    "featuresTitle": "Technical Specifications:",
+    "pricingTitle": "Rental Pricing",
+    "notesTitle": "Notes on Rates:",
+    "mountains1Day": "1-day Mountains – round trip Tashkent – Chimgan, Charvak, Beldersay, Chatkal – Tashkent",
+    "mountains2Days": "2-day Mountains – round trip Tashkent – Chimgan, Charvak, Beldersay, Chatkal – Tashkent",
+    "samarkand1Day": "1-day Samarkand – round trip Tashkent – Samarkand – Tashkent",
+    "additionalTitle": "Additional Conditions:",
+    "emptyRun": "Payment for empty run for routes starting or ending at:",
+    "bukharaFergana": "Bukhara or Fergana + 0.5 bus/day",
+    "urgenchTermez": "Urgench or Termez + 1 bus/day",
+    "minTariff": "Minimum tariff for short (non-standard) tours:",
+    "urgenchDays": "Urgench – 7 bus/day",
+    "termexDays": "Termez – 6 bus/day",
+    "bukharaDays": "Bukhara – 5 bus/day",
+    "ferganaDays": "Fergana – 4 bus/day",
+    "included": "Fuel, meals, and driver accommodation are included in the price.",
+    "pricing": {
+      "table": {
+        "1dayIntercity": "1 day intercity",
+        "1dayCity": "1 day city",
+        "airportTransfer": "Airport Transfer",
+        "1hourMin3": "1 hour (min. 3 hours)",
+        "1dayMountains": "1 day Mountains",
+        "2daysMountains": "2 days Mountains",
+        "1daySamarkand": "1 day Samarkand",
+        "2daysSamarkand": "2 days Samarkand"
+      }
+    },
+    "bookMicrobus": "Book Microbus",
+"19Seater": {
+  "title": "Eurise Microbus (2023)",
+  "description1": "The design and technical specifications of the Eurise (2023) tour microbus combine modern style, maneuverability, and a high level of comfort. This model is perfect for small tourist groups, corporate transfers, and VIP trips, providing comfortable transportation on both intercity routes and within the city.",
+  "description2": "The single-deck microbus accommodates 19 passengers. The cabin is equipped with soft ergonomic seats with adjustable backrests and sufficient legroom for a comfortable seating arrangement. The upholstery is made of durable eco-leather, easy to clean and long-lasting.",
+  "imageAlt": "Eurise Microbus",
+  "interiorAlt": "Eurise Interior",
+  "features": [
+    "Year of manufacture: 2023",
+    "Color: black",
+    "Passenger seats: 19",
+    "Luggage compartment volume: approx. 2–3 m³",
+    "LCD screen: ✔️",
+    "Multimedia system: ✔️",
+    "Air conditioning: ✔️",
+    "Heating: ✔️",
+    "USB chargers: ✔️",
+    "Guide microphone: ✔️"
+  ]
+},
+"13Seater": {
+  "title": "TOYOTA Hiace Microbus (2019)",
+  "description1": "The design and technical specifications of the TOYOTA Hiace (2019) microbus reflect the legendary quality and reliability of the Japanese manufacturer. This model is ideal for small tourist groups, corporate transfers, airport pickups, and VIP trips, providing a high level of comfort on any route.",
+  "description2": "The compact and maneuverable TOYOTA Hiace accommodates 13 passengers. The cabin features comfortable seats with an anatomical shape, adjustable backrests, and headrests. The upholstery is made of durable, pleasant-to-touch materials, easy to clean and wear-resistant.",
+  "imageAlt": "TOYOTA Hiace Microbus",
+  "features": [
+    "Year of manufacture: 2019",
+    "Color: white",
+    "Passenger seats: 13",
+    "Luggage compartment volume: approx. 1.5–2 m³",
+    "Multimedia system: ✔️",
+    "Air conditioning: ✔️",
+    "Heating: ✔️",
+    "USB and Bluetooth: ✔️"
+  ]
+},
+"7Seater": {
+  "title": "HYUNDAI H-1 Minivan (2023)",
+  "description1": "The design and technical specifications of the HYUNDAI H-1 (2023) minivan combine a modern appearance, maneuverability, and a high level of comfort, making it an excellent choice for VIP transfers, business trips, and individual tourist routes. The vehicle is equally suitable for city travel and intercity trips.",
+  "description2": "The passenger minivan HYUNDAI H-1 accommodates 7 seats, including the driver. The cabin is designed in a modern style with premium materials. Spacious seats with soft upholstery, adjustable backrests, headrests, and seat belts provide maximum comfort.",
+  "imageAlt": "HYUNDAI H-1 Minivan",
+  "interiorAlt": "HYUNDAI H-1 Interior",
+  "features": [
+    "Year of manufacture: 2023",
+    "Color: black",
+    "Passenger seats: 7",
+    "Luggage compartment volume: approx. 1 m³",
+    "Multimedia system: ✔",
+    "Air conditioning: ✔",
+    "Heating: ✔",
+    "USB and Bluetooth: ✔",
+    "Airbags: ✔"
+  ]
+},
+"grandStarex": {
+  "title": "GRAND Starex Minivan (2018)",
+  "description1": "The design and technical specifications of the GRAND Starex (2018) minivan combine compactness, maneuverability, and a high level of comfort, making it an ideal choice for VIP transfers, business trips, and individual tourist routes. The vehicle is perfect for both city travel and intercity trips.",
+  "description2": "The passenger minivan GRAND Starex accommodates 7 seats, including the driver. The cabin is designed in a modern ergonomic style with high-quality materials. Spacious seats with soft upholstery are equipped with adjustable backrests, headrests, and seat belts.",
+  "imageAlt": "GRAND Starex Minivan",
+  "features": [
+    "Year of manufacture: 2018",
+    "Color: silver",
+    "Passenger seats: 7",
+    "Luggage compartment volume: approx. 1 m³",
+    "Multimedia system: ✔",
+    "Air conditioning: ✔",
+    "Heating: ✔",
+    "USB and Bluetooth: ✔",
+    "Airbags: ✔"
+  ]
+    }
+  },
+"carsPage": {
+  "cobalt": {
+    "description1": "The design and technical specifications of the Chevrolet Cobalt sedan combine reliability, practicality, and comfort. This car is ideal for city trips, business transfers, and intercity routes.",
+    "description2": "The cabin accommodates 4 passengers and features a spacious layout with comfortable seats, headrests, and seat belts. For maximum comfort, it includes air conditioning, heating, and multimedia functions with USB and Bluetooth. Quality sound insulation ensures quietness inside, and the soft suspension provides smooth driving even on uneven roads.",
+    "description3": "The 0.56 m³ trunk allows storage of suitcases and travel bags, with additional compartments for small items inside the cabin. Panoramic windows provide a good view and a bright atmosphere inside.",
+    "description4": "Passenger safety is ensured by modern systems: ABS, airbags, Isofix mounts for child seats, and a stable braking system. The engine meets environmental standards and has low fuel consumption, making trips both comfortable and economical.",
+    "modelWithLuggage": "Chevrolet Cobalt (3 seats with luggage)",
+    "features": {
+      "year": "Year of manufacture: 2023",
+      "bodyType": "Body type: sedan",
+      "seats": "Passenger seats: 4",
+      "trunkVolume": "Trunk volume: 0.56 m³",
+      "ac": "Air conditioning: ✔️",
+      "heating": "Heating: ✔️",
+      "usbBluetooth": "USB and Bluetooth: ✔️",
+      "airbags": "Airbags: ✔️",
+      "abs": "ABS: ✔️"
+    }
+  },
+  "mercedes": {
+    "description1": "Mercedes-Benz S-Class W222 is the embodiment of elegance, comfort, and innovative technology. This business-class car is ideal for VIP transfers, business trips, airport meetings, and special events.",
+    "description2": "The cabin accommodates 4 passengers and is finished with premium materials: soft leather, natural wood, and aluminum. Ergonomic seats feature multi-directional adjustments, heating, ventilation, and individual armrests. Increased legroom ensures comfort even on long trips.",
+    "description3": "For maximum comfort, there is a multi-zone climate system, and the built-in multimedia with LCD screens, USB, and Bluetooth allows you to enjoy your ride. Additional LED interior lighting creates an atmosphere of privacy and relaxation.",
+    "description4": "The trunk, with a volume of 0.53 m³, can fit several medium-sized suitcases, making the car convenient for airport transfers and intercity trips.",
+    "description5": "Safety meets the highest standards: ABS, ESP, airbags, adaptive cruise control, lane-keeping assist, and blind spot sensors. The AirMATIC suspension ensures smooth driving and cabin quietness regardless of road conditions.",
+    "features": {
+      "year": "Year of manufacture: 2019",
+      "bodyType": "Body type: sedan (premium class)",
+      "seats": "Passenger seats: 4",
+      "trunkVolume": "Trunk volume: 0.53 m³",
+      "climateControl": "Air conditioning and climate control: ✔️",
+      "seatFeatures": "Seat heating and ventilation: ✔️",
+      "multimedia": "Multimedia system, USB, Bluetooth: ✔️",
+      "safetySystems": "ABS, ESP, airbags: ✔️",
+      "driverAssist": "Adaptive cruise control and driver assistants: ✔️"
+    }
+  },
+  "featuresTitle": "Technical specifications:",
+  "pricingTitle": "Rental cost",
+  "pricing": {
+    "table": {
+      "model": "Model",
+      "1dayIntercity": "1 day intercity",
+      "1dayCity": "1 day city",
+      "airportTransfer": "Airport transfer",
+      "1hourMin3": "1 hour (min. 3 hours)",
+      "1dayMountains": "1 day mountains",
+      "2daysMountains": "2 days mountains",
+      "1daySamarkand": "1 day Samarkand",
+      "2daysSamarkand": "2 days Samarkand"
+    }
+  },
+  "bookCar": "Book a passenger car"
+},
+"toursPage": {
+  "title": "Excursion Tours in Uzbekistan",
+  "subtitle": "Discover the ancient cities and rich culture of Uzbekistan",
+  "programTitle": "Tour Program",
+  "includedTitle": "The tour price includes:",
+  "currentPrice": "Check current price",
+  "tours": {
+    "11Day": {
+      "title": "The Great Journey Across Uzbekistan",
+      "duration": "11 days / 10 nights",
+      "route": "TASHKENT – KHIVA – BUKHARA – SAMARKAND – TASHKENT – FERGANA VALLEY – TASHKENT – CHIMGAN – CHARVAK – TASHKENT",
+      "program": "Day 1. Tashkent\n\nArrival at Tashkent airport, transfer and hotel check-in. Excursion: Kukeldash Madrasah, Kaffal Shashi Mausoleum, Barak-Khan Madrasah, Khast Imam Mosque. Lunch. Continuing the tour: History Museum, Applied Arts Museum. Dinner.\n\nDay 2. Tashkent – Urgench – Khiva\n\nBreakfast, transfer to the airport. Flight Tashkent – Urgench. Meeting the tourist group at Urgench airport, transfer to Khiva. Hotel check-in. Lunch. Excursion in Khiva: Muhammad-Amin-Khan Madrasah, Islam-Khodja Minaret, Palvan-Kari Complex, Avd Al Bobo Complex, Rafanekah Madrasah, Muhammad Rakhim Khan Madrasah, Amir Tur Madrasah. Dinner.\n\nDay 3. Khiva – Bukhara\n\nBreakfast. Transfer to Bukhara, lunch on the way. Arrival and hotel check-in. Dinner.\n\nDay 4. Bukhara\n\nBreakfast. Excursion: Ismail Samani Mausoleum, Chashma-Ayub Mausoleum, Poi-Kalyan Ensemble with the namesake minaret, Miri-Arab Madrasah, Amir-Alim-Khan Madrasah, Kukeldash Madrasah, Lyabi-Hauz Ensemble, Nodir Divan-Begi Madrasah, Abdul-Aziz Madrasah. Lunch. Continuing the tour: Registan Square, Ark Fortress, Bolo-Hauz Complex. Hotel check-in. Dinner.\n\nDay 5. Bukhara\n\nBreakfast. Continuing the excursion: Chor-Minor, Chashma-Ayub, Chor-Bakr Necropolis. Lunch. In the evening – dinner and folk show at Nodir Divan-Begi Madrasah.\n\nDay 6. Bukhara – Shakhrisabz – Samarkand\n\nBreakfast. Transfer to Shakhrisabz. Excursion: Kok-Gumbaz Mosque, Ak-Saray Palace, Jahangir Mausoleum, Timur’s Tomb. Lunch. Transfer to Samarkand. Hotel check-in.\n\nDay 7. Samarkand\n\nBreakfast. Excursion: Gur-Emir Mausoleum, Registan Ensemble, Eastern Bazaar. Lunch. Excursion: Ulugh Beg Observatory, archaeological excavations of ancient Afrosiab, Shahi-Zinda Necropolis. Hotel check-in. Dinner at a national house.\n\nDay 8. Samarkand – Tashkent\n\nBreakfast. Transfer to Tashkent. Lunch on the way. Arrival and hotel check-in, free time. Dinner. Visit to Alisher Navoi Opera and Ballet Theater.\n\nDay 9. Tashkent – Kokand – Fergana\n\nBreakfast. Transfer to Kokand. Excursion: Dakhma-i-Shahon Mausoleum, Khudoyar-Khan Palace, Jami Mosque. Lunch. Transfer to Fergana. Hotel check-in. Dinner.\n\nDay 10. Fergana – Margilan – Tashkent\n\nBreakfast. Transfer to Margilan. Excursion: Atlas Silk Factory. Transfer to Tashkent. Lunch on the way. Arrival and hotel check-in. Dinner.\n\nDay 11. Tashkent – Chimgan – Charvak – Tashkent\n\nBreakfast. Trip to Chimgan. Cable car ride. Transfer to Charvak Reservoir with stops at viewpoints. Lunch at Bochkakh. Return to Tashkent. Free time. Farewell dinner in a private house with a national folk show.\n\nTransfer to airport. Departure.",
+      "included": "Accommodation\n• Tashkent – Dedeman\n• Khiva – Asia Khiva\n• Bukhara – Asia Bukhara\n• Samarkand – Malika\n• Fergana – Asia Fergana\n\nTour price includes\n• Hotel accommodation (double room, standard)\n• Meals (breakfast or full board – choice available)\n• 1 bottle of mineral water per person per day\n• Flight Tashkent – Urgench (economy class)\n• Transportation along the route (minibus/bus “Istana”), transfer to passenger cars when crossing Kamchik Pass\n• All excursions according to the program with an English-speaking guide\n• Entrance tickets along the route"
+    },
+    "7Day": {
+        "title": "Uzbekistan Classics",
+        "duration": "7 days / 6 nights",
+        "route": "TASHKENT – SAMARKAND – SHAKHRISABZ – BUKHARA – TASHKENT (CHIMGAN, CHARVAK)",
+        "program": "Day 1. Tashkent\n\nArrival at the airport. Transfer and check-in at the hotel. Morning tour: Kukeldash Madrasa, Kaffal Shashi Mausoleum, Barak-Khan Madrasa, Hast Imam Mosque. Lunch. Continuation of the city tour. Return and overnight at the hotel.\n\nDay 2. Tashkent – Samarkand\n\nEarly transfer to Samarkand. Upon arrival — check-in at the hotel. Tour: Gur-Emir Mausoleum, Registan Ensemble, Oriental Bazaar. Lunch. Tour: Ulugbek Observatory, archaeological excavations of ancient Afrosiab, Shakhi-Zinda Necropolis. Overnight at the hotel.\n\nDay 3. Samarkand – Shakhrisabz – Samarkand\n\nTransfer to Shakhrisabz. Tour: Kok-Gumbaz Mosque, Ak-Saray Palace, Jahangir Mausoleum, Timur's Tomb. Lunch. Return to Samarkand, overnight at the hotel.\n\nDay 4. Samarkand – Bukhara\n\nBreakfast. Transfer to Bukhara. Upon arrival — check-in at the hotel.\n\nDay 5. Bukhara\n\nBreakfast. Tour: Ismail Samani Mausoleum, Chashma-Ayub Mausoleum, Poi-Kalyan Ensemble with the eponymous minaret, Mir-i-Arab Madrasa, Amir-Alim-Khan Madrasa, Kukeldash Madrasa, Lyabi-Hauz Ensemble, Nadir Divan-Begi Madrasa, Abdul-Aziz Madrasa. Lunch. Continuation of the tour: Ark Fortress, Registan Square, Bolo-Hauz Complex. Overnight at the hotel.\n\nDay 6. Bukhara – Tashkent\n\nBreakfast. Transfer to Tashkent. Upon arrival — check-in at the hotel.\n\nDay 7. Tashkent – Chimgan – Charvak – Tashkent\n\nBreakfast. Trip to the Chimgan and Beldersay mountains. Visit to Charvak Reservoir. Lunch. Return to Tashkent. Transfer to the airport.",
+        "included": "Included:\n• Accommodation in hotels (single/double occupancy, standard)\n• Breakfasts at hotels\n• Bus transportation along the entire route\n• Guided excursions according to the program, entrance tickets\n\nNot included:\n• Use of photo and video cameras\n• Lunches and dinners (full board)"
+    },
+    "6Day": {
+  "title": "Ancient Cities of the Silk Road",
+  "duration": "6 days / 5 nights",
+  "route": "TASHKENT – BUKHARA – KHIVA – SAMARKAND – TASHKENT",
+  "program": "Day 1. Tashkent – Bukhara\n\n08:00 – Departure to Bukhara. Upon arrival – hotel check-in. Free time.\n\nDay 2. Bukhara\n\nBreakfast. Tour of Bukhara: Ismail Samani Mausoleum (9th–10th c.), Chashma-Ayub Mausoleum (14th c.), Poi-Kalyan Ensemble (12th c.), Miri-Arab Madrasa (16th c.), Amir-Alim-Khan Madrasa (14th c.), Kukeldash Madrasa (16th c.), Lyabi-Hauz (17th c.), Nodir Divan-Begi Madrasa (17th c.), Abdulaziz Madrasa (17th c.). Lunch. Continuation of the tour: Registan Square, Ark Fortress (16th c.), Bolo-Hauz Complex (18th c.). Return to hotel.\n\nDay 3. Bukhara – Khiva\n\nBreakfast. Transfer to Khiva. Upon arrival – hotel check-in.\n\nDay 4. Khiva\n\nBreakfast. Tour: Muhammad-Amin-Khan Madrasa (19th c.), Islam-Khodja Minaret, Palvan-Kari and Avd-Al-Bobo Complexes (18th c.), Rafaneka Madrasa, Muhammad-Rahim-Khan Madrasa (19th c.), Amir Timur Madrasa. After lunch: Pahlavan Mahmud Mausoleum, Mazari Sharif Madrasa, old city Kunia-Ark with Kurinish-Khan Palace (17th c.). Return to hotel.\n\nDay 5. Khiva – Samarkand\n\nBreakfast. Transfer to Samarkand. Upon arrival – hotel check-in.\n\nDay 6. Samarkand – Tashkent\n\nBreakfast. Tour of Samarkand: Gur-Emir Mausoleum (15th–18th c.), Registan Ensemble (15th–17th c.), Eastern Bazaar. After lunch: Ulugh Beg Observatory (15th c.), archaeological excavations of ancient Afrosiab (6th–13th c.), Shahi-Zinda Necropolis (14th–15th c.). Transfer to Tashkent. Upon arrival – end of program.",
+  "included": "Tour price includes:\n• Accommodation: double/triple standard rooms\n• Bukhara – Komil Hotel\n• Khiva – Orient Star Hotel\n• Samarkand – Malika Prime Hotel\n• Meals: breakfasts at hotels\n• Transport: Istana minibus (8 seats + luggage, air conditioning) along the entire route\n• Excursions: guide services, entrance fees as per program\n\nNot included:\n• Use of photo and video cameras at sites\n• Lunches and dinners"
+    },
+    "5Day": {
+      "title": "Oases and Pearls of the East",
+      "duration": "5 days / 4 nights",
+      "route": "TASHKENT – SAMARKAND – SHAHRISABZ – BUKHARA – NURATA – TASHKENT",
+      "program": "Day 1. Tashkent – Samarkand\n\n07:00 – Transfer to Samarkand. Upon arrival – hotel check-in. Tour: Gur-Emir Mausoleum (15th–18th c.), Registan Ensemble (15th–17th c.), Eastern Bazaar. After lunch: Ulugh Beg Observatory (15th c.), Afrosiab Archaeological Complex (6th–13th c.), Shahi-Zinda Necropolis (14th–15th c.). Return to hotel.\n\nDay 2. Samarkand – Shahrisabz – Bukhara\n\nBreakfast. Transfer to Shahrisabz. Tour: Kok-Gumbaz Mosque (15th c.), Ak-Saray Palace (14th–15th c.), Dorus-Siadat Complex (14th c.), Jahangir Mausoleum, Timur's Tomb (15th c.). Lunch. Transfer to Bukhara. Upon arrival – hotel check-in.\n\nDay 3. Bukhara\n\nBreakfast. Tour: Ismail Samani Mausoleum (9th–10th c.), Chashma-Ayub Mausoleum (14th c.), Poi-Kalyan Ensemble (12th c.), Miri-Arab Madrasa (16th c.), Amir-Alim-Khan Madrasa (14th c.), Kukeldash Madrasa (16th c.), Lyabi-Hauz (17th c.), Nodir-Divan-Begi Madrasa (17th c.), Abdulaziz Madrasa (17th c.). Lunch. Continuation: Registan Square, Ark Fortress (16th c.), Bolo-Hauz Complex (18th c.). Return to hotel.\n\nDay 4. Bukhara – Nurata\n\nBreakfast. Transfer to Nurata. City tour. Lunch. Transfer to yurt camp. Accommodation in yurts. Dinner with traditional Kazakh folklore (akyn) by the campfire.\n\nDay 5. Nurata – Tashkent\n\nBreakfast. Camel riding, picnic by Aydarkul Lake. Transfer to Tashkent.",
+      "included": "Tour price includes:\n• Accommodation: single/double standard rooms and yurts\n• Meals: breakfasts at hotels, meals at yurt camp as per program\n• Transport: Istana or Grand Starex minibus, Nexia GLE car along the entire route\n• Excursions: guide services at all sites\n• Entrance fees: according to program\n• Train tickets: Bukhara – Tashkent (first class)\n\nNot included:\n• Use of photo and video cameras at sites\n• Lunches and dinners, except those mentioned in program"
+    },
+    "4Day": {
+      "title": "Samarkand and Bukhara in 4 Days",
+      "duration": "4 days / 3 nights",
+      "route": "TASHKENT – SAMARKAND – SHAHRISABZ – BUKHARA – TASHKENT",
+      "program": "Day 1. Tashkent – Samarkand\n\n07:00 – Transfer to Samarkand. Arrival and hotel check-in. Sightseeing: Gur-Emir Mausoleum (15th–18th centuries), Registan Square (15th–17th centuries), Oriental Bazaar. After lunch: Ulugh Beg Observatory (15th century), archaeological excavations of ancient Afrosiab (6th–13th centuries), Shah-i-Zinda Necropolis (14th–15th centuries). Return to hotel.\n\nDay 2. Samarkand – Shahrisabz – Bukhara\n\nMorning – Departure to Shahrisabz. Upon arrival: Kok-Gumbaz Mosque (15th century), Ak-Saray Palace (14th–15th centuries), Dorus-Saodat and Jahangir Mausoleum (14th century), Timur’s Mausoleum (15th century). After lunch – Transfer to Bukhara. Hotel check-in.\n\nDay 3. Bukhara\n\nBreakfast. Sightseeing: Ismail Samani Mausoleum (9th–10th centuries), Chashma-Ayub Mausoleum (14th century), Poi-Kalyan Ensemble with Minaret (12th century), Mir-i-Arab Madrasa (16th century), Amir-Alimkhan Madrasa (14th century), Kukeldash Madrasa (16th century), Lyabi-Hauz and Nadir Divan-Begi Madrasa (17th century), Abdul-Aziz-Khan Madrasa (17th century). After lunch – Continued sightseeing: Ark Fortress (16th century), Registan Square, Bolo-Hauz Complex (18th century). Return to hotel.\n\nDay 4. Bukhara – Tashkent\n\nBreakfast. Transfer to Tashkent.",
+      "included": "Included:\n• Hotel accommodation\n• Transportation services\n• Guided excursions\n• Entrance tickets"
+    },
+    "3Day": {
+      "title": "Express Tour: Samarkand and Bukhara",
+      "duration": "3 days / 2 nights",
+      "route": "TASHKENT – SAMARKAND – BUKHARA – TASHKENT",
+      "program": "Day 1. Tashkent – Samarkand\n\n07:00 – Transfer to Samarkand. Upon arrival – hotel check-in. Sightseeing in Samarkand: Gur-Emir Mausoleum (15th–18th centuries), Registan Complex (15th–17th centuries), Oriental Bazaar. After lunch: Ulugh Beg Observatory (15th century), archaeological excavations of ancient Afrosiab (6th–13th centuries), Shah-i-Zinda Necropolis (14th–15th centuries). Return to hotel.\n\nDay 2. Samarkand – Bukhara\n\nBreakfast. Transfer to Bukhara. Upon arrival – hotel check-in. Sightseeing in Bukhara: Ismail Samani Mausoleum (9th–10th centuries) – burial of Bukhara rulers, Chor Minor (19th century), Chashma-Ayub Mausoleum (14th century), Emir’s summer residence Sitorai Mokhi-Khosa. Hotel check-in.\n\nDay 3. Bukhara – Tashkent\n\nBreakfast. Continued sightseeing in Bukhara: Poi-Kalyan Ensemble, including Minaret (12th century) and Mosque (15th century), Mir-i-Arab Madrasa (16th century), Amir-Alimkhan Madrasa (14th century), Tagi trading domes, Kukeldash Madrasa (16th century), Lyabi-Hauz (17th century). After lunch: Nadir Divan-Begi Madrasa (17th century), Maghoki Attori (16th century), Ulugh Beg Madrasa (15th century), Abdul-Aziz Madrasa (17th century), Chor Minor Mausoleum (19th century). Transfer to Bukhara railway station. Departure by high-speed train to Tashkent.",
+      "included": "Included:\n• Hotel accommodation\n• Transportation services\n• Guided excursions\n• Entrance tickets"
+    }
+      }
+    }
+}
+
+
+
+
+
+
+

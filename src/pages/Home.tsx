@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './Home.css';
 import ContactButton from '../components/ContactButton';
 
@@ -13,6 +14,7 @@ import msLogo from '/ms.svg';
 import cashLogo from '/cash.svg';
 
 const Home: React.FC = () => {
+  const { t } = useTranslation();
   const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
   
   const aboutSectionRef = useRef<HTMLDivElement>(null);
@@ -76,36 +78,38 @@ const Home: React.FC = () => {
 
   const firstRowOptions = [
     {
-      title: "Автобус",
-      subtitle: "до 47 человек",
+      title: t('homePage.busCard.title'),
+      subtitle: t('homePage.busCard.subtitle'),
       path: "/buses",
       icon: busIcon,
-      alt: "Иконка автобуса"
+      alt: t('homePage.busCard.alt')
     },
     {
-      title: "Микроавтобусы",
-      subtitle: "до 19 человек",
+      title: t('homePage.microbusCard.title'),
+      subtitle: t('homePage.microbusCard.subtitle'),
       path: "/microbuses",
       icon: microIcon,
-      alt: "Иконка микроавтобуса"
+      alt: t('homePage.microbusCard.alt')
     }
   ];
 
   const secondRowOption = {
-    title: "Легковые",
-    subtitle: "до 4 человек",
+    title: t('homePage.carCard.title'),
+    subtitle: t('homePage.carCard.subtitle'),
     path: "/cars",
     icon: carIcon,
-    alt: "Иконка легкового автомобиля"
+    alt: t('homePage.carCard.alt')
   };
+
+  const servicesListItems = t('homePage.services.listItems', { returnObjects: true }) as string[];
 
   return (
     <div className="home-page">
       <section className="hero-banner">
         <div className="hero-banner__overlay" />
         <div className="hero-banner__content">
-          <h1>ПАССАЖИРСКИЕ ИНДИВИДУАЛЬНЫЕ И ГРУППОВЫЕ ПЕРЕВОЗКИ</h1>
-          <p>по Узбекистану</p>
+          <h1>{t('homePage.heroTitle')}</h1>
+          <p>{t('homePage.heroSubtitle')}</p>
         </div>
       </section>
 
@@ -173,11 +177,9 @@ const Home: React.FC = () => {
                   <path d="M3.34 19a10 10 0 1 1 17.32 0"/>
                 </svg>
               </div>
-              <h3>Быстро</h3>
+              <h3>{t('homePage.features.fast.title')}</h3>
             </div>
-            <p>
-              Мы ценим ваше время. Silk Road Transportation гарантирует оперативную организацию поездок по всему Узбекистану — от бронирования до прибытия в пункт назначения. С нами вы не теряете ни минуты.
-            </p>
+            <p>{t('homePage.features.fast.description')}</p>
           </div>
           
           <div className="info-block">
@@ -189,11 +191,9 @@ const Home: React.FC = () => {
                   <path d="M3 18h18"/>
                 </svg>
               </div>
-              <h3>Комфортно</h3>
+              <h3>{t('homePage.features.comfortable.title')}</h3>
             </div>
-            <p>
-              Ваше путешествие по Узбекистану начинается с удобства. Наши современные микроавтобусы и автобусы оснащены всем необходимым для комфортной поездки. Silk Road Transportation — когда каждый километр в радость.
-            </p>
+            <p>{t('homePage.features.comfortable.description')}</p>
           </div>
           
           <div className="info-block">
@@ -205,46 +205,44 @@ const Home: React.FC = () => {
                   <circle cx="10" cy="8" r="5"/>
                 </svg>
               </div>
-              <h3>Профессионально</h3>
+              <h3>{t('homePage.features.professional.title')}</h3>
             </div>
-            <p>
-              Наша команда — это опытные водители и специалисты, которые знают Узбекистан как свои пять пальцев. В Silk Road Transportation вы доверяете дорогу тем, кто действительно умеет делать поездки безопасными и организованными.
-            </p>
+            <p>{t('homePage.features.professional.description')}</p>
           </div>
         </div>
       </section>
 
       <div className="contact-button-container">
         <ContactButton showModal={true}>
-          Узнать цену и записаться
+          {t('homePage.checkPrice')}
         </ContactButton>
       </div>
 
       <section className="about-section" ref={aboutSectionRef}>
         <div className="about-container">
           <div className={`about-image ${isAboutVisible ? 'visible' : ''}`}>
-            <img src={onasImage} alt="Наш автопарк" />
+            <img src={onasImage} alt={t('homePage.about.imageAlt')} />
           </div>
           <div className="about-content">
-            <h2 className={`about-title ${isAboutVisible ? 'visible' : ''}`}>О нас</h2>
+            <h2 className={`about-title ${isAboutVisible ? 'visible' : ''}`}>{t('homePage.about.title')}</h2>
             <p className={`about-text ${isAboutVisible ? 'visible' : ''}`}>
-              Мы — Silk Road Transportation, надёжный перевозчик с более чем 20-летним опытом в сфере пассажирских перевозок по всему Узбекистану. Нашими клиентами становятся делегации, бизнесмены, туристы и все, кто ценит комфорт, безопасность и пунктуальность.
+              {t('homePage.about.text1')}
             </p>
             <p className={`about-text ${isAboutVisible ? 'visible' : ''}`}>
-              Все наши транспортные средства лицензированы, проходят регулярное техническое обслуживание и оснащены системами GPS/GLONASS для отслеживания маршрута в реальном времени. Пассажиры и транспорт застрахованы, а парк регулярно обновляется в соответствии с современными стандартами качества и безопасности.
+              {t('homePage.about.text2')}
             </p>
             <p className={`about-text ${isAboutVisible ? 'visible' : ''}`}>
-              Мы принимаем любые формы оплата, включая пластиковые карты.
+              {t('homePage.about.text3')}
             </p>
             
             <div className={`brands-container ${isAboutVisible ? 'visible' : ''}`}>
               <img src={visaLogo} alt="Visa" className="brand-logo" />
               <img src={msLogo} alt="Mastercard" className="brand-logo" />
-              <img src={cashLogo} alt="Наличные" className="brand-logo" />
+              <img src={cashLogo} alt={t('homePage.about.cash')} className="brand-logo" />
             </div>
             
             <p className={`about-footer ${isAboutVisible ? 'visible' : ''}`}>
-              Silk Road Transportation — это ваша уверенность в каждой поездке по Узбекистану.
+              {t('homePage.about.footer')}
             </p>
           </div>
         </div>
@@ -253,42 +251,36 @@ const Home: React.FC = () => {
       <section className="services-section" ref={servicesSectionRef}>
         <div className="services-container">
           <div className="services-content">
-            <h2 className={`services-title ${isServicesVisible ? 'visible' : ''}`}>Наши услуги</h2>
+            <h2 className={`services-title ${isServicesVisible ? 'visible' : ''}`}>{t('homePage.services.title')}</h2>
             <p className={`services-text ${isServicesVisible ? 'visible' : ''}`}>
-              Мы в Silk Road Transportation предоставляем профессиональные транспортные услуги по всему Узбекистану. 
-              Организуем пассажирские перевозки туристов, делегаций, бизнесменов, трансферы по Ташкенту, поездки в горы, 
-              а также обслуживание мероприятий, деловых встреч, выездных программ и т.д.
+              {t('homePage.services.text1')}
             </p>
             <p className={`services-text ${isServicesVisible ? 'visible' : ''}`}>
-              Автомобили не сдаются в аренду без водителя. При поездках детей за пределы Ташкента обязательно 
-              организуется сопровождение ГАИ в соответствии с законом.
+              {t('homePage.services.text2')}
             </p>
             
             <div className={`services-list ${isServicesVisible ? 'visible' : ''}`}>
-              <h3>Наши услуги включают:</h3>
-              <ul>
-                <li>Индивидуальные и групповые трансферы</li>
-                <li>Туры по Узбекистану от 11 до 3 дней</li>
-                <li>Обслуживание мероприятий и конференций</li>
-                <li>Перевозки делегаций и официальных встреч</li>
-                <li>Выезды за город, в горные и курортные зоны</li>
-                <li>И многое другое</li>
-              </ul>
+              <h3>{t('homePage.services.listTitle')}</h3>
+                <ul>
+                  {servicesListItems.map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                  ))}
+                </ul>
             </div>
             
             <p className={`services-text ${isServicesVisible ? 'visible' : ''}`}>
-              Чтобы узнать подробности и согласовать детали поездки — свяжитесь с нами.
+              {t('homePage.services.text3')}
             </p>
 
             <div className={`services-button ${isServicesVisible ? 'visible' : ''}`}>
               <Link to="/tours" className="tours-promo-button">
-                Ознакомиться с турам
+                {t('homePage.services.viewTours')}
               </Link>
             </div>
           </div>
           
           <div className={`services-image ${isServicesVisible ? 'visible' : ''}`}>
-            <img src={uslugiImage} alt="Наши услуги" />
+            <img src={uslugiImage} alt={t('homePage.services.imageAlt')} />
           </div>
         </div>
       </section>

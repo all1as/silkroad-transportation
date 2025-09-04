@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Contacts.css';
 
 import tgIcon from '/tg.png';
 import waIcon from '/wa.png';
 
 const Contacts = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="contacts-page">
       <div className="contacts-container">
@@ -14,28 +17,28 @@ const Contacts = () => {
             width="100%" 
             height="100%" 
             frameBorder="0"
-            title="Яндекс Карта - Расположение компании"
+            title={t('contactsPage.mapTitle')}
           ></iframe>
         </div>
 
         <div className="contact-info">
-          <h1>Контакты</h1>
+          <h1>{t('contactsPage.title')}</h1>
           
           <div className="contact-details">
             <div className="contact-item">
-              <h3>Телефон</h3>
+              <h3>{t('contactsPage.phone')}</h3>
               <a href="tel:+998981285667" className="phone-link">
-                +998 98 128 56 67
+                {t('common.phoneNumber')}
               </a>
             </div>
 
             <div className="contact-item">
-              <h3>Адрес</h3>
-              <p>Ташкент, ул. Чимкентская, 17</p>
+              <h3>{t('contactsPage.address')}</h3>
+              <p>{t('footer.address')}</p>
             </div>
 
             <div className="contact-item">
-              <h3>Онлайн-каналы</h3>
+              <h3>{t('contactsPage.onlineChannels')}</h3>
               <div className="social-links">
                 <a 
                   href="https://t.me/AlekseySRTU" 
@@ -44,7 +47,7 @@ const Contacts = () => {
                   className="social-link"
                 >
                   <img src={tgIcon} alt="Telegram" />
-                  <span>Telegram</span>
+                  <span>{t('contactsPage.telegram')}</span>
                 </a>
                 <a 
                   href="https://wa.me/998981285667" 
@@ -53,13 +56,13 @@ const Contacts = () => {
                   className="social-link"
                 >
                   <img src={waIcon} alt="WhatsApp" />
-                  <span>WhatsApp</span>
+                  <span>{t('contactsPage.whatsapp')}</span>
                 </a>
               </div>
             </div>
 
             <div className="contact-item">
-              <p>Круглосуточная связь</p>
+              <p>{t('contactsPage.support24')}</p>
             </div>
           </div>
         </div>

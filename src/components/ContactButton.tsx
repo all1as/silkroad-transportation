@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './ContactButton.css';
 import tg from '/tg.png';
 import wa from '/wa.png';
@@ -27,6 +28,7 @@ const ContactButton = ({
   showModal = false,
   fullWidth = false 
 }: ContactButtonProps) => {
+  const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const baseClasses = `contact-button ${variant} ${size} ${className} ${fullWidth ? 'full-width' : ''}`;
   
@@ -46,12 +48,12 @@ const ContactButton = ({
     <div className="button-content-wrapper">
       {children || (
         <>
-          <span className="button-text">Вы можете напрямую написать нам в Telegram или WhatsApp и получить быстрый ответ</span>
+          <span className="button-text">{t('common.quickResponse')}</span>
           <div className="contact-icons">
             <img src={tg} alt="Telegram" className="contact-icon" />
             <img src={wa} alt="WhatsApp" className="contact-icon" />
           </div>
-          <span className="phone-number">+998 98 128-56-67</span>
+          <span className="phone-number">{t('common.phoneNumber')}</span>
         </>
       )}
     </div>
@@ -79,13 +81,13 @@ const ContactButton = ({
             <button 
               className="contact-modal-close" 
               onClick={() => setIsModalOpen(false)}
-              aria-label="Закрыть"
+              aria-label={t('common.close')}
             >
               &times;
             </button>
-            <h3 className="modal-title">Связь с нами</h3>
+            <h3 className="modal-title">{t('contactButton.modalTitle')}</h3>
             <p className="modal-description">
-              Вы можете напрямую написать нам в Telegram или WhatsApp и получить быстрый ответ.
+              {t('contactButton.modalDescription')}
             </p>
             <div className="contact-icons-modal">
               <a href="https://t.me/AlekseySRTU" target="_blank" rel="noopener noreferrer">
@@ -96,7 +98,7 @@ const ContactButton = ({
               </a>
             </div>
             <a href="tel:+998981285667" className="contact-modal-phone">
-              +998 98 128-56-67
+              {t('common.phoneNumber')}
             </a>
           </div>
         </div>

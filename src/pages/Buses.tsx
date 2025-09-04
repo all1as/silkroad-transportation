@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ContactButton from '../components/ContactButton';
 import './Buses.css';
 import busWopen from '/buswopen.jpg';
 import busSalon from '/bussalon.jpg';
 
 const Buses = () => {
+  const { t } = useTranslation();
   const [showImageModal, setShowImageModal] = useState(false);
   const [currentImage, setCurrentImage] = useState(busWopen);
 
   const images = [
-    { src: busWopen, alt: 'Внешний вид автобуса', label: 'Внешний вид' },
-    { src: busSalon, alt: 'Салон автобуса', label: 'Салон' }
+    { src: busWopen, alt: t('busesPage.images.exterior'), label: t('busesPage.images.exterior') },
+    { src: busSalon, alt: t('busesPage.images.interior'), label: t('busesPage.images.interior') }
   ];
 
   const openImageModal = () => {
@@ -30,7 +32,7 @@ const Buses = () => {
       <section className="bus-hero">
         <div className="bus-hero-image" onClick={openImageModal}>
           <img src={currentImage} alt="Автобус SUNWIN" />
-          <div className="image-overlay">Нажмите для просмотра вариантов</div>
+          <div className="image-overlay">{t('common.viewOptions')}</div>
         </div>
       </section>
 
@@ -56,57 +58,48 @@ const Buses = () => {
             </div>
             
             <div className="selected-image-container">
-              <img src={currentImage} alt="Выбранное изображение" className="main-selected-image" />
+              <img src={currentImage} alt={t('common.selectedImage')} className="main-selected-image" />
             </div>
           </div>
         </div>
       )}
 
       <section className="bus-content">
-        <h1>Автобус SUNWIN (2017 г.в.) — комфорт и надёжность для вашей поездки</h1>
+        <h1>{t('busesPage.title')}</h1>
         
-        <p>
-          Дизайн и технические характеристики туристического автобуса SUNWIN (2017 г. в.) гармонично сочетают в себе комфорт, 
-          вместительность и надёжность, необходимые для дальних поездок и экскурсионных туров. Этот автобус идеально подходит 
-          как для междугородних маршрутов, так и для поездок внутри города.
-        </p>
+        <p>{t('busesPage.description1')}</p>
 
-        <p>
-          Одноэтажный двухдверный автобус SUNWIN рассчитан на перевозку до 47 пассажиров. В нижней части расположены просторные 
-          багажные отсеки, позволяющие разместить чемоданы и крупногабаритный багаж. Над ними — салон с мягкими тканевыми креслами 
-          с высокими спинками и удобной эргономичной формой. Конфигурация сидений обеспечивает достаточно пространства для ног, 
-          а индивидуальные регуляторы наклона позволяют выбрать оптимальное положение для отдыха в дороге.
-        </p>
+        <p>{t('busesPage.description2')}</p>
 
-        <h2>Технические характеристики:</h2>
+        <h2>{t('busesPage.specsTitle')}</h2>
 
         <div className="specs-text">
-          <p><strong>Вместимость:</strong> 47 пассажирских мест, объём багажного отсека: около 9–10 м³</p>
-          <p><strong>Комфорт:</strong> Мягкие тканевые кресла с регулируемыми спинками, индивидуальная система кондиционирования и освещения</p>
-          <p><strong>Оснащение:</strong> Холодильник, CD/DVD-плеер, радио, LCD-экраны, туалет</p>
-          <p><strong>Безопасность:</strong> Системы ESP, ABS, EBS, противотуманные фары, зеркала с электроподогревом</p>
-          <p><strong>Ходовые качества:</strong> Пневматическая подвеска, двигатель Euro IV, ограничение скорости до 100 км/ч</p>
+          <p><strong>{t('busesPage.specs.capacity')}</strong></p>
+          <p><strong>{t('busesPage.specs.comfort')}</strong></p>
+          <p><strong>{t('busesPage.specs.equipment')}</strong></p>
+          <p><strong>{t('busesPage.specs.safety')}</strong></p>
+          <p><strong>{t('busesPage.specs.performance')}</strong></p>
         </div>
 
         <div className="pricing-section">
-          <h2>Стоимость аренды</h2>
+          <h2>{t('busesPage.pricingTitle')}</h2>
           
           <div className="pricing-table">
-            <h3>Маршруты (междугороднее и городское обслуживание)</h3>
+            <h3>{t('busesPage.pricing.routesTitle')}</h3>
             <div className="table-container">
               <table>
                 <thead>
                   <tr>
-                    <th>Маршрут</th>
-                    <th>1 день межгород</th>
-                    <th>1 день город</th>
-                    <th>Трансфер аэропорт</th>
-                    <th>1 час (мин. 3 часа)</th>
+                    <th>{t('busesPage.pricing.table.route')}</th>
+                    <th>{t('busesPage.pricing.table.1dayIntercity')}</th>
+                    <th>{t('busesPage.pricing.table.1dayCity')}</th>
+                    <th>{t('busesPage.pricing.table.airportTransfer')}</th>
+                    <th>{t('busesPage.pricing.table.1hourMin3')}</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Автобус SUNWIN</td>
+                    <td>{t('busesPage.pricing.busModel')}</td>
                     <td>250$</td>
                     <td>170$</td>
                     <td>60$</td>
@@ -116,21 +109,21 @@ const Buses = () => {
               </table>
             </div>
 
-            <h3>Туристические маршруты</h3>
+            <h3>{t('busesPage.pricing.tourRoutesTitle')}</h3>
             <div className="table-container">
               <table>
                 <thead>
                   <tr>
-                    <th>Маршрут</th>
-                    <th>1 день горы</th>
-                    <th>2 дня горы</th>
-                    <th>1 день Самарканд</th>
-                    <th>2 дня Самарканд</th>
+                    <th>{t('busesPage.pricing.table.route')}</th>
+                    <th>{t('busesPage.pricing.table.1dayMountains')}</th>
+                    <th>{t('busesPage.pricing.table.2daysMountains')}</th>
+                    <th>{t('busesPage.pricing.table.1daySamarkand')}</th>
+                    <th>{t('busesPage.pricing.table.2daysSamarkand')}</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Автобус SUNWIN</td>
+                    <td>{t('busesPage.pricing.busModel')}</td>
                     <td>250$</td>
                     <td>400$</td>
                     <td>700$</td>
@@ -142,36 +135,36 @@ const Buses = () => {
           </div>
 
           <div className="pricing-notes">
-            <h4>Примечания к тарифам:</h4>
+            <h4>{t('busesPage.pricing.notesTitle')}</h4>
             <ul>
-              <li><strong>1 день горы</strong> - однодневная поездка г.Ташкент – Чимган, Чарвак, Бельдерсай, Чаткал – г.Ташкент</li>
-              <li><strong>2 дня горы</strong> - отвоз/привоз г.Ташкент – Чимган, Чарвак, Бельдерсай, Чаткал – г.Ташкент</li>
-              <li><strong>1 день в г.Самарканд</strong> - однодневная поездка г.Ташкент – г.Самарканд – г.Ташкент</li>
+              <li><strong>{t('busesPage.pricing.mountains1Day')}</strong></li>
+              <li><strong>{t('busesPage.pricing.mountains2Days')}</strong></li>
+              <li><strong>{t('busesPage.pricing.samarkand1Day')}</strong></li>
             </ul>
 
-            <h4>Дополнительные условия:</h4>
+            <h4>{t('busesPage.pricing.additionalTitle')}</h4>
             <ul>
-              <li>Оплата порожнего перегона для маршрутов которые начинаются или заканчиваются с:</li>
-              <li>г.Бухара или г.Фергана + 0,5 маш/дня</li>
-              <li>г.Ургенч или г.Термез + 1 маш/день</li>
-              <li>Минимальное тарифицирование на короткие туры:</li>
-              <li>г.Ургенч - 7 маш/день, г.Термез - 6 маш/день</li>
-              <li>г.Бухара - 5 маш/день, г.Фергана - 4 маш/день</li>
+              <li>{t('busesPage.pricing.emptyRun')}</li>
+              <li>{t('busesPage.pricing.bukharaFergana')}</li>
+              <li>{t('busesPage.pricing.urgenchTermez')}</li>
+              <li>{t('busesPage.pricing.minTariff')}</li>
+              <li>{t('busesPage.pricing.urgenchDays')}</li>
+              <li>{t('busesPage.pricing.bukharaDays')}</li>
             </ul>
-            <p>Топливо, питание и проживание водителя включены в стоимость.</p>
+            <p>{t('busesPage.pricing.included')}</p>
           </div>
         </div>
 
         <div className="conclusion">
-          <p>SUNWIN — это выбор для тех, кто ценит комфорт, надёжность и удобство в путешествиях по Узбекистану. Забронируйте заранее и отправляйтесь в путь с уверенностью.</p>
+          <p>{t('busesPage.conclusion')}</p>
         </div>
 
         <div className="cta-buttons-row">
           <ContactButton showModal size="large">
-            Забронировать автобус
+            {t('busesPage.bookBus')}
           </ContactButton>
           <ContactButton to="/microbuses" variant="secondary" size="large">
-            Посмотреть микроавтобусы
+            {t('busesPage.viewMicrobuses')}
           </ContactButton>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Licenses.css';
 
 import lic1 from '/lic1.jpg';
@@ -7,21 +8,19 @@ import lic3 from '/lic3.jpg';
 import lic4 from '/lic4.jpg';
 
 const Licenses = () => {
+  const { t } = useTranslation();
   const licenses = [
-    { id: 1, src: lic1, alt: 'Лицензия 1' },
-    { id: 2, src: lic2, alt: 'Лицензия 2' },
-    { id: 3, src: lic3, alt: 'Лицензия 3' },
-    { id: 4, src: lic4, alt: 'Лицензия 4' }
+    { id: 1, src: lic1, alt: t('licensesPage.license1Alt') },
+    { id: 2, src: lic2, alt: t('licensesPage.license2Alt') },
+    { id: 3, src: lic3, alt: t('licensesPage.license3Alt') },
+    { id: 4, src: lic4, alt: t('licensesPage.license4Alt') }
   ];
 
   return (
     <div className="licenses-page">
       <div className="licenses-header">
-        <h1>Лицензии и сертификаты</h1>
-        <p>Все лицензии и сертификаты подтверждают наше право осуществлять 
-          пассажирские перевозки по территории Узбекистана. Мы работаем 
-          в строгом соответствии с законодательством и имеем все необходимые 
-          разрешительные документы.</p>
+        <h1>{t('licensesPage.title')}</h1>
+        <p>{t('licensesPage.description')}</p>
       </div>
 
       <div className="licenses-container">
@@ -37,7 +36,6 @@ const Licenses = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };

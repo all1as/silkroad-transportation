@@ -1,0 +1,411 @@
+{
+  "common": {
+    "companyName": "Silk Road Transportation",
+    "logoAlt": "Kompaniya logotipi",
+    "languageIconAlt": "Til ikonkasi",
+    "close": "Yopish",
+    "viewOptions": "Variantlarni ko‘rish uchun bosing",
+    "selectedImage": "Tanlangan rasm",
+    "bookNow": "Band qilish",
+    "viewDetails": "Batafsil ko‘rish",
+    "contactUs": "Biz bilan bog‘lanish",
+    "learnMore": "Ko‘proq bilish",
+    "readMore": "Davomini o‘qish",
+    "allRightsReserved": "Barcha huquqlar himoyalangan",
+    "quickResponse": "Siz to‘g‘ridan-to‘g‘ri Telegram yoki WhatsApp orqali yozib tez javob olishingiz mumkin",
+    "phoneNumber": "+998 98 128-56-67"
+  },
+  
+  "header": {
+    "menu": {
+      "transport": "Transport",
+      "tours": "Turlar",
+      "licenses": "Litsenziyalar",
+      "contacts": "Kontaktlar"
+    },
+    "transportSubmenu": {
+      "7Seater": "7 o‘rinli",
+      "13Seater": "13 o‘rinli", 
+      "19Seater": "19 o‘rinli",
+      "47Seater": "47 o‘rinli"
+    },
+    "toursSubmenu": {
+      "11Day": "11 kunlik",
+      "7Day": "7 kunlik", 
+      "6Day": "6 kunlik",
+      "5Day": "5 kunlik",
+      "4Day": "4 kunlik",
+      "3Day": "3 kunlik"
+    },
+    "languageSelector": "Tilni tanlash",
+    "openMenu": "Menyuni ochish",
+    "languages": {
+      "russian": "Ruscha",
+      "uzbek": "O‘zbekcha", 
+      "english": "Inglizcha",
+      "german": "Nemischa"
+    }
+  },
+  
+  "footer": {
+    "description": "Biz butun O‘zbekistonda qulay va xavfsiz yo‘lovchi tashish xizmatlarini taqdim etamiz.",
+    "contacts": "Kontaktlar",
+    "address": "Toshkent, Chimkent ko‘chasi, 17",
+    "menu": "Menyu",
+    "workingHours": "Ish vaqtlari",
+    "weekdays": "Du-Sh: 8:00 - 20:00",
+    "support": "Kun davomida qo‘llab-quvvatlash",
+    "socialMedia": "Ijtimoiy tarmoqlar",
+    "home": "Bosh sahifa",
+    "buses": "Avtobuslar",
+    "microbuses": "Mikroavtobuslar",
+    "cars": "Yengil avtomobillar",
+    "tours": "Turlar"
+  },
+  
+  "contactButton": {
+    "modalTitle": "Biz bilan bog‘lanish",
+    "modalDescription": "Siz to‘g‘ridan-to‘g‘ri Telegram yoki WhatsApp orqali yozib tez javob olishingiz mumkin."
+  },
+  
+  "busesPage": {
+    "title": "SUNWIN avtobusi (2017 y.) — sayohatingiz uchun qulaylik va ishonchlilik",
+    "description1": "SUNWIN turistik avtobusining (2017 y.) dizayni va texnik xususiyatlari uzoq masofali safarlar va ekskursiya turlari uchun zarur bo‘lgan qulaylik, sig‘im va ishonchlilikni mukammal uyg‘unlashtiradi. Bu avtobus shaharlararo marshrutlar va shahar ichidagi safarlar uchun ideal.",
+    "description2": "Bir qavatli ikki eshikli SUNWIN avtobusi 47 yo‘lovchigacha tashish uchun mo‘ljallangan. Pastki qismida katta bagaj bo‘limlari joylashgan bo‘lib, u yerga chamadonlar va katta hajmdagi yuklarni joylashtirish mumkin. Ustida — yumshoq mato kreslolar bilan yuqori orqa suyanchiq va ergonomik shaklga ega salon. O‘rindiqlar konfiguratsiyasi oyoq uchun yetarli joy beradi va individual qaytish burchaklarini sozlash orqali yo‘lda dam olish uchun optimal holatni tanlash mumkin.",
+    "specsTitle": "Texnik xususiyatlar:",
+    "specs": {
+      "capacity": "Sig‘imi: 47 yo‘lovchi o‘rni, bagaj bo‘limi hajmi: taxminan 9–10 m³",
+      "comfort": "Qulaylik: Orqa suyanchigi sozlanadigan yumshoq mato kreslolar, individual konditsioner va yoritish tizimi",
+      "equipment": "Jihozlash: Muzlatgich, CD/DVD pleer, radio, LCD ekranlar, hojatxona",
+      "safety": "Xavfsizlik: ESP, ABS, EBS tizimlari, tuman chiroqlari, isitiladigan oynalar",
+      "performance": "Harakat sifati: Pnevmatic suspenziya, Euro IV dvigatel, tezlikni 100 km/soatgacha cheklash"
+    },
+    "images": {
+      "exterior": "Avtobus tashqi ko‘rinishi",
+      "interior": "Avtobus saloni"
+    },
+    "pricingTitle": "Ijaraga olish narxi",
+    "pricing": {
+      "routesTitle": "Marshrutlar (shaharlararo va shahar ichidagi xizmat)",
+      "tourRoutesTitle": "Turistik marshrutlar",
+      "busModel": "SUNWIN avtobusi",
+      "notesTitle": "Narxlar bo‘yicha eslatmalar:",
+      "mountains1Day": "1 kun tog‘lar - Toshkent – Chimgan, Charvak, Beldersay, Chatqal – Toshkent bir kunlik sayohat",
+      "mountains2Days": "2 kun tog‘lar - Toshkent – Chimgan, Charvak, Beldersay, Chatqal – Toshkent ikki kunlik sayohat",
+      "samarkand1Day": "1 kun Samarqand - Toshkent – Samarqand – Toshkent bir kunlik sayohat",
+      "additionalTitle": "Qo‘shimcha shartlar:",
+      "emptyRun": "Marshrut boshlanishi yoki tugash joylari uchun bo‘sh yurish uchun to‘lov:",
+      "bukharaFergana": "Buxoro yoki Farg‘ona sh. + 0,5 mash/kun",
+      "urgenchTermez": "Urganch yoki Termiz sh. + 1 mash/kun",
+      "minTariff": "Qisqa turlar uchun minimal tarif:",
+      "urgenchDays": "Urganch - 7 mash/kun, Termiz - 6 mash/kun",
+      "bukharaDays": "Buxoro - 5 mash/kun, Farg‘ona - 4 mash/kun",
+      "included": "Yoqilg‘i, ovqat va haydovchi turar joyi narxga kiritilgan.",
+      "table": {
+        "route": "Marshrut",
+        "1dayIntercity": "1 kun shaharlararo",
+        "1dayCity": "1 kun shahar",
+        "airportTransfer": "Aeroport transferi",
+        "1hourMin3": "1 soat (min. 3 soat)",
+        "1dayMountains": "1 kun tog‘lar",
+        "2daysMountains": "2 kun tog‘lar", 
+        "1daySamarkand": "1 kun Samarqand",
+        "2daysSamarkand": "2 kun Samarqand"
+      }
+    },
+    "conclusion": "SUNWIN — O‘zbekiston bo‘ylab sayohatlarda qulaylik, ishonchlilik va osonlikni qadrlovchilar uchun tanlov. Oldindan band qilib, ishonch bilan yo‘lga chiqing.",
+    "bookBus": "Avtobusni band qilish",
+    "viewMicrobuses": "Mikroavtobuslarni ko‘rish"
+  },
+  "contactsPage": {
+    "title": "Kontaktlar",
+    "phone": "Telefon",
+    "address": "Manzil",
+    "onlineChannels": "Onlayn-kanallar",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "support24": "Kun davomida aloqa",
+    "mapTitle": "Yandex Xarita - Kompaniya joylashuvi"
+  },
+  
+  "homePage": {
+    "heroTitle": "YO‘LOVCHI SHAXSIY VA GURUH TRANSPORT XIZMATLARI",
+    "heroSubtitle": "O‘zbekiston bo‘ylab",
+    "busCard": {
+      "title": "Avtobus",
+      "subtitle": "47 kishigacha",
+      "alt": "Avtobus ikonkasi"
+    },
+    "microbusCard": {
+      "title": "Mikroavtobuslar",
+      "subtitle": "19 kishigacha",
+      "alt": "Mikroavtobus ikonkasi"
+    },
+    "carCard": {
+      "title": "Yengil avtomobillar",
+      "subtitle": "4 kishigacha",
+      "alt": "Yengil avtomobil ikonkasi"
+    },
+    "features": {
+      "fast": {
+        "title": "Tez",
+        "description": "Biz sizning vaqtingizni qadrlaymiz. Silk Road Transportation O‘zbekiston bo‘ylab sayohatlarni tezkor tashkil qilishni kafolatlaydi — band qilishdan manzilga yetib borishgacha. Biz bilan siz bir daqiqa ham yo‘qotmaysiz."
+      },
+      "comfortable": {
+        "title": "Qulay",
+        "description": "Sizning O‘zbekiston bo‘ylab sayohatingiz qulaylik bilan boshlanadi. Bizning zamonaviy mikroavtobuslar va avtobuslar qulay sayohat uchun barcha zarur jihozlar bilan ta’minlangan. Silk Road Transportation — har bir kilometr sizga quvonch bag‘ishlaydi."
+      },
+      "professional": {
+        "title": "Professional",
+        "description": "Bizning jamoamiz — O‘zbekistonni besh barmog‘idek biladigan tajribali haydovchilar va mutaxassislar. Silk Road Transportation’da siz yo‘lni haqiqatan ham xavfsiz va tartibli qilishni biladiganlarga ishonasiz."
+      }
+    },
+    "checkPrice": "Narxni bilish va band qilish",
+    "about": {
+      "title": "Biz haqimizda",
+      "text1": "Biz — Silk Road Transportation, O‘zbekiston bo‘ylab yo‘lovchi tashish sohasida 20 yildan ortiq tajribaga ega ishonchli transport kompaniyasi. Bizning mijozlarimiz safarlarda delegatsiyalar, tadbirkorlar, sayyohlar va qulaylik, xavfsizlik hamda vaqtga rioya qilishni qadrlaydiganlar bo‘ladi.",
+      "text2": "Barcha transport vositalarimiz litsenziyalangan, muntazam texnik xizmatdan o‘tadi va real vaqtda marshrutni kuzatish uchun GPS/GLONASS tizimlari bilan jihozlangan. Yo‘lovchilar va transport sug‘urtalangan, avtotransport parki zamonaviy sifat va xavfsizlik standartlariga mos ravishda muntazam yangilanadi.",
+      "text3": "Biz har qanday to‘lov shaklini qabul qilamiz, jumladan plastik kartalarni.",
+      "footer": "Silk Road Transportation — bu O‘zbekiston bo‘ylab har bir sayohatda sizning ishonchingiz.",
+      "imageAlt": "Bizning avtopark",
+      "cash": "Naqd pul"
+    },
+    "services": {
+      "title": "Bizning xizmatlarimiz",
+      "text1": "Biz Silk Road Transportation’da O‘zbekiston bo‘ylab professional transport xizmatlarini taqdim etamiz. Turistlar, delegatsiyalar, tadbirkorlar uchun yo‘lovchi tashish, Toshkent bo‘ylab transferlar, tog‘larga sayohatlar, shuningdek tadbirlar, ish uchrashuvlari, sayohat dasturlari va boshqalarni tashkil qilamiz.",
+      "text2": "Avtomobillar haydovchisiz ijaraga berilmaydi. Bolalar Toshkentdan tashqariga sayohat qilganda majburiy ravishda Yo‘l harakati xavfsizligi xizmati hamrohligi ta’minlanadi.",
+      "listTitle": "Bizning xizmatlarimiz quyidagilarni o‘z ichiga oladi:",
+      "listItems": [
+        "Shaxsiy va guruh transferlari",
+        "O‘zbekiston bo‘ylab 11 dan 3 kungacha turlar",
+        "Tadbirlar va konferensiyalarni xizmat ko‘rsatish",
+        "Delegatsiyalar va rasmiy uchrashuvlarni tashish",
+        "Shahar tashqarisi, tog‘ va dam olish zonalariga safarlar",
+        "Va yana ko‘p narsalar"
+      ],
+      "text3": "Batafsil ma’lumot olish va safar tafsilotlarini kelishish uchun biz bilan bog‘laning.",
+      "viewTours": "Turlar bilan tanishish",
+      "imageAlt": "Bizning xizmatlarimiz"
+    }
+  },
+  
+  "licensesPage": {
+    "title": "Litsenziyalar va sertifikatlar",
+    "description": "Barcha litsenziyalar va sertifikatlar O‘zbekiston hududida yo‘lovchi tashish huquqimizni tasdiqlaydi. Biz qonunchilikka qat’iy rioya qilgan holda ishlaymiz va barcha zarur ruxsatnomalarga egamiz.",
+    "license1Alt": "Litsenziya 1",
+    "license2Alt": "Litsenziya 2", 
+    "license3Alt": "Litsenziya 3",
+    "license4Alt": "Litsenziya 4"
+  },
+  
+  "microbusesPage": {
+    "featuresTitle": "Texnik ma’lumotlar:",
+    "pricingTitle": "Ijaraga olish narxi",
+    "notesTitle": "Tariflar bo‘yicha eslatmalar:",
+    "mountains1Day": "1 kun tog‘lar - Toshkent – Chimgan, Charvak, Beldersay, Chatqal – Toshkent bir kunlik sayohat",
+    "mountains2Days": "2 kun tog‘lar - Toshkent – Chimgan, Charvak, Beldersay, Chatqal – Toshkent ikki kunlik sayohat",
+    "samarkand1Day": "1 kun Samarqand - Toshkent – Samarqand – Toshkent bir kunlik sayohat",
+    "additionalTitle": "Qo‘shimcha shartlar:",
+    "emptyRun": "Marshrut boshlanishi yoki tugash joylari uchun bo‘sh yurish uchun to‘lov:",
+    "bukharaFergana": "Buxoro yoki Farg‘ona sh. + 0,5 mash/kun",
+    "urgenchTermez": "Urganch yoki Termiz sh. + 1 mash/kun",
+    "minTariff": "Qisqa turlar uchun minimal tarif (standart emas):",
+    "urgenchDays": "Urganch - 7 mash/kun",
+    "termexDays": "Termiz - 6 mash/kun",
+    "bukharaDays": "Buxoro - 5 mash/kun",
+    "ferganaDays": "Farg‘ona - 4 mash/kun",
+    "included": "Yoqilg‘i, ovqat va haydovchi turar joyi narxga kiritilgan.",
+    "pricing": {
+      "table": {
+        "1dayIntercity": "1 kun shaharlararo",
+        "1dayCity": "1 kun",
+        "airportTransfer": "Aeroport transferi",
+        "1hourMin3": "1 soat (min. 3 soat)",
+        "1dayMountains": "1 kun tog‘lar",
+        "2daysMountains": "2 kun tog‘lar",
+        "1daySamarkand": "1 kun Samarqand",
+        "2daysSamarkand": "2 kun Samarqand"
+      }
+    },
+    "bookMicrobus": "Mikroavtobusni bron qilish",
+"19Seater": {
+  "title": "Eurise mikroavtobusi (2023 y.)",
+  "description1": "Eurise (2023 y.) sayyohlik mikroavtobusining dizayni va texnik xususiyatlari zamonaviy uslub, manevr qobiliyati va yuqori darajadagi qulaylikni birlashtiradi. Ushbu model kichik sayyohlik guruhlari, korporativ transferlar va VIP sayohatlar uchun ideal bo‘lib, shahar ichida ham, shahardan-shahararo yo‘llarda ham qulay harakatlanishni ta’minlaydi.",
+  "description2": "Bir qavatli mikroavtobus 19 yo‘lovchi uchun mo‘ljallangan. Salon yumshoq, ergonomik kreslolar bilan jihozlangan bo‘lib, orqa o‘rindiqning burchagini sozlash va oyoqlar uchun yetarli masofa mavjud. Pardoz chidamli ekologik charm bilan ishlangan, tozalash oson va uzoq muddat xizmat qiladi.",
+  "imageAlt": "Eurise mikroavtobusi",
+  "interiorAlt": "Eurise saloni",
+  "features": [
+    "Ishlab chiqarilgan yili: 2023",
+    "Rangi: qora",
+    "Yo‘lovchi o‘rindiqlari: 19",
+    "Bagaj hajmi: taxminan 2–3 m³",
+    "LCD ekran: ✔️",
+    "Multimediali tizim: ✔️",
+    "Konditsioner: ✔️",
+    "Isitgich: ✔️",
+    "USB zaryadlash: ✔️",
+    "Sayohat bo‘yicha mikrofon: ✔️"
+  ]
+},
+"13Seater": {
+  "title": "TOYOTA Hiace mikroavtobusi (2019 y.)",
+  "description1": "TOYOTA Hiace (2019 y.) mikroavtobusining dizayni va texnik xususiyatlari yapon avtomobil ishlab chiqaruvchining afsonaviy sifat va ishonchliligini aks ettiradi. Ushbu model kichik sayyohlik guruhlari, korporativ transferlar, aeroport kutib olish va VIP sayohatlar uchun ideal bo‘lib, har qanday yo‘nalishda yuqori darajadagi qulaylikni ta’minlaydi.",
+  "description2": "Kompakt va manevrli TOYOTA Hiace 13 yo‘lovchi uchun mo‘ljallangan. Salon qulay anatomik shakldagi kreslolar, sozlanadigan orqa o‘rindiqlar va boshpana bilan jihozlangan. Pardoz chidamli va yumshoq materiallardan ishlangan, oson tozalanadi va eskirishga chidamli.",
+  "imageAlt": "TOYOTA Hiace mikroavtobusi",
+  "features": [
+    "Ishlab chiqarilgan yili: 2019",
+    "Rangi: oq",
+    "Yo‘lovchi o‘rindiqlari: 13",
+    "Bagaj hajmi: taxminan 1,5–2 m³",
+    "Multimediali tizim: ✔️",
+    "Konditsioner: ✔️",
+    "Isitgich: ✔️",
+    "USB va Bluetooth: ✔️"
+  ]
+},
+"7Seater": {
+  "title": "HYUNDAI H-1 miniveni (2023 y.)",
+  "description1": "HYUNDAI H-1 (2023 y.) minivenining dizayni va texnik xususiyatlari zamonaviy ko‘rinish, manevr qobiliyati va yuqori qulaylikni birlashtiradi, bu esa uni VIP transferlar, ish sayohatlari va individual sayyohlik marshrutlari uchun mukammal tanlov qiladi. Avtomobil shahar ichida va shahardan-shahararo yo‘llarda birdek qulay.",
+  "description2": "Yo‘lovchi miniveni HYUNDAI H-1 7 o‘rindiq, shu jumladan haydovchi o‘rnini hisobga olgan holda mo‘ljallangan. Salon zamonaviy uslubda, premium materiallardan ishlangan. Keng kreslolar yumshoq pardoz, sozlanadigan orqa o‘rindiqlar, boshpana va xavfsizlik kamarlariga ega, maksimal qulaylikni ta’minlaydi.",
+  "imageAlt": "HYUNDAI H-1 miniveni",
+  "interiorAlt": "HYUNDAI H-1 saloni",
+  "features": [
+    "Ishlab chiqarilgan yili: 2023",
+    "Rangi: qora",
+    "Yo‘lovchi o‘rindiqlari: 7",
+    "Bagaj hajmi: taxminan 1 m³",
+    "Multimediali tizim: ✔",
+    "Konditsioner: ✔",
+    "Isitgich: ✔",
+    "USB va Bluetooth: ✔",
+    "Xavfsizlik yostiqlari: ✔"
+  ]
+},
+"grandStarex": {
+  "title": "GRAND Starex miniveni (2018 y.)",
+  "description1": "GRAND Starex (2018 y.) minivenining dizayni va texnik xususiyatlari ixchamlik, manevr qobiliyati va yuqori qulaylikni birlashtiradi, bu uni VIP transferlar, ish sayohatlari va individual sayyohlik marshrutlari uchun ideal qiladi. Avtomobil shahar ichidagi va shahardan-shahararo safarlar uchun ham mos keladi.",
+  "description2": "Yo‘lovchi miniveni GRAND Starex 7 o‘rindiq, shu jumladan haydovchi o‘rnini hisobga olgan holda mo‘ljallangan. Salon zamonaviy ergonomik uslubda, yuqori sifatli materiallardan ishlangan. Keng kreslolar yumshoq pardoz, sozlanadigan orqa o‘rindiqlar, boshpana va xavfsizlik kamarlariga ega.",
+  "imageAlt": "GRAND Starex miniveni",
+  "features": [
+    "Ishlab chiqarilgan yili: 2018",
+    "Rangi: kumush rang",
+    "Yo‘lovchi o‘rindiqlari: 7",
+    "Bagaj hajmi: taxminan 1 m³",
+    "Multimediali tizim: ✔",
+    "Konditsioner: ✔",
+    "Isitgich: ✔",
+    "USB va Bluetooth: ✔",
+    "Xavfsizlik yostiqlari: ✔"
+  ]
+}
+  },
+  "carsPage": {
+    "cobalt": {
+      "description1": "Chevrolet Cobalt sedani dizayni va texnik xususiyatlari ishonchlilik, amaliyot va qulaylikni uygʻunlashtiradi. Ushbu avtomobil shahar ichidagi sayohatlar, biznes transferlar va shaharlararo yoʻllar uchun ideal tanlovdir.",
+      "description2": "Salon 4 nafar yo‘lovchi uchun mo‘ljallangan bo‘lib, keng tartib va qulay o‘rindiqlar, bosh suyagi va xavfsizlik kamarlariga ega. Maksimal qulaylik uchun konditsioner, isitish va USB hamda Bluetooth bilan multimedia funksiyalari mavjud. Sifatli shovqinni izolyatsiya qilish salon ichida tinchlikni taʼminlaydi, yumshoq suspenziya esa notekis yo‘llarda ham silliq harakatni kafolatlaydi.",
+      "description3": "0,56 m³ hajmdagi yukxona bo‘limida chamadonlar va sayohat sumkalarini joylashtirish mumkin, salon ichida esa kichik narsalar uchun qo‘shimcha bo‘shliqlar mavjud. Panoramik oynalar yaxshi ko‘rish imkonini beradi va ichkarida yorqin muhit yaratadi.",
+      "description4": "Yo‘lovchilar xavfsizligi zamonaviy tizimlar orqali taʼminlanadi: ABS, havfsizlik yostiqlari, bolalar o‘rindiqlari uchun Isofix va mustahkam tormoz tizimi. Dvigatel ekologik standartlarga javob beradi va past yoqilg‘i sarfi bilan ajralib turadi, bu sayohatlarni nafaqat qulay, balki iqtisodiy qiladi.",
+      "modelWithLuggage": "Chevrolet Cobalt (3 o‘rindiq va yukxona)",
+      "features": {
+        "year": "Ishlab chiqarilgan yili: 2023",
+        "bodyType": "Karoseriya turi: sedan",
+        "seats": "Yo‘lovchi o‘rindiqlari: 4",
+        "trunkVolume": "Yukxona hajmi: 0,56 m³",
+        "ac": "Konditsioner: ✔️",
+        "heating": "Isitish: ✔️",
+        "usbBluetooth": "USB va Bluetooth: ✔️",
+        "airbags": "Havfsizlik yostiqlari: ✔️",
+        "abs": "ABS: ✔️"
+      }
+    },
+    "mercedes": {
+      "description1": "Mercedes-Benz S-Class W222 — bu nafislik, qulaylik va innovatsion texnologiyalarning ramzi. Biznes-klass avtomobil VIP transferlar, biznes safarlar, aeroport kutib olishlar va maxsus tadbirlar uchun ideal.",
+      "description2": "Salon 4 nafar yo‘lovchi uchun mo‘ljallangan bo‘lib, premium materiallar bilan bezatilgan: yumshoq charm, tabiiy yog‘och va alyuminiy. Ergonim o‘rindiqlar bir nechta yo‘nalishlarda sozlanadi, isitish va shamollatish funksiyasiga ega, shuningdek shaxsiy qo‘l damchalari mavjud. Qatorlar orasidagi kenglik oyoqlar uchun joy va uzoq safarlar uchun qulaylik yaratadi.",
+      "description3": "Maksimal qulaylik uchun ko‘p darajali iqlim tizimi mavjud, o‘rnatilgan multimedia LCD ekranlar, USB va Bluetooth bilan sayohatdan zavq olish imkonini beradi. Qo‘shimcha LED yoritish salon ichida maxfiylik va dam olish muhitini yaratadi.",
+      "description4": "0,53 m³ hajmdagi yukxona bo‘limida o‘rta kattalikdagi bir nechta chamadonlarni joylashtirish mumkin, bu avtomobilni aeroport transferlari va shaharlararo yo‘llar uchun qulay qiladi.",
+      "description5": "Xavfsizlik eng yuqori standartlarga javob beradi: ABS, ESP, havfsizlik yostiqlari, adaptiv kruiz-kontrol, yo‘l chizig‘ini saqlash tizimi va o‘lik zonalar sensorlari. AirMATIC suspenziya tizimi yo‘l sifati qanday bo‘lishidan qat’i nazar, silliq harakat va salon ichidagi tinchlikni taʼminlaydi.",
+      "features": {
+        "year": "Ishlab chiqarilgan yili: 2019",
+        "bodyType": "Karoseriya turi: sedan (premium-klass)",
+        "seats": "Yo‘lovchi o‘rindiqlari: 4",
+        "trunkVolume": "Yukxona hajmi: 0,53 m³",
+        "climateControl": "Konditsioner va iqlim nazorati: ✔️",
+        "seatFeatures": "O‘rindiqlarni isitish va shamollatish: ✔️",
+        "multimedia": "Multimedia tizimi, USB, Bluetooth: ✔️",
+        "safetySystems": "ABS, ESP, havfsizlik yostiqlari: ✔️",
+        "driverAssist": "Adaptiv kruiz-kontrol va haydovchi yordamchilari: ✔️"
+      }
+    },
+    "featuresTitle": "Texnik maʼlumotlar:",
+    "pricingTitle": "Ijaraga olish narxi",
+    "pricing": {
+      "table": {
+        "model": "Model",
+        "1dayIntercity": "1 kun shaharlararo",
+        "1dayCity": "1 kun shahar ichida",
+        "airportTransfer": "Aeroport transferi",
+        "1hourMin3": "1 soat (kamida 3 soat)",
+        "1dayMountains": "1 kun tog‘larda",
+        "2daysMountains": "2 kun tog‘larda",
+        "1daySamarkand": "1 kun Samarqand",
+        "2daysSamarkand": "2 kun Samarqand"
+      }
+    },
+    "bookCar": "Yengil avtomobilni bron qilish"
+  },
+  "toursPage": {
+  "title": "O‘zbekiston bo‘ylab ekskursiya turlari",
+  "subtitle": "O‘zbekistonning qadimiy shaharlarini va boy madaniyatini kashf eting",
+  "programTitle": "Tur dasturi",
+  "includedTitle": "Tur narxiga quyidagilar kiradi:",
+  "currentPrice": "Hozirgi narxni bilish",
+  "tours": {
+    "11Day": {
+      "title": "O‘zbekiston bo‘ylab buyuk sayohat",
+      "duration": "11 kun / 10 kecha",
+      "route": "TOSHKENT – XIVA – BUXORO – SAMARQAND – TOSHKENT – FARG‘ONA VODIYSI – TOSHKENT – CHIMG‘AN – CHARVAK – TOSHKENT",
+      "program": "1-kun. Toshkent\n\nToshkent aeroportida kutib olish, transfer va mehmonxonaga joylashish. Ekskursiya: Ko‘kaldosh madrasasi, Kafal Shashi maqbarasi, Barak-Xon madrasasi, Xast Imom masjidi. Tushlik. Ekskursiyani davom ettirish: Tarixiy muzey, Amaliy san’at muzeyi. Kechki ovqat.\n\n2-kun. Toshkent – Urganch – Xiva\n\nNonushta, aeroportga transfer. Toshkent – Urganch reysi. Urganch aeroportida guruhni kutib olish va Xivaga transfer. Mehmonxonaga joylashish. Tushlik. Xiva ekskursiyasi: Muhammad-Amin-Xon madrasasi, Islom-Xo‘ja minorasi, Palvan-Qori majmuasi, Avd Al Bobo majmuasi, Rafaneka madrasasi, Muhammad Raqim Xon madrasasi, Amir Tur madrasasi. Kechki ovqat.\n\n3-kun. Xiva – Buxoro\n\nNonushta. Buxoroga yo‘l. Yo‘lda tushlik. Yetib kelgach, mehmonxonaga joylashish. Kechki ovqat.\n\n4-kun. Buxoro\n\nNonushta. Ekskursiya: Ismoil Somoniy maqbarasi, Chashma-Ayub maqbarasi, Poi-Kalon majmuasi va minorasi, Miri Arab madrasasi, Amir-Alim-Xon madrasasi, Ko‘kaldosh madrasasi, Lyabi-Hauz ansambli, Nodir Divan-Begi madrasasi, Abdul-Aziz madrasasi. Tushlik. Ekskursiyani davom ettirish: Registon maydoni, Ark qal’asi, Bolo-Hauz majmuasi. Mehmonxonaga joylashish. Kechki ovqat.\n\n5-kun. Buxoro\n\nNonushta. Ekskursiyani davom ettirish: Chor Minor, Chashma-Ayub, Chor-Bakr nekropoli. Tushlik. Kechqurun – Nodir Divan-Begi madrasasida kechki ovqat va folklor shousi.\n\n6-kun. Buxoro – Shahrisabz – Samarqand\n\nNonushta. Shahrisabzga transfer. Ekskursiya: Ko‘k Gumbaz masjidi, Oq Saroy saroyi, Jahangir maqbarasi, Amir Temur maqbarasi. Tushlik. Samarqandga yo‘l. Mehmonxonaga joylashish.\n\n7-kun. Samarqand\n\nNonushta. Ekskursiya: Gur-Emir maqbarasi, Registon ansambli, Sharqiy bozor. Tushlik. Ekskursiya: Ulug‘bek rasadxonasi, qadimiy Afrosiyob qazilmalari, Shohi-Zinda nekropoli. Mehmonxonaga joylashish. Milliy uydagi kechki ovqat.\n\n8-kun. Samarqand – Toshkent\n\nNonushta. Toshkentga transfer. Yo‘lda tushlik. Yetib kelgach, mehmonxonaga joylashish, bo‘sh vaqt. Kechki ovqat. Alisher Navoiy nomidagi Opera va Balet teatriga tashrif.\n\n9-kun. Toshkent – Qo‘qon – Farg‘ona\n\nNonushta. Qo‘qonga transfer. Ekskursiya: Dakhma-i-Shahon maqbarasi, Xudoyor-xon saroyi, Jami masjidi. Tushlik. Farg‘onaga yo‘l. Mehmonxonaga joylashish. Kechki ovqat.\n\n10-kun. Farg‘ona – Marg‘ilon – Toshkent\n\nNonushta. Marg‘ilonga transfer. Ekskursiya: Atlas ipak fabrikasi. Toshkentga transfer. Yo‘lda tushlik. Mehmonxonaga joylashish. Kechki ovqat.\n\n11-kun. Toshkent – Chimg‘an – Charvak – Toshkent\n\nNonushta. Chimg‘anga sayohat. Kablolu yo‘l bilan aylanma sayr. Charvak suv omboriga yo‘l, kuzatuv maydonchalarda to‘xtash. Bochkada tushlik. Toshkentga qaytish. Bo‘sh vaqt. Milliy folklor shousi bilan xususiy uyda xayrlashuv kechki ovqat. \n\nAeroportga transfer. Uchish.",
+      "included": "Joylashish\n• Toshkent – Dedeman\n• Xiva – Asia Khiva\n• Buxoro – Asia Bukhara\n• Samarqand – Malika\n• Farg‘ona – Asia Fergana\n\nTur narxiga kiradi:\n• Mehmonxonalarda joylashish (ikki kishilik, standart)\n• Ovqatlanish (nonushta yoki to‘liq panison — tanlovga ko‘ra)\n• Har bir kishi uchun kuniga 1 shisha mineral suv\n• Toshkent – Urganch aviabilet (iqtisodiy sinf)\n• Yo‘l bo‘ylab transport xizmati (mikroavtobus/«Istana» avtobusi), Kamchik o‘tkazmasi orqali mashina almashinuvi\n• Dastur bo‘yicha barcha ekskursiyalar, ingliz tilida gid\n• Yo‘l bo‘yicha kirish chiptalari"
+    },
+    "7Day": {
+      "title": "O‘zbekiston klassikasi",
+      "duration": "7 kun / 6 kecha",
+      "route": "TOSHKENT – SAMARQAND – SHAHRISABZ – BUXORO – TOSHKENT (CHIMG‘AN, CHARVAK)",
+      "program": "1-kun. Toshkent\n\nAeroportda kutib olish. Transfer va mehmonxonaga joylashish. Ertalabki ekskursiya: Ko‘kaldosh madrasasi, Kafal Shashi maqbarasi, Barak-Xon madrasasi, Xast Imom masjidi. Tushlik. Shahar bo‘ylab ekskursiyani davom ettirish. Mehmonxonaga qaytish va joylashish.\n\n2-kun. Toshkent – Samarqand\n\nErtalab Samarqandga transfer. Yetib kelgach, mehmonxonaga joylashish. Ekskursiya: Gur-Emir maqbarasi, Registon ansambli, Sharqiy bozor. Tushlik. Ekskursiya: Ulug‘bek rasadxonasi, qadimiy Afrosiyob qazilmalari, Shohi-Zinda nekropoli. Mehmonxonaga joylashish.\n\n3-kun. Samarqand – Shahrisabz – Samarqand\n\nShahrisabzga transfer. Ekskursiya: Ko‘k Gumbaz masjidi, Oq Saroy saroyi, Jahangir maqbarasi, Amir Temur maqbarasi. Tushlik. Samarqandga qaytish, mehmonxonaga joylashish.\n\n4-kun. Samarqand – Buxoro\n\nNonushta. Buxoroga yo‘l. Yetib kelgach, mehmonxonaga joylashish.\n\n5-kun. Buxoro\n\nNonushta. Ekskursiya: Ismoil Somoniy maqbarasi, Chashma-Ayub maqbarasi, Poi-Kalon majmuasi va minorasi, Miri Arab madrasasi, Amir-Alim-Xon madrasasi, Ko‘kaldosh madrasasi, Lyabi-Hauz ansambli, Nodir Divan-Begi madrasasi, Abdul-Aziz madrasasi. Tushlik. Ekskursiyani davom ettirish: Ark qal’asi, Registon maydoni, Bolo-Hauz majmuasi. Mehmonxonaga joylashish.\n\n6-kun. Buxoro – Toshkent\n\nNonushta. Toshkentga transfer. Yetib kelgach, mehmonxonaga joylashish.\n\n7-kun. Toshkent – Chimg‘an – Charvak – Toshkent\n\nNonushta. Chimg‘an va Beldersay tog‘lariga sayohat. Charvak suv omboriga tashrif. Tushlik. Toshkentga qaytish.\n\nAeroportga transfer.",
+      "included": "Kiradi:\n• Mehmonxonalarda joylashish (bir/ikki kishilik, standart)\n• Mehmonxonada nonushta\n• Butun marshrut bo‘ylab avtobus xizmati\n• Dastur bo‘yicha gid bilan ekskursiyalar, kirish chiptalari\n\nKirmaydi:\n• Foto va video kameradan foydalanish\n• Tushlik va kechki ovqat (to‘liq panison)"
+    },
+    "6Day": {
+  "title": "Ipak yo‘li qadimiy shaharlar",
+  "duration": "6 kun / 5 kecha",
+  "route": "TOSHKENT – BUXORO – XIVA – SAMARQAND – TOSHKENT",
+  "program": "1-kun. Toshkent – Buxoro\n\n08:00 – Buxoroga yo‘l. Yetib borgach – mehmonxonaga joylashish. Bo‘sh vaqt.\n\n2-kun. Buxoro\n\nNonushta. Buxoroni ekskursiya qilish: Ismoil Somoniy maqbarasi (IX–X asr), Chashma-Ayub maqbarasi (XIV asr), Poi-Kalon majmuasi (XII asr), Mir-i Arab madrasasi (XVI asr), Amir Alimxon madrasasi (XIV asr), Kukkeldosh madrasasi (XVI asr), Lyabi-Hauz (XVII asr), Nodir Divan-Begi madrasasi (XVII asr), Abdulaziz madrasasi (XVII asr). Tushlik. Ekskursiyani davom ettirish: Registon maydoni, Ark qal’asi (XVI asr), Bolo-Hauz majmuasi (XVIII asr). Mehmonxonaga joylashish.\n\n3-kun. Buxoro – Xiva\n\nNonushta. Xivaga transfer. Yetib borgach – mehmonxonaga joylashish.\n\n4-kun. Xiva\n\nNonushta. Ekskursiya: Muhammad-Aminxon madrasasi (XIX asr), Islom-Xoja minorasi, Palvan-Qori va Avd-Al-Bobo majmualari (XVIII asr), Rafaneka madrasasi, Muhammad-Raqimxon madrasasi (XIX asr), Amir Temur madrasasi. Tushlikdan keyin ekskursiya: Pahlavon Mahmud maqbarasi, Mazari Sharif madrasasi, qadimiy Kunya-Ark shahri va Kurinish-Xon saroyi (XVII asr). Mehmonxonaga qaytish.\n\n5-kun. Xiva – Samarqand\n\nNonushta. Samarqandga yo‘l. Yetib borgach – mehmonxonaga joylashish.\n\n6-kun. Samarqand – Toshkent\n\nNonushta. Samarqand bo‘ylab ekskursiya: Gur-Emir maqbarasi (XV–XVIII asr), Registon majmuasi (XV–XVII asr), Sharq bozori. Tushlikdan keyin: Ulug‘bek observatoriyasi (XV asr), qadimiy Afrosiyob arxeologik qazilmalari (VI–XIII asr), Shohi-Zinda nekropoli (XIV–XV asr). Toshkentga transfer. Yetib borgach – dastur yakuni.",
+  "included": "Turlar narxiga kiradi:\n• Joylashish: standart xonalarda ikki kishilik / uch kishilik joylashish\n• Buxoro – «Komil» mehmonxonasi\n• Xiva – «Orient Star» mehmonxonasi\n• Samarqand – «Malika Prime» mehmonxonasi\n• Ovqat: mehmonxonada nonushta\n• Transport: barcha marshrut bo‘ylab 8 o‘rinli + yukxona, konditsionerli mikroavtobus «Istana»\n• Ekskursiyalar: gid xizmati, dastur bo‘yicha kirish chiptalari\n\nTurlar narxiga kirmaydi:\n• Ob’ektlarda foto va videokameralardan foydalanish\n• Tushlik va kechki ovqat"
+},
+"5Day": {
+  "title": "Sharqning oazislari va marvaridlari",
+  "duration": "5 kun / 4 kecha",
+  "route": "TOSHKENT – SAMARQAND – SHAHRISABZ – BUXORO – NURATA – TOSHKENT",
+  "program": "1-kun. Toshkent – Samarqand\n\n07:00 – Samarqandga transfer. Yetib borgach – mehmonxonaga joylashish. Ekskursiya: Gur-Emir maqbarasi (XV–XVIII asr), Registon majmuasi (XV–XVII asr), Sharq bozori. Tushlikdan keyin: Ulug‘bek observatoriyasi (XV asr), Afrosiyob arxeologik majmuasi (VI–XIII asr), Shohi-Zinda nekropoli (XIV–XV asr). Mehmonxonaga qaytish.\n\n2-kun. Samarqand – Shahrisabz – Buxoro\n\nNonushta. Shahrisabzga transfer. Ekskursiya: Kok-Gumbaz masjidi (XV asr), Oqsaroy saroyi (XIV–XV asr), Dorus-Siadat majmuasi (XIV asr), Jahangir maqbarasi, Amir Temur qabrigohi (XV asr). Tushlik. Buxoroga yo‘l. Yetib borgach – mehmonxonaga joylashish.\n\n3-kun. Buxoro\n\nNonushta. Ekskursiya: Ismoil Somoniy maqbarasi (IX–X asr), Chashma-Ayub maqbarasi (XIV asr), Poi-Kalon majmuasi (XII asr), Mir-i Arab madrasasi (XVI asr), Amir Alimxon madrasasi (XIV asr), Kukkeldosh madrasasi (XVI asr), Lyabi-Hauz (XVII asr), Nodir Divan-Begi madrasasi (XVII asr), Abdulaziz madrasasi (XVII asr). Tushlik. Ekskursiyani davom ettirish: Registon maydoni, Ark qal’asi (XVI asr), Bolo-Hauz majmuasi (XVIII asr). Mehmonxonaga joylashish.\n\n4-kun. Buxoro – Nurata\n\nNonushta. Nurataga transfer. Shahar bo‘ylab ekskursiya. Tushlik. Yurt lageriga yo‘l. Yurtlarda joylashish. Milliy o‘zbek folklori (aqin) bilan kechki ovqat.\n\n5-kun. Nurata – Toshkent\n\nNonushta. Tuya minib yurish, Aydarkul ko‘li bo‘yida piknik. Toshkentga transfer.",
+  "included": "Turlar narxiga kiradi:\n• Joylashish: standart xonalarda va yurtlarda bir yoki ikki kishilik joylashish\n• Ovqat: mehmonxonada nonushta, dastur bo‘yicha yurtlarda ovqat\n• Transport: barcha marshrut bo‘ylab «Istana» yoki «Grand Starex» mikroavtobus, «Nexia GLE» yengil avtomobil\n• Ekskursiyalar: barcha ob’ektlar bo‘yicha gid xizmati\n• Kirish chiptalari: dasturga muvofiq\n• Temiryo‘l chiptalari: Buxoro – Toshkent (birinchi klass)\n\nTurlar narxiga kirmaydi:\n• Ob’ektlarda foto va videokameralardan foydalanish\n• Tushlik va kechki ovqat, dasturda ko‘rsatilganlardan tashqari"
+},
+"4Day": {
+  "title": "Samarqand va Buxoro 4 kunda",
+  "duration": "4 kun / 3 kecha",
+  "route": "TOSHKENT – SAMARQAND – SHAHRISABZ – BUXORO – TOSHKENT",
+  "program": "1-kun. Toshkent – Samarqand\n\n07:00 – Samarqandga transfer. Yetib kelish, mehmonxonaga joylashish. Ekskursiya: Gur-Emir maqbarasi (15–18 asr), Registon maydoni (15–17 asr), Sharq bozori. Tushlikdan keyin ekskursiya: Ulug‘bek observatoriyasi (15 asr), qadimgi Afro­siab arxeologik qazilmalari (6–13 asr), Shohi-Zinda nekropoli (14–15 asr). Mehmonxonaga qaytish.\n\n2-kun. Samarqand – Shahrisabz – Buxoro\n\nErtalab – Shahrisabzga yo‘l. Yetib kelishdan so‘ng ekskursiya: Ko‘k-Gumbaz masjidi (15 asr), Oqsaroy saroyi (14–15 asr), Dorus-Saodat va Jahangir maqbarasi (14 asr), Amir Temur dafn yeri (15 asr). Tushlikdan so‘ng Buxoroga yo‘l. Mehmonxonaga joylashish.\n\n3-kun. Buxoro\n\nNonushta. Ekskursiya: Ismoil Somoniy maqbarasi (9–10 asr), Chashma-Ayub maqbarasi (14 asr), Poi-Kalon ansambli va minorasi (12 asr), Mir-i-Arab madrasasi (16 asr), Amir-Alimxon madrasasi (14 asr), Kukeldash madrasasi (16 asr), Lyabi-Hauz va Nodir Divan-Begi madrasasi (17 asr), Abdul-Azizxon madrasasi (17 asr). Tushlikdan keyin ekskursiyani davom ettirish: Ark qal’asi (16 asr), Registon maydoni, Bolo-Hauz majmuasi (18 asr). Mehmonxonaga qaytish.\n\n4-kun. Buxoro – Toshkent\n\nNonushta. Toshkentga transfer.",
+  "included": "Kiritilgan:\n• Mehmonxonalarda turar joy\n• Transport xizmatlari\n• Qo‘llanma bilan ekskursiyalar\n• Kirish chiptalari"
+},
+"3Day": {
+  "title": "Express tur: Samarqand va Buxoro",
+  "duration": "3 kun / 2 kecha",
+  "route": "TOSHKENT – SAMARQAND – BUXORO – TOSHKENT",
+  "program": "1-kun. Toshkent – Samarqand\n\n07:00 – Samarqandga transfer. Yetib kelish, mehmonxonaga joylashish. Samarqand bo‘ylab ekskursiya: Gur-Emir maqbarasi (XV–XVIII asr), Registon majmuasi (XV–XVII asr), Sharq bozori. Tushlikdan keyin: Ulug‘bek observatoriyasi (XV asr), qadimgi Afro­siab arxeologik qazilmalari (VI–XIII asr), Shohi-Zinda nekropoli (XIV–XV asr). Mehmonxonaga qaytish.\n\n2-kun. Samarqand – Buxoro\n\nNonushta. Buxoroga yo‘l. Yetib kelish, mehmonxonaga joylashish. Buxoro bo‘ylab ekskursiya: Ismoil Somoniy maqbarasi (IX–X asr) – Buxoro hukmdorlarining dafn joyi, Chor Minor (XIX asr), Chashma-Ayub maqbarasi (XIV asr), Amir Sitorai Mohi-Khosa yozgi qarorgohi. Mehmonxonaga joylashish.\n\n3-kun. Buxoro – Toshkent\n\nNonushta. Buxoro bo‘ylab ekskursiyani davom ettirish: Poi-Kalon ansambli va minora (XII asr) va masjidi (XV asr), Mir-i-Arab madrasasi (XVI asr), Amir-Alimxon madrasasi (XIV asr), Tagi savdo kupollari, Kukeldash madrasasi (XVI asr), Lyabi-Hauz (XVII asr). Tushlikdan keyin: Nodir Divan-Begi madrasasi (XVII asr), Mag‘oki Attori (XVI asr), Ulug‘bek madrasasi (XV asr), Abdul-Aziz madrasasi (XVII asr), Chor Minor maqbarasi (XIX asr). Buxoro temiryo‘l vokzaliga transfer. Tez poyezd bilan Toshkentga jo‘nash.",
+  "included": "Kiritilgan:\n• Mehmonxonalarda turar joy\n• Transport xizmatlari\n• Qo‘llanma bilan ekskursiyalar\n• Kirish chiptalari"
+}
+  }}}
+
+
+
+
+
+
